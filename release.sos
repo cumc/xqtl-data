@@ -22,7 +22,7 @@ download: dest_dir = 'website/themes/hugo-book/static/fonts', decompress=True
 [pages: provides = 'gh-pages/.gitignore']
 bash:
   rm -rf gh-pages
-  git clone -b gh-pages http://github.com/gaow/genetic-analysis-software.git gh-pages
+  git clone -b gh-pages git@github.com:cumc/xqtl-data.git gh-pages
 
 # Update alphabetic software list
 [default_1]
