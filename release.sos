@@ -18,12 +18,6 @@ bash: expand = '${ }'
 download: dest_dir = 'website/themes/hugo-book/static/fonts', decompress=True
   https://google-webfonts-helper.herokuapp.com/api/fonts/pt-sans?download=zip&subsets=latin&variants=regular
 
-# Download gh-pages branch
-[pages: provides = 'gh-pages/.gitignore']
-bash:
-  rm -rf gh-pages
-  git clone -b gh-pages git@github.com:cumc/xqtl-data.git gh-pages
-
 [default_1]
 import os, glob, re
 from collections import OrderedDict
@@ -88,17 +82,13 @@ with open(f'website/content/menu/index.md', 'w') as f:
 
 # Update gh-pages
 [default_2]
-depends: 'website/themes/hugo-book/README.md', 'gh-pages/.gitignore'
+depends: 'website/themes/hugo-book/README.md'
 bash:
   set -e
-  python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o README.md -t "FunGen-xQTL data catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/data/" -c "Lead analysts: " -p
+  python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o README.md -t "FunGen-xQTL Data Catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/" -c "Lead analysts: "
+  python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o website/content/_index.md -t "FunGen-xQTL Data Catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/" -c "Lead analysts: " -p -d "This documentation is still work in progress. We expect to complete it by summer 2024 if not sooner."
   cd website
   hugo
-  rsync -auz --delete public/* ../gh-pages/
-  cd ../gh-pages
-  git add .
-  git commit -m update
-  git push
 
 [clean]
 bash: workdir='website'

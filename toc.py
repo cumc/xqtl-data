@@ -55,11 +55,14 @@ def get_toc(files):
                 break
     return OrderedDict(sorted(res.items(), key=lambda i: i[0].lower()))
 
-def write_toc(toc, page, title, contact):
+def write_toc(toc, page, title, description, contact, add_link = True):
     categories = []
     with open(page, 'w') as f:
         f.write('# {}\n'.format(title))
-        f.write(A_TO_Z)
+        if add_link:
+            f.write(A_TO_Z)
+        if description:
+            f.write('{}\n'.format(description))
         for name in toc.keys():
             category = '0' if re.match(r"[-+]?\d+$", name[0]) is not None else name[0].upper()
             if category not in categories:
@@ -71,7 +74,10 @@ def write_toc(toc, page, title, contact):
                 # no description line
                 desc_text = '.\n\t* {}**{}**'.format(contact, toc[name][1]) 
             link = '{}{}'.format(env.blob, toc[name][0][:-env.remove_ext] if env.remove_ext > 0 else toc[name][0])
-            f.write('* [{}]({}){}\n'.format(name, link, desc_text))
+            if add_link:
+                f.write('* [{}]({}){}\n'.format(name, link, desc_text))
+            else:
+                f.write('* {}{}\n'.format(name, desc_text))
 
 def main(args):
     if args.base_url:
@@ -81,7 +87,7 @@ def main(args):
     if not args.output.endswith('.md'):
         args.output = args.output.strip('.') + '.md'
     toc = get_toc(args.files)
-    write_toc(toc, args.output, args.title, args.contact_title)
+    write_toc(toc, args.output, args.title, args.description, args.contact_title, not args.no_link)
 
 if __name__ == '__main__':
     parser = ArgumentParser(description = 'A program to generate table of contents from markdown files',
@@ -90,6 +96,7 @@ if __name__ == '__main__':
     parser.add_argument('-o', '--output', required=True, help = 'Output page name')
     parser.add_argument('-c', '--contact_title', default="", help = 'Title for the contact person, eg "Lead analyst", "PI".')
     parser.add_argument('-t', '--title', required=True, help = 'Output page title')
+    parser.add_argument('-d', '--description', help = 'Output page description section')
     parser.add_argument('-b', '--base_url', help = 'Base URL for pages')
     parser.add_argument('-e', '--exclude', nargs = '+', help = 'Exclude pages')
     parser.add_argument('-p', '--no-link', action='store_true', help='Plain text, do not include URL')
