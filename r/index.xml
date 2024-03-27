@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/r/</link>
+    <description>Recent content in R on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROSMAP AC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing/</guid>
+      <description>ROSMAP AC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing-qtl/</guid>
+      <description>ROSMAP AC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression/</guid>
+      <description>ROSMAP AC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression-qtl/</guid>
+      <description>ROSMAP AC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP Covariates data</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/</guid>
+      <description>ROSMAP Covariates data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data
+Data Descriptions #  There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis. The following are the files that haven been used:
+ For pQTL: FTP: /ftp_fgc_xqtl/ref-data/ROSMAP_covariates/dataset_707_basic_02-08-2022.clean.txt(CU: /mnt/mfs/ctcn/datasets/rosmap/phenotypes/2022Feb08/dataset_707_basic_02-08-2022.clean.txt) This should be the complete covariates file, which have 3000+ samples and more covariates, other than sex, death and pmi, than we need for our QTL calling.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing/</guid>
+      <description>ROSMAP DLPFC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Xuanhe Chen; Shrishtee Kandoi Contact Email : xuanhechenxhc@163.com; Contact Affiliation : Columbia University; Boston University Contact Role : Xuanhe Chen performed sQTL analysis via psichomics package, and SuSiE uni-variate fine-mapping analysis using psichomics sQTL data, Shrishtee Kandoi performed sQTL analysis via leafCutter package.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing-qtl/</guid>
+      <description>ROSMAP DLPFC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Shrishtee Kandoi and Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Study name : ROSMAP DLPFC sQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) sQTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</guid>
+      <description>ROSMAP DLPFC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression. Please refer to this document for an overview of the ROSMAP project. NOTE: we didn&amp;rsquo;t perform the omics data calling here so this descriptor is mostly documentations from the raw data source
+Contact #  Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC RNA-seq Bulk Brain Study Description : Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</guid>
+      <description>ROSMAP DLPFC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao Contact Email : ; hs3163@cumc.columbia.edu; hs3393@cumc.columbia.edu; jt3386@cumc.columbia.edu Contact Affiliation : Boston University; Columbia University Contact Role : Shrishtee Kandoi and Hao Sun performed QTL analysis; Haochen Sun performed fine-mapping, and Jiajun Tao performed replication  Study Overview #   Study name : ROSMAP DLPFC eQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) eQTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC H3K9ac</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</guid>
+      <description>ROSMAP DLPFC H3K9ac #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Xuanhe Chen; Hao Sun; Hans Klein Contact Email : xuanhechenxhc@163.com; hs3163@cumc.columbia.edu; hk2948@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Xuanhe Chen performed QTL analysis using H3K9ac peaks; Hao Sun performed univariate fine-mapping, Hans Klein performed peak calling  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC H3K9ac peak calling Study Description : Performed peak calling on 669 ROSMAP samples&#39; h3k9ac samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC H3K9ac QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</guid>
+      <description>ROSMAP DLPFC H3K9ac QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis using the FGC xQTL pipeline. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Study name : ROSMAP DLPFC H3K9ac QTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC methylation</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation/</guid>
+      <description>ROSMAP DLPFC methylation #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Alexandre Pelletier, Jiajun Tao</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation-qtl/</guid>
+      <description>ROSMAP DLPFC methylation QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC protein expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</guid>
+      <description>ROSMAP DLPFC protein expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name: Zining Qi Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using ROSMAP proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC protein expression Study Description : Performed on 596 ROSMAP proteomics samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC protein expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression-qtl/</guid>
+      <description>ROSMAP DLPFC protein expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Zining Qi( zq2209@cumc.columbia.edu)
+Study Overview #   Study name : ROSMAP DLPFC proteomics QTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) proteomics QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP multi-trait QTL integration analysis</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</guid>
+      <description>ROSMAP multi-trait QTL integration analysis #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Ru Feng</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing/</guid>
+      <description>ROSMAP PCC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+Contact #  Frank Grenn
+Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo : https://www.synapse.org/#!Synapse:syn3157322  Dataset Details #  Raw data #  Path(s) on HPC:
+ PCC RNASeq data from Zhang Lab, /restricted/projectnb/casa/skandoi/ROSMAP_PCC_AC:  $ ls -lh rnaseqc_call_PCC/*.bam | head -rw-r--r-- 1 skandoi casa 4.0G Dec 11 18:27 1000-PCC.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</guid>
+      <description>ROSMAP PCC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Study Overview #  In progress
+ Sample information: ####/####_sample_attributes.csv. Lab protocol: ####/####_lab_protocol.csv. Computational protocol: ####/####_computational_protocol.csv. QTL summary statistics output: ####/####.qtl_results.csv. Fine-mapping results individual level data model: ####/####.susie.csv. Fine-mapping results summary statistics model: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC Expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-expression-qtl/</guid>
+      <description>ROSMAP PCC Expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Study Overview #  In progress
+ Sample information: ####/####_sample_attributes.csv. Lab protocol: ####/####_lab_protocol.csv. Computational protocol: ####/####_computational_protocol.csv. QTL summary statistics output: ####/####.qtl_results.csv. Fine-mapping results individual level data model: ####/####.susie.csv. Fine-mapping results summary statistics model: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-gene-expression/</guid>
+      <description>ROSMAP PCC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+Contact #  Frank Grenn
+Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo : https://www.synapse.org/#!Synapse:syn3157322  Dataset Details #  Raw data #  Path(s) on HPC:
+ PCC RNASeq data from Zhang Lab, /restricted/projectnb/casa/skandoi/ROSMAP_PCC_AC:  $ ls -lh rnaseqc_call_PCC/*.bam | head -rw-r--r-- 1 skandoi casa 4.0G Dec 11 18:27 1000-PCC.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq microglia gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression/</guid>
+      <description>ROSMAP RNA-seq microglia gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on Janunary xx, 2023.
+ Path on CU cluster /..  </description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq microglia gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</guid>
+      <description>ROSMAP RNA-seq microglia gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on Janunary xx, 2023.
+ Path on CU cluster /..  </description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq monocyte gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-gene-expression/</guid>
+      <description>ROSMAP RNA-seq monocyte gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data on MSSM were downloaded from syn22024496 on July 11th, 2022. (path on MSSM to be added)
+ Path on MSSM cluster /sc/arion/projects/load/data-ext/ROSMAP/raw/rnaseq_monocytes_syn23650893/Gene_Expression-RNA-seq-monocyte  Preview Monocyte Gene Expression Data #  Over all 615 samples in the dataset, 302 samples have diagnosis meta data, 1 sample missing associated sex meta data.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq monocyte QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-qtl/</guid>
+      <description>ROSMAP RNA-seq monocyte QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data on MSSM were downloaded from syn22024496 on July 11th, 2022. (path on MSSM to be added)
+ Path on MSSM cluster /sc/arion/projects/load/data-ext/ROSMAP/raw/rnaseq_monocytes_syn23650893/Gene_Expression-RNA-seq-monocyte  Preview Monocyte Gene Expression Data #  Over all 615 samples in the dataset, 302 samples have diagnosis meta data, 1 sample missing associated sex meta data.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP snRNA-seq pseudo-bulk gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression/</guid>
+      <description>ROSMAP snRNA-seq pseudo-bulk gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC). Please refer to this document for an overview of the ROSMAP project.
+Contact #  Hao Sun and Masashi Fujita
+Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP snRNA-seq pseudo-bulk gene expression Study Description : Disease : Alzheimer’s Disease Data Citation : https://www.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP snRNA-seq pseudo-bulk gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression-qtl/</guid>
+      <description>ROSMAP snRNA-seq pseudo-bulk gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC). Please refer to this document for an overview of the ROSMAP project.
+Contact #  Hao Sun (eQTL), Masashi Fujita (eQTL), Haochen Sun (fine-mapping), Jiajun Tao (replication)
+Study Overview #   Sample information: ROSMAP/ROSMAP_Pseudo_Bulk_sample_attributes.csv. Lab protocol: ROSMAP/ROSMAP_Pseudo_Bulk_lab_protocol.csv. Computational protocol: ROSMAP/ROSMAP_Pseudo_Bulk_computational_protocol.csv. QTL summary statistics output: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP study info</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-study-info/</guid>
+      <description>ROSMAP study info #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) study: ROS is a longitudinal clinical-pathologic cohort study of aging and Alzheimer&amp;rsquo;s disease (AD) run from Rush University that enrolled individuals from religious communities for longitudinal clinical analysis and brain donation. Participants were enrolled from more than 40 groups of religious orders (nuns, priests, brothers) across the United States. MAP is a longitudinal, epidemiologic clinical-pathologic cohort study of common chronic conditions of aging with an emphasis on decline in cognitive and motor function and risk of Alzheimer’s disease that began in 1997 and is run from Rush University.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP WGS data</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-wgs-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-wgs-data/</guid>
+      <description>ROSMAP WGS data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data
+Contact #  Hao Sun and Xuanhe Chen
+Data Descriptions #  This data is part of WGS done for three AMP-AD supported studies: The ROSMAP study (the data provided here), the MayoRNAseq study, and the MSBB study. Provided are VCF files, consisting of all samples from that study divided by chromosome, for the following analysis.</description>
+    </item>
+    
+  </channel>
+</rss>

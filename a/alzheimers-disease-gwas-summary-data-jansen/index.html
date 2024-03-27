@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alzheimer&rsquo;s Disease GWAS Summary Data (Jansen) #  The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Jansen et al 2021 Nature Genetics. This study uses proxy AD individuals from UK Biobank.
+Contact #  Oluwatosin Olayinka
+Download source #  This data is derived from summary statistics from the Jansen et al. Nature Genetics paper.
+Path(s) to summary statistics #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/ADGWAS_Jansen_2019_hg38_liftover/jansen_sumstat_hg38_qc.chr* CU original data: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Alzheimer&#39;s Disease GWAS Summary Data (Jansen)" />
+<meta property="og:description" content="Alzheimer&rsquo;s Disease GWAS Summary Data (Jansen) #  The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Jansen et al 2021 Nature Genetics. This study uses proxy AD individuals from UK Biobank.
+Contact #  Oluwatosin Olayinka
+Download source #  This data is derived from summary statistics from the Jansen et al. Nature Genetics paper.
+Path(s) to summary statistics #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/ADGWAS_Jansen_2019_hg38_liftover/jansen_sumstat_hg38_qc.chr* CU original data: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/" /><meta property="article:section" content="a" />
+
+
+
+<title>Alzheimer&#39;s Disease GWAS Summary Data (Jansen) | FunGen-xQTL Data Repository</title>
+<link rel="manifest" href="/xqtl-data/manifest.json">
+<link rel="icon" href="/xqtl-data/favicon.png" >
+<link rel="canonical" href="https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/">
+<link rel="stylesheet" href="/xqtl-data/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/xqtl-data/flexsearch.min.js"></script>
+  <script defer src="/xqtl-data/en.search.min.5b634dda2013129f82f516c9314802c46ca2390a1bc1f8243ac473206dcd2f05.js" integrity="sha256-W2NN2iATEp&#43;C9RbJMUgCxGyiOQobwfgkOsRzIG3NLwU=" crossorigin="anonymous"></script>
+
+  <script defer src="/xqtl-data/sw.min.5a8d9ccf5ea73dcbbb1f34b183236a28dd36cc6d6540bb5b46431b4e00517252.js" integrity="sha256-Wo2cz16nPcu7HzSxgyNqKN02zG1lQLtbRkMbTgBRclI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/xqtl-data/"><span>FunGen-xQTL Data Repository</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>Alphabetic List of Data Available
+<ul>
+<li>
+  <a href="/xqtl-data/a/">A</a></li>
+<li>
+  <a href="/xqtl-data/d/">D</a></li>
+<li>
+  <a href="/xqtl-data/e/">E</a></li>
+<li>
+  <a href="/xqtl-data/f/">F</a></li>
+<li>
+  <a href="/xqtl-data/h/">H</a></li>
+<li>
+  <a href="/xqtl-data/i/">I</a></li>
+<li>
+  <a href="/xqtl-data/k/">K</a></li>
+<li>
+  <a href="/xqtl-data/m/">M</a></li>
+<li>
+  <a href="/xqtl-data/n/">N</a></li>
+<li>
+  <a href="/xqtl-data/p/">P</a></li>
+<li>
+  <a href="/xqtl-data/r/">R</a></li>
+<li>
+  <a href="/xqtl-data/s/">S</a></li>
+<li>
+  <a href="/xqtl-data/t/">T</a></li>
+<li>
+  <a href="/xqtl-data/w/">W</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/xqtl-data/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Alzheimer&#39;s Disease GWAS Summary Data (Jansen)</strong>
+
+  <label for="toc-control">
+    
+    <img src="/xqtl-data/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#download-source">Download source</a></li>
+    <li><a href="#paths-to-summary-statistics">Path(s) to summary statistics</a></li>
+    <li><a href="#path-to-susie-rss-fine-mapping-objects">Path to SuSiE RSS Fine-mapping Objects</a></li>
+    <li><a href="#file-schema">File Schema</a></li>
+    <li><a href="#links-to-gwas-data-analysis-notebooks">Links to GWAS data analysis notebooks</a></li>
+    <li><a href="#cohorts-included-in-this-study">Cohorts included in this study</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="alzheimers-disease-gwas-summary-data-jansen">
+  Alzheimer&rsquo;s Disease GWAS Summary Data (Jansen)
+  <a class="anchor" href="#alzheimers-disease-gwas-summary-data-jansen">#</a>
+</h1>
+<p>The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Jansen et al 2021 Nature Genetics. This study uses proxy AD individuals from UK Biobank.</p>
+<h2 id="contact">
+  Contact
+  <a class="anchor" href="#contact">#</a>
+</h2>
+<p>Oluwatosin Olayinka</p>
+<h2 id="download-source">
+  Download source
+  <a class="anchor" href="#download-source">#</a>
+</h2>
+<p>This data is derived from summary statistics from the 
+  <a href="https://ctg.cncr.nl/documents/p1651/AD_sumstats_Jansenetal_2019sept.txt.gz">Jansen et al.</a> Nature Genetics paper.</p>
+<h2 id="paths-to-summary-statistics">
+  Path(s) to summary statistics
+  <a class="anchor" href="#paths-to-summary-statistics">#</a>
+</h2>
+<ul>
+<li>Li-San Wang FTP: <code>/ftp_fgc_xqtl/projects/ADGWAS_Jansen_2019_hg38_liftover/jansen_sumstat_hg38_qc.chr*</code></li>
+<li>CU</li>
+<li>original data: <code>/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept.txt</code> (GRCh37)</li>
+<li>liftover to hg38: <code>/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept.hg38.txt</code> (hg38)</li>
+</ul>
+<h2 id="path-to-susie-rss-fine-mapping-objects">
+  Path to SuSiE RSS Fine-mapping Objects
+  <a class="anchor" href="#path-to-susie-rss-fine-mapping-objects">#</a>
+</h2>
+<ul>
+<li>Li-San Wang FTP: <code>/ftp_fgc_xqtl/projects/GWAS_Finemapping_Results/Jansen/</code></li>
+</ul>
+<h2 id="file-schema">
+  File Schema
+  <a class="anchor" href="#file-schema">#</a>
+</h2>
+<ul>
+<li><code>chromosome</code>: chromosome ID</li>
+<li><code>position</code>: hg38 position (converted from hg19 with liftOver)</li>
+<li><code>variant</code>: variant ID in the form <code>chr${chromosome}_${position}_${ref}_${alt}</code></li>
+<li><code>alt</code>: alternative effect allele</li>
+<li><code>ref</code>: reference allele</li>
+<li><code>beta</code>: SNP effect size</li>
+<li><code>se</code>: standard error of <code>beta</code></li>
+<li><code>pvalue</code>: p-value of <code>beta</code></li>
+<li><code>Neff</code>: effecting sample size</li>
+</ul>
+<h2 id="links-to-gwas-data-analysis-notebooks">
+  Links to GWAS data analysis notebooks
+  <a class="anchor" href="#links-to-gwas-data-analysis-notebooks">#</a>
+</h2>
+<ol>
+<li>Summary statistics preprocessing: 
+  <a href="https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/summary_stat_qc_all.nb.html">https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/summary_stat_qc_all.nb.html</a></li>
+</ol>
+<h2 id="cohorts-included-in-this-study">
+  Cohorts included in this study
+  <a class="anchor" href="#cohorts-included-in-this-study">#</a>
+</h2>
+<ul>
+<li>455,258 individuals of European ancestry = 71,880 (proxy) cases + 383,378 (proxy) controls</li>
+<li>Phase 1: 79,145 individuals (Nsum; Neff=72,500) = 24,087 clinically diagnosed LOAD cases + paired with 55,058 controls.</li>
+<li>Phase 2: 376,113 individuals of European ancestry from UKB with parental AD status = 47,793 proxy cases + 328,320 proxy controls&quot;	&ldquo;79145 from phase 1:</li>
+</ul>
+<ol>
+<li>Alzheimer’s disease working group of the Psychiatric Genomics Consortium (PGC-ALZ) &ndash; 17477</li>
+<li>the International Genomics of Alzheimer’s Project (IGAP) &ndash; 54162</li>
+<li>the Alzheimer’s Disease Sequencing Project (ADSP) &ndash; 7506 individuals = 4343 cases + 3163 controls
+<em>Supplementary Table 1. Overview of cohorts for meta-analysis</em></li>
+</ol>
+<ul>
+<li>Note: AD = Alzheimer&rsquo;s disease; GWAS = genome-wide genotype data; WES = whole exome sequencing data; 1000G = Thousand Genomes; HRC = Haplotype Reference Consortium. * The PGC-ALZ summary statistic have been meta-analyzed with the other 3 main cohorts, but PGC-ALZ sub-cohort specific demographics are also displayed. The &lsquo;age of onset&rsquo; and &lsquo;age of last contact&rsquo; of the UKB samples, refers to the age of the UKB participants (so not of the parents). For the controls of the DemGene cohort, mean age was based on 2382 individuals for which this information was available. Proxy cases and controls only refers to the UKB cohort, all other cohorts are clinical case-control cohorts.
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Cohort</th>
+<th style="text-align:center">Sub-cohort</th>
+<th style="text-align:center">Geographic origin</th>
+<th style="text-align:center">N</th>
+<th style="text-align:center">cases:</th>
+<th style="text-align:center">N</th>
+<th style="text-align:center">Age of onset</th>
+<th style="text-align:center">% female</th>
+<th style="text-align:center">controls:</th>
+<th style="text-align:center">N</th>
+<th style="text-align:center">Age last contact</th>
+<th style="text-align:center">% female</th>
+<th style="text-align:center">Phenotype</th>
+<th style="text-align:center">Data Type</th>
+<th style="text-align:center">Imputation Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1. PGC-ALZ*</td>
+<td style="text-align:center">a. DemGene</td>
+<td style="text-align:center">Norway</td>
+<td style="text-align:center">9703</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">2066</td>
+<td style="text-align:center">77.0</td>
+<td style="text-align:center">62.9</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">7637</td>
+<td style="text-align:center">58.8</td>
+<td style="text-align:center">48.0</td>
+<td style="text-align:center">AD</td>
+<td style="text-align:center">GWAS</td>
+<td style="text-align:center">1000G Phase 3</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">b. TwinGene</td>
+<td style="text-align:center">Sweden</td>
+<td style="text-align:center">6647</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">322</td>
+<td style="text-align:center">79.6</td>
+<td style="text-align:center">52.5</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">6325</td>
+<td style="text-align:center">64.2</td>
+<td style="text-align:center">52.4</td>
+<td style="text-align:center">AD</td>
+<td style="text-align:center">GWAS</td>
+<td style="text-align:center">1000G Phase 3</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">c. STSA</td>
+<td style="text-align:center">Sweden</td>
+<td style="text-align:center">1127</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">348</td>
+<td style="text-align:center">80.5</td>
+<td style="text-align:center">66.4</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">779</td>
+<td style="text-align:center">75.5</td>
+<td style="text-align:center">51.1</td>
+<td style="text-align:center">AD</td>
+<td style="text-align:center">GWAS</td>
+<td style="text-align:center">1000G Phase 3</td>
+</tr>
+<tr>
+<td style="text-align:center">2. IGAP</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Europe/US</td>
+<td style="text-align:center">54162</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">17008</td>
+<td style="text-align:center">74.2</td>
+<td style="text-align:center">61.3</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">37154</td>
+<td style="text-align:center">69.8</td>
+<td style="text-align:center">57.3</td>
+<td style="text-align:center">AD</td>
+<td style="text-align:center">GWAS</td>
+<td style="text-align:center">1000G Phase 1</td>
+</tr>
+<tr>
+<td style="text-align:center">3. ADSP</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Europe/US</td>
+<td style="text-align:center">7506</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">4343</td>
+<td style="text-align:center">74.1</td>
+<td style="text-align:center">55.0</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">3163</td>
+<td style="text-align:center">86.5</td>
+<td style="text-align:center">59.5</td>
+<td style="text-align:center">AD</td>
+<td style="text-align:center">WES</td>
+<td style="text-align:center">1000G Phase 3</td>
+</tr>
+<tr>
+<td style="text-align:center">4. UKB</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">UK</td>
+<td style="text-align:center">376113</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">47793</td>
+<td style="text-align:center">59.1</td>
+<td style="text-align:center">56.5</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">328320</td>
+<td style="text-align:center">56.4</td>
+<td style="text-align:center">53.6</td>
+<td style="text-align:center">by proxy AD</td>
+<td style="text-align:center">GWAS</td>
+<td style="text-align:center">HRC</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#download-source">Download source</a></li>
+    <li><a href="#paths-to-summary-statistics">Path(s) to summary statistics</a></li>
+    <li><a href="#path-to-susie-rss-fine-mapping-objects">Path to SuSiE RSS Fine-mapping Objects</a></li>
+    <li><a href="#file-schema">File Schema</a></li>
+    <li><a href="#links-to-gwas-data-analysis-notebooks">Links to GWAS data analysis notebooks</a></li>
+    <li><a href="#cohorts-included-in-this-study">Cohorts included in this study</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

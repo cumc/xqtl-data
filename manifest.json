@@ -1,0 +1,15 @@
+{
+  "name": "FunGen-xQTL Data Repository",
+  "short_name": "FunGen-xQTL Data Repository",
+  "start_url": "/xqtl-data/",
+  "scope": "/xqtl-data/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/xqtl-data/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

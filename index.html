@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.92.2" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="FunGen-xQTL Data Catalog #  This documentation is still work in progress. We expect to complete it by summer 2024 if not sooner.
+A #   ADGC GWAS imputation protocol. Cited from ADGC GWAS Data QC Protocol.  Lead analysts: Note that results from TOPMed imputation server are all against HG38..   Alzheimer&rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Bellenguez et al 2022 Nature Genetics.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="FunGen-xQTL Data Repository" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cumc.github.io/xqtl-data/" />
+
+<title> | FunGen-xQTL Data Repository</title>
+<link rel="manifest" href="/xqtl-data/manifest.json">
+<link rel="icon" href="/xqtl-data/favicon.png" >
+<link rel="canonical" href="https://cumc.github.io/xqtl-data/">
+<link rel="stylesheet" href="/xqtl-data/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/xqtl-data/flexsearch.min.js"></script>
+  <script defer src="/xqtl-data/en.search.min.5b634dda2013129f82f516c9314802c46ca2390a1bc1f8243ac473206dcd2f05.js" integrity="sha256-W2NN2iATEp&#43;C9RbJMUgCxGyiOQobwfgkOsRzIG3NLwU=" crossorigin="anonymous"></script>
+
+  <script defer src="/xqtl-data/sw.min.5a8d9ccf5ea73dcbbb1f34b183236a28dd36cc6d6540bb5b46431b4e00517252.js" integrity="sha256-Wo2cz16nPcu7HzSxgyNqKN02zG1lQLtbRkMbTgBRclI=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://cumc.github.io/xqtl-data/index.xml" title="FunGen-xQTL Data Repository" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/xqtl-data/"><span>FunGen-xQTL Data Repository</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>Alphabetic List of Data Available
+<ul>
+<li>
+  <a href="/xqtl-data/a/">A</a></li>
+<li>
+  <a href="/xqtl-data/d/">D</a></li>
+<li>
+  <a href="/xqtl-data/e/">E</a></li>
+<li>
+  <a href="/xqtl-data/f/">F</a></li>
+<li>
+  <a href="/xqtl-data/h/">H</a></li>
+<li>
+  <a href="/xqtl-data/i/">I</a></li>
+<li>
+  <a href="/xqtl-data/k/">K</a></li>
+<li>
+  <a href="/xqtl-data/m/">M</a></li>
+<li>
+  <a href="/xqtl-data/n/">N</a></li>
+<li>
+  <a href="/xqtl-data/p/">P</a></li>
+<li>
+  <a href="/xqtl-data/r/">R</a></li>
+<li>
+  <a href="/xqtl-data/s/">S</a></li>
+<li>
+  <a href="/xqtl-data/t/">T</a></li>
+<li>
+  <a href="/xqtl-data/w/">W</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/xqtl-data/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong></strong>
+
+  <label for="toc-control">
+    
+    <img src="/xqtl-data/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#a">A</a></li>
+    <li><a href="#d">D</a></li>
+    <li><a href="#e">E</a></li>
+    <li><a href="#f">F</a></li>
+    <li><a href="#h">H</a></li>
+    <li><a href="#i">I</a></li>
+    <li><a href="#k">K</a></li>
+    <li><a href="#m">M</a></li>
+    <li><a href="#p">P</a></li>
+    <li><a href="#r">R</a></li>
+    <li><a href="#s">S</a></li>
+    <li><a href="#w">W</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="fungen-xqtl-data-catalog">
+  FunGen-xQTL Data Catalog
+  <a class="anchor" href="#fungen-xqtl-data-catalog">#</a>
+</h1>
+<p>This documentation is still work in progress. We expect to complete it by summer 2024 if not sooner.</p>
+<h2 id="a">
+  A
+  <a class="anchor" href="#a">#</a>
+</h2>
+<ul>
+<li>ADGC GWAS imputation protocol. Cited from 
+  <a href="https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/">ADGC GWAS Data QC Protocol</a>.
+<ul>
+<li>Lead analysts: <strong>Note that results from TOPMed imputation server are all against <strong>HG38.</strong>.</strong></li>
+</ul>
+</li>
+<li>Alzheimer&rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Bellenguez et al 2022 Nature Genetics.
+<ul>
+<li>Lead analysts: <strong>Oluwatosin Olayinka, Hao Sun and Rui Dong.</strong></li>
+</ul>
+</li>
+<li>Alzheimer&rsquo;s Disease GWAS Summary Data (Jansen). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Jansen et al 2021 Nature Genetics.
+<ul>
+<li>Lead analysts: <strong>Oluwatosin Olayinka.</strong></li>
+</ul>
+</li>
+<li>Alzheimer&rsquo;s Disease GWAS Summary Data (Kunkle). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Kunkle et al 2019 Nature Genetics.
+<ul>
+<li>Lead analysts: <strong>Oluwatosin Olayinka.</strong></li>
+</ul>
+</li>
+<li>Alzheimer&rsquo;s Disease GWAS Summary Data (Wightman). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Wightman et al 2021 Nature Genetics.
+<ul>
+<li>Lead analysts: <strong>Oluwatosin Olayinka.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="d">
+  D
+  <a class="anchor" href="#d">#</a>
+</h2>
+<ul>
+<li>DIAN blood derived methylation.
+<ul>
+<li>Lead analysts: <strong>TBD, Alan Renton and Carlos Cruchaga.</strong></li>
+</ul>
+</li>
+<li>DIAN blood derived methylation QTL.
+<ul>
+<li>Lead analysts: <strong>TBD, Alan Renton and Carlos Cruchaga.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="e">
+  E
+  <a class="anchor" href="#e">#</a>
+</h2>
+<ul>
+<li>EFIGA CSF proteomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>EFIGA CSF proteomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>EFIGA genotype.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>EFIGA plasma metabolomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>EFIGA plasma metabolomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="f">
+  F
+  <a class="anchor" href="#f">#</a>
+</h2>
+<ul>
+<li>FunGen-xQTL protocol data. A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
+<ul>
+<li>Lead analysts: <strong>Hao Sun.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="h">
+  H
+  <a class="anchor" href="#h">#</a>
+</h2>
+<ul>
+<li>HIHG African American blood alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews.</strong></li>
+</ul>
+</li>
+<li>HIHG genotype data.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews.</strong></li>
+</ul>
+</li>
+<li>HIHG Non-Hispanic White blood alternative splicing QTL.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="i">
+  I
+  <a class="anchor" href="#i">#</a>
+</h2>
+<ul>
+<li>Integrative multi-trait colocalization. This document outlines the multi-trait colocalization analysis performed using FunGen-xQTL resources, with existing and some of the new method developed by the AWG.
+<ul>
+<li>Lead analysts: <strong>Xuewei Cao (coloc-boost), Kushal Dey (coloc-boost), Chengran Yang (HyPrColoc).</strong></li>
+</ul>
+</li>
+<li>Integrative multivariate analysis. This document outlines various schemes we perform multi-variate analysis across different xQTL using FunGen-xQTL resources, with innovative use of fine-mapping, colocalization and multivariate adaptive shrinkage (MASH) results.
+<ul>
+<li>Lead analysts: <strong>Ru Feng.</strong></li>
+</ul>
+</li>
+<li>Integrative simple xQTL meta-analysis. This document outlines the simple meta-analysis performed in the FunGen-xQTL study in contexts as it fits, using fixed and random effects meta-analysis (METAL software).
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="k">
+  K
+  <a class="anchor" href="#k">#</a>
+</h2>
+<ul>
+<li>Knight ADRC brain gene expression.
+<ul>
+<li>Lead analysts: <strong>Chunming Liu.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain gene expression QTL.
+<ul>
+<li>Lead analysts: <strong>Chunming Liu.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain metabolomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain metabolomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain methylation.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain methylation QTL.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain proteomics. Charles F.
+<ul>
+<li>Lead analysts: <strong>- Contact Name: Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain proteomics QTL. Charles F.
+<ul>
+<li>Lead analysts: <strong>Zining Qi(
+  <a href="mailto:zq2209@cumc.columbia.edu">zq2209@cumc.columbia.edu</a>).</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain splicing.
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC brain splicing QTL.
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC CSF metabolomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC CSF metabolomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC CSF proteomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC CSF proteomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>Knight ADRC genotype data.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="m">
+  M
+  <a class="anchor" href="#m">#</a>
+</h2>
+<ul>
+<li>MAGENTA African American blood alternative splicing QTL.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews.</strong></li>
+</ul>
+</li>
+<li>MAGENTA African American blood gene expression. Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews (analyst); Dr.</strong></li>
+</ul>
+</li>
+<li>MAGENTA African American Blood Gene Expression QTL. Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews (analyst; 
+  <a href="mailto:mxm1368@case.edu">mxm1368@case.edu</a>);  Dr.</strong></li>
+</ul>
+</li>
+<li>MAGENTA Non-Hispanic White blood alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews.</strong></li>
+</ul>
+</li>
+<li>MAGENTA Non-Hispanic White blood gene expression. Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews (analyst); Dr.</strong></li>
+</ul>
+</li>
+<li>MAGENTA Non-Hispanic White Blood Gene Expression QTL. Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.
+<ul>
+<li>Lead analysts: <strong>Makaela Mews (analyst; 
+  <a href="mailto:mxm1368@case.edu">mxm1368@case.edu</a>);  Dr.</strong></li>
+</ul>
+</li>
+<li>MiGA genotype data. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>MiGA multi-brain region eQTL integration. MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>MiGA multi-brain region gene expression. A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>MiGA multi-brain region gene expression QTL. A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>MSBB brain alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB brain alternative splicing QTL.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB brain gene expression.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB brain gene expression QTL.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB brain methylation.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier.</strong></li>
+</ul>
+</li>
+<li>MSBB brain methylation QTL.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier.</strong></li>
+</ul>
+</li>
+<li>MSBB brain proteomics.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB brain proteomics QTL.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang.</strong></li>
+</ul>
+</li>
+<li>MSBB WGS data. MSBB whole-genome sequence data.
+<ul>
+<li>Lead analysts: <strong>Minghui Wang and Julia TCW.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="p">
+  P
+  <a class="anchor" href="#p">#</a>
+</h2>
+<ul>
+<li>PART working group brain methylation.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier, Corey McMillan.</strong></li>
+</ul>
+</li>
+<li>PART working group brain methylation QTL.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier, Corey McMillan.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="r">
+  R
+  <a class="anchor" href="#r">#</a>
+</h2>
+<ul>
+<li>ROSMAP AC alternative splicing. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP AC alternative splicing QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP AC gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP AC gene expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP Covariates data. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data.
+<ul>
+<li>Lead analysts: <strong>There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC alternative splicing. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>- Contact Name : Xuanhe Chen; Shrishtee Kandoi.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC alternative splicing QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Shrishtee Kandoi and Xuanhe Chen (
+  <a href="mailto:xuanhechenxhc@163.com">xuanhechenxhc@163.com</a>).</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression.
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen (
+  <a href="mailto:xuanhechenxhc@163.com">xuanhechenxhc@163.com</a>).</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC gene expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression.
+<ul>
+<li>Lead analysts: <strong>- Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC H3K9ac. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac data-set.
+<ul>
+<li>Lead analysts: <strong>- Contact Name : Xuanhe Chen; Hao Sun; Hans Klein.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC H3K9ac QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis using the FGC xQTL pipeline.
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen (
+  <a href="mailto:xuanhechenxhc@163.com">xuanhechenxhc@163.com</a>).</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC methylation. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier, Jiajun Tao.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC methylation QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set.
+<ul>
+<li>Lead analysts: <strong>Alexandre Pelletier.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC protein expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression.
+<ul>
+<li>Lead analysts: <strong>- Contact Name: Zining Qi.</strong></li>
+</ul>
+</li>
+<li>ROSMAP DLPFC protein expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression.
+<ul>
+<li>Lead analysts: <strong>Zining Qi(
+  <a href="mailto:zq2209@cumc.columbia.edu">zq2209@cumc.columbia.edu</a>).</strong></li>
+</ul>
+</li>
+<li>ROSMAP multi-trait QTL integration analysis. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration.
+<ul>
+<li>Lead analysts: <strong>Ru Feng.</strong></li>
+</ul>
+</li>
+<li>ROSMAP PCC alternative splicing. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP PCC alternative splicing QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP PCC Expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP PCC gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+<ul>
+<li>Lead analysts: <strong>Frank Grenn.</strong></li>
+</ul>
+</li>
+<li>ROSMAP RNA-seq microglia gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>ROSMAP RNA-seq microglia gene expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>ROSMAP RNA-seq monocyte gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>ROSMAP RNA-seq monocyte QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>ROSMAP snRNA-seq pseudo-bulk gene expression. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC).
+<ul>
+<li>Lead analysts: <strong>Hao Sun and Masashi Fujita.</strong></li>
+</ul>
+</li>
+<li>ROSMAP snRNA-seq pseudo-bulk gene expression QTL. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC).
+<ul>
+<li>Lead analysts: <strong>Hao Sun (eQTL), Masashi Fujita (eQTL), Haochen Sun (fine-mapping), Jiajun Tao (replication).</strong></li>
+</ul>
+</li>
+<li>ROSMAP WGS data. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data.
+<ul>
+<li>Lead analysts: <strong>Hao Sun and Xuanhe Chen.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="s">
+  S
+  <a class="anchor" href="#s">#</a>
+</h2>
+<ul>
+<li>STARNET genotype data. STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>STARNET macrophage gene expression QTL. STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
+<ul>
+<li>Lead analysts: <strong>- Contact Name: Travyse Edwards.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="w">
+  W
+  <a class="anchor" href="#w">#</a>
+</h2>
+<ul>
+<li>WHICAP (pilot) plasma metabolomics.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+<li>WHICAP (pilot) plasma metabolomics QTL.
+<ul>
+<li>Lead analysts: <strong>Zining Qi.</strong></li>
+</ul>
+</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#a">A</a></li>
+    <li><a href="#d">D</a></li>
+    <li><a href="#e">E</a></li>
+    <li><a href="#f">F</a></li>
+    <li><a href="#h">H</a></li>
+    <li><a href="#i">I</a></li>
+    <li><a href="#k">K</a></li>
+    <li><a href="#m">M</a></li>
+    <li><a href="#p">P</a></li>
+    <li><a href="#r">R</a></li>
+    <li><a href="#s">S</a></li>
+    <li><a href="#w">W</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

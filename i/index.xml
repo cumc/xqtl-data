@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/i/</link>
+    <description>Recent content in I on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/i/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrative multi-trait colocalization</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-multi-trait-colocalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-multi-trait-colocalization/</guid>
+      <description>Integrative multi-trait colocalization #  This document outlines the multi-trait colocalization analysis performed using FunGen-xQTL resources, with existing and some of the new method developed by the AWG.
+Contact #  Xuewei Cao (coloc-boost), Kushal Dey (coloc-boost), Chengran Yang (HyPrColoc).</description>
+    </item>
+    
+    <item>
+      <title>Integrative multivariate analysis</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-multivariate-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-multivariate-analysis/</guid>
+      <description>Integrative multivariate analysis #  This document outlines various schemes we perform multi-variate analysis across different xQTL using FunGen-xQTL resources, with innovative use of fine-mapping, colocalization and multivariate adaptive shrinkage (MASH) results.
+Contact #  Ru Feng.</description>
+    </item>
+    
+    <item>
+      <title>Integrative simple xQTL meta-analysis</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-simple-xqtl-meta-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-simple-xqtl-meta-analysis/</guid>
+      <description>Integrative simple xQTL meta-analysis #  This document outlines the simple meta-analysis performed in the FunGen-xQTL study in contexts as it fits, using fixed and random effects meta-analysis (METAL software).
+Contact #  Xuanhe Chen</description>
+    </item>
+    
+  </channel>
+</rss>

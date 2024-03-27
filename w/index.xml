@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>W on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/w/</link>
+    <description>Recent content in W on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/w/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WHICAP (pilot) plasma metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</guid>
+      <description>WHICAP (pilot) plasma metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>WHICAP (pilot) plasma metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics-qtl/</guid>
+      <description>WHICAP (pilot) plasma metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+  </channel>
+</rss>

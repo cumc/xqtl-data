@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/a/</link>
+    <description>Recent content in A on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADGC GWAS imputation protocol</title>
+      <link>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</guid>
+      <description>ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Bellenguez)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Bellenguez) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Bellenguez et al 2022 Nature Genetics. This study uses UK Biobank (UKBB) proxy AD samples
+Contact #  Oluwatosin Olayinka, Hao Sun and Rui Dong
+Path(s) to summary statistics #   NIAGADS FTP: /ftp_fgc_xqtl/projects/ADGWAS_Bellenguez_2022/ADGWAS2022.chr*.sumstat.tsv CU meta-analysis results: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/GCST90027158_buildGRCh38.tsv.gz (original data is already in hg38) cohort-specific results are all stored under /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/ (original data is already in hg38) EADB-core (EADB-TOPMed): /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADB_core/EADB_core.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Jansen)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Jansen) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Jansen et al 2021 Nature Genetics. This study uses proxy AD individuals from UK Biobank.
+Contact #  Oluwatosin Olayinka
+Download source #  This data is derived from summary statistics from the Jansen et al. Nature Genetics paper.
+Path(s) to summary statistics #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/ADGWAS_Jansen_2019_hg38_liftover/jansen_sumstat_hg38_qc.chr* CU original data: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Kunkle)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-kunkle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-kunkle/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Kunkle) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Kunkle et al 2019 Nature Genetics. Position values were converted from hg19 to hg38 using liftOver.
+Contact #  Oluwatosin Olayinka
+Path(s) to summary statistics #   NIAGADS FTP, /ftp_fgc_xqtl/projects/ADGWAS_Kunkle_2019_hg38_liftover/kunkle_sumstat_hg38_qc.chr* CU original data (in GRCh37) stage 1: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/&#39;Kunkle_etal_Stage1_results.txt?file=1&#39; stage 2: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/&#39;Kunkle_etal_Stage2_results.txt?file=1&#39; liftover data (in GRCh38): stage 1: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/Kunkle_etal_Stage1_results.txt_file_1_hg38.txt stage 2: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/Kunkle_etal_Stage2_results.txt_file_1_hg38.txt  Path to SuSiE RSS Fine-mapping Objects #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/GWAS_Finemapping_Results/Kunkle/  Download source #  This data is derived from summary statistics from the Kunkle et al.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Wightman)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-wightman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-wightman/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Wightman) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Wightman et al 2021 Nature Genetics. This file contains the meta-analyzed summary statistics of three cohorts: all individuals, all individuals excluding 23andMe, all individuals excluding 23andMe and UKBB.
+Contact #  Oluwatosin Olayinka
+Path(s) to summary statistics #   NIAGADS FTP meta results /ftp_fgc_xqtl/projects/ADGWAS_Wightman_2021_hg38_liftover_meta/wightman_meta_sumstat_hg38_qc.chr* only 23andMe/ftp_fgc_xqtl/projects/ADGWAS_Wightman_2021_hg38_liftover_23andme/wightman_sumstat_hg38_qc.chr* CU original data (in GRCh37) all individuals: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230530_Wightman/sum.</description>
+    </item>
+    
+  </channel>
+</rss>

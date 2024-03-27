@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/k/</link>
+    <description>Recent content in K on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/k/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knight ADRC brain gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression/</guid>
+      <description>Knight ADRC brain gene expression #  Contact #  Chunming Liu
+Study Overview #   Study information: descriptor/study_info/KnightADRC.md. Website&amp;amp;Logo : (FIXME: find release of the phenotype data)  </description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression-qtl/</guid>
+      <description>Knight ADRC brain gene expression QTL #  Contact #  Chunming Liu</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics/</guid>
+      <description>Knight ADRC brain metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics-qtl/</guid>
+      <description>Knight ADRC brain metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain methylation</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation/</guid>
+      <description>Knight ADRC brain methylation #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation-qtl/</guid>
+      <description>Knight ADRC brain methylation QTL #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics/</guid>
+      <description>Knight ADRC brain proteomics #  Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC)
+Contact #   Contact Name: Zining Qi Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using Knight proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC proteomics analysis Study Description : Performed analysis on 442 Knight proteomics samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics-qtl/</guid>
+      <description>Knight ADRC brain proteomics QTL #  Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC) Please refer to this document for an overview of the Knight project.
+Contact #  Zining Qi( zq2209@cumc.columbia.edu)
+Study Overview #   Study name : Knight ADRC brain proteomics QTL Study Description : Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC) brain proteomics QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain splicing</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing/</guid>
+      <description>Knight ADRC brain splicing #  Contact #  Xuanhe Chen</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing-qtl/</guid>
+      <description>Knight ADRC brain splicing QTL #  Contact #  Xuanhe Chen</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics/</guid>
+      <description>Knight ADRC CSF metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics-qtl/</guid>
+      <description>Knight ADRC CSF metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics/</guid>
+      <description>Knight ADRC CSF proteomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics-qtl/</guid>
+      <description>Knight ADRC CSF proteomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-genotype-data/</guid>
+      <description>Knight ADRC genotype data #  Contact #  Zining Qi
+Data Descriptions #  Raw genotype files #  MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.bed, MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.bim (N= 10,641,345), MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.fam (N= 441)were the plink set created by extracting the Washu samples using geno = 0.1 and Maf = 0.0005 filters, Which then was checked for the array duplication. If there are duplicate samples (by array) in the data they will be filtered basing on their missingness and array frequency information.</description>
+    </item>
+    
+    <item>
+      <title>Knight-ADRC study info</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-study-info/</guid>
+      <description>Knight-ADRC study info #  The Memory and Aging Project at the Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC at Washington University in St. Louis) collects collects plasma, CSF, fibroblast, neuroimaging clinical and cognition data longitudinally and autopsied brain samples. This clinical information combined with deep molecular phenotyping (i.e. genetic, proteomics, transcriptomics and others) will lead to the identification of novel genetic modifiers, protective variants, molecular biomarkers and the novel targets.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/s/</link>
+    <description>Recent content in S on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Splicing quantitative trait loci (sQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/s/splicing-quantitative-trait-loci-sqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/splicing-quantitative-trait-loci-sqtl/</guid>
+      <description>Splicing quantitative trait loci (sQTL) #  Contact #  Ru Feng</description>
+    </item>
+    
+    <item>
+      <title>STARNET</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet/</guid>
+      <description>STARNET #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Further information about the STARNET patients: Northern European Caucasian : 31% FEMALE, 32% have diabetes, 75% have hypertension, 67% have hyperlipidemia, 33% had myocardial infarction before age 60.
+ PI : Dr. Johan Björkegren Institution : Icahn School of Medicine at Mount Sinai Grant number : TBD Contact person : Dr.</description>
+    </item>
+    
+    <item>
+      <title>STARNET genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</guid>
+      <description>STARNET genotype data #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery.
+Contact #  Travyse Edwards
+Data Descriptions #  Raw Data #  The pre-imputation genotype data was received in HG19. We used an internal pipeline to carry out the imputation process using the TOPMED imputation server.</description>
+    </item>
+    
+    <item>
+      <title>STARNET macrophage gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</guid>
+      <description>STARNET macrophage gene expression QTL #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Please refer to this document for an overview of the STARNET project.
+Contact #   Contact Name: Travyse Edwards Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
+    </item>
+    
+  </channel>
+</rss>

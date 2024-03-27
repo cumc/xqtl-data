@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/f/</link>
+    <description>Recent content in F on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/f/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FunGen-xQTL protocol data</title>
+      <link>https://cumc.github.io/xqtl-data/f/fungen-xqtl-protocol-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/f/fungen-xqtl-protocol-data/</guid>
+      <description>FunGen-xQTL protocol data #  A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
+Contact #  Hao Sun
+Location #  The input data and some of the intermediate output data can be download from this Synapse folder. To download the files, a synapse account and synapse clients are both needed.</description>
+    </item>
+    
+  </channel>
+</rss>

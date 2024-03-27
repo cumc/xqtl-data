@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T on FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/t/</link>
+    <description>Recent content in T on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/t/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mount Sinai Brain Bank (MSBB) study info</title>
+      <link>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</guid>
+      <description>The Mount Sinai Brain Bank (MSBB) study info #  This cohort study generated large-scale matched multi-Omics data in AD and control brains for exploring novel molecular underpinnings of AD.
+ PI : Prof. Bin Zhang Institution : Icahn School of Medicine at Mount Sinai Grant number : U01AG046170, RF1AG057440, RF1AG054014, R01AG057907 Contact person : Minghui Wang ( minghui.wang@mssm.edu) Publication : PMID: 30204156, 33238137 Acknowledgement : This work was supported by the grants from the NIH/National Institute on Aging (NIA).</description>
+    </item>
+    
+  </channel>
+</rss>

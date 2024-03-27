@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ROSMAP Covariates data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data
+Data Descriptions #  There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis. The following are the files that haven been used:
+ For pQTL: FTP: /ftp_fgc_xqtl/ref-data/ROSMAP_covariates/dataset_707_basic_02-08-2022.clean.txt(CU: /mnt/mfs/ctcn/datasets/rosmap/phenotypes/2022Feb08/dataset_707_basic_02-08-2022.clean.txt) This should be the complete covariates file, which have 3000&#43; samples and more covariates, other than sex, death and pmi, than we need for our QTL calling.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="ROSMAP Covariates data" />
+<meta property="og:description" content="ROSMAP Covariates data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data
+Data Descriptions #  There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis. The following are the files that haven been used:
+ For pQTL: FTP: /ftp_fgc_xqtl/ref-data/ROSMAP_covariates/dataset_707_basic_02-08-2022.clean.txt(CU: /mnt/mfs/ctcn/datasets/rosmap/phenotypes/2022Feb08/dataset_707_basic_02-08-2022.clean.txt) This should be the complete covariates file, which have 3000&#43; samples and more covariates, other than sex, death and pmi, than we need for our QTL calling." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/" /><meta property="article:section" content="r" />
+
+
+
+<title>ROSMAP Covariates data | FunGen-xQTL Data Repository</title>
+<link rel="manifest" href="/xqtl-data/manifest.json">
+<link rel="icon" href="/xqtl-data/favicon.png" >
+<link rel="canonical" href="https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/">
+<link rel="stylesheet" href="/xqtl-data/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/xqtl-data/flexsearch.min.js"></script>
+  <script defer src="/xqtl-data/en.search.min.5b634dda2013129f82f516c9314802c46ca2390a1bc1f8243ac473206dcd2f05.js" integrity="sha256-W2NN2iATEp&#43;C9RbJMUgCxGyiOQobwfgkOsRzIG3NLwU=" crossorigin="anonymous"></script>
+
+  <script defer src="/xqtl-data/sw.min.5a8d9ccf5ea73dcbbb1f34b183236a28dd36cc6d6540bb5b46431b4e00517252.js" integrity="sha256-Wo2cz16nPcu7HzSxgyNqKN02zG1lQLtbRkMbTgBRclI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/xqtl-data/"><span>FunGen-xQTL Data Repository</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>Alphabetic List of Data Available
+<ul>
+<li>
+  <a href="/xqtl-data/a/">A</a></li>
+<li>
+  <a href="/xqtl-data/d/">D</a></li>
+<li>
+  <a href="/xqtl-data/e/">E</a></li>
+<li>
+  <a href="/xqtl-data/f/">F</a></li>
+<li>
+  <a href="/xqtl-data/h/">H</a></li>
+<li>
+  <a href="/xqtl-data/i/">I</a></li>
+<li>
+  <a href="/xqtl-data/k/">K</a></li>
+<li>
+  <a href="/xqtl-data/m/">M</a></li>
+<li>
+  <a href="/xqtl-data/n/">N</a></li>
+<li>
+  <a href="/xqtl-data/p/">P</a></li>
+<li>
+  <a href="/xqtl-data/r/">R</a></li>
+<li>
+  <a href="/xqtl-data/s/">S</a></li>
+<li>
+  <a href="/xqtl-data/t/">T</a></li>
+<li>
+  <a href="/xqtl-data/w/">W</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/xqtl-data/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>ROSMAP Covariates data</strong>
+
+  <label for="toc-control">
+    
+    <img src="/xqtl-data/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#data-descriptions">Data Descriptions</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="rosmap-covariates-data">
+  ROSMAP Covariates data
+  <a class="anchor" href="#rosmap-covariates-data">#</a>
+</h1>
+<p>Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data</p>
+<h2 id="data-descriptions">
+  Data Descriptions
+  <a class="anchor" href="#data-descriptions">#</a>
+</h2>
+<p>There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis.
+The following are the files that haven been used:</p>
+<ol>
+<li>For pQTL: FTP: <code>/ftp_fgc_xqtl/ref-data/ROSMAP_covariates/dataset_707_basic_02-08-2022.clean.txt</code>(CU: <code>/mnt/mfs/ctcn/datasets/rosmap/phenotypes/2022Feb08/dataset_707_basic_02-08-2022.clean.txt</code>)
+This should be the complete covariates file, which have 3000+ samples and more covariates, other than sex, death and pmi, than we need for our QTL calling. To accomendate our QTL pipeline, formatting and processing is needed before using.</li>
+<li>For sQTL: FTP: <code>ftp.lisanwanglab.org/ftp_fgc_xqtl/projects/rna-seq/BU/ROSMAP_DLPFC/covariate_file/ROSMAP_xqtl_covariates_sex_death_pmi_study.tsv</code>(CU: <code>/mnt/vast/hpc/csg/rf2872/data/ROSMAP_xqtl_covariates_sex_death_pmi_study.tsv</code>)
+This should be the file that have been processed for sQTL calling, which has 853 samples and only have covariates we needed(sex, pmi, death). This file was accomendated to our pipeline.</li>
+<li>CU: <code>/mnt/vast/hpc/csg/molecular_phenotype_calling/ROSMAP_shared_metadata/ROSMAP_xqtl_complete_samples_covariates_sex_death_pmi_study.tsv</code>
+This is the one that Hao updated on May, which has 1161 samples. This file has complete covariates information for all samples that in genotype. And this is already formatted to accomendate our pipeline. S0, using this as covariates file is suggested for all QTL calling.</li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#data-descriptions">Data Descriptions</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

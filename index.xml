@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FunGen-xQTL Data Repository</title>
+    <link>https://cumc.github.io/xqtl-data/</link>
+    <description>Recent content on FunGen-xQTL Data Repository</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cumc.github.io/xqtl-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADGC GWAS imputation protocol</title>
+      <link>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</guid>
+      <description>ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4.</description>
+    </item>
+    
+    <item>
+      <title>DIAN blood derived methylation</title>
+      <link>https://cumc.github.io/xqtl-data/d/dian-blood-derived-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/d/dian-blood-derived-methylation/</guid>
+      <description>DIAN blood derived methylation #  Contact #  TBD, Alan Renton and Carlos Cruchaga</description>
+    </item>
+    
+    <item>
+      <title>EFIGA CSF proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/e/efiga-csf-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/efiga-csf-proteomics/</guid>
+      <description>EFIGA CSF proteomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>FunGen-xQTL protocol data</title>
+      <link>https://cumc.github.io/xqtl-data/f/fungen-xqtl-protocol-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/f/fungen-xqtl-protocol-data/</guid>
+      <description>FunGen-xQTL protocol data #  A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
+Contact #  Hao Sun
+Location #  The input data and some of the intermediate output data can be download from this Synapse folder. To download the files, a synapse account and synapse clients are both needed.</description>
+    </item>
+    
+    <item>
+      <title>HIHG African American blood alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/h/hihg-african-american-blood-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/h/hihg-african-american-blood-alternative-splicing/</guid>
+      <description>HIHG African American blood alternative splicing #  Contact #  Makaela Mews</description>
+    </item>
+    
+    <item>
+      <title>Integrative multi-trait colocalization</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-multi-trait-colocalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-multi-trait-colocalization/</guid>
+      <description>Integrative multi-trait colocalization #  This document outlines the multi-trait colocalization analysis performed using FunGen-xQTL resources, with existing and some of the new method developed by the AWG.
+Contact #  Xuewei Cao (coloc-boost), Kushal Dey (coloc-boost), Chengran Yang (HyPrColoc).</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression/</guid>
+      <description>Knight ADRC brain gene expression #  Contact #  Chunming Liu
+Study Overview #   Study information: descriptor/study_info/KnightADRC.md. Website&amp;amp;Logo : (FIXME: find release of the phenotype data)  </description>
+    </item>
+    
+    <item>
+      <title>MAGENTA African American blood alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-alternative-splicing-qtl/</guid>
+      <description>MAGENTA African American blood alternative splicing QTL #  Contact #  Makaela Mews</description>
+    </item>
+    
+    <item>
+      <title>Non-Hispanic White Linkage Disequilibrium Reference Panel</title>
+      <link>https://cumc.github.io/xqtl-data/n/non-hispanic-white-linkage-disequilibrium-reference-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/n/non-hispanic-white-linkage-disequilibrium-reference-panel/</guid>
+      <description>Non-Hispanic White Linkage Disequilibrium Reference Panel #  Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from this Github page (generated from 1000 Genomes EUR samples). Actual correlations values were calculated from whole genome sequencing data from 16571 non-Hispanic white individuals obtained from the Genome Center for Alzheimer&amp;rsquo;s Disease (GCAD).
+Contact #  Oluwatosin Olayinka
+Output Format #  Each LD block contains two files of interest:</description>
+    </item>
+    
+    <item>
+      <title>PART working group brain methylation</title>
+      <link>https://cumc.github.io/xqtl-data/p/part-working-group-brain-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/p/part-working-group-brain-methylation/</guid>
+      <description>PART working group brain methylation #  Contact #  Alexandre Pelletier, Corey McMillan</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing/</guid>
+      <description>ROSMAP AC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>Splicing quantitative trait loci (sQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/s/splicing-quantitative-trait-loci-sqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/splicing-quantitative-trait-loci-sqtl/</guid>
+      <description>Splicing quantitative trait loci (sQTL) #  Contact #  Ru Feng</description>
+    </item>
+    
+    <item>
+      <title>The Mount Sinai Brain Bank (MSBB) study info</title>
+      <link>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</guid>
+      <description>The Mount Sinai Brain Bank (MSBB) study info #  This cohort study generated large-scale matched multi-Omics data in AD and control brains for exploring novel molecular underpinnings of AD.
+ PI : Prof. Bin Zhang Institution : Icahn School of Medicine at Mount Sinai Grant number : U01AG046170, RF1AG057440, RF1AG054014, R01AG057907 Contact person : Minghui Wang ( minghui.wang@mssm.edu) Publication : PMID: 30204156, 33238137 Acknowledgement : This work was supported by the grants from the NIH/National Institute on Aging (NIA).</description>
+    </item>
+    
+    <item>
+      <title>WHICAP (pilot) plasma metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</guid>
+      <description>WHICAP (pilot) plasma metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>xQTL protocol data</title>
+      <link>https://cumc.github.io/xqtl-data/x/xqtl-protocol-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/x/xqtl-protocol-data/</guid>
+      <description>xQTL protocol data #  A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
+Contact #  Hao Sun
+Location #  The input data and some of the intermediate output data can be download from this Synapse folder. To download the files, a synapse account and synapse clients are both needed.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Bellenguez)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Bellenguez) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Bellenguez et al 2022 Nature Genetics. This study uses UK Biobank (UKBB) proxy AD samples
+Contact #  Oluwatosin Olayinka, Hao Sun and Rui Dong
+Path(s) to summary statistics #   NIAGADS FTP: /ftp_fgc_xqtl/projects/ADGWAS_Bellenguez_2022/ADGWAS2022.chr*.sumstat.tsv CU meta-analysis results: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/GCST90027158_buildGRCh38.tsv.gz (original data is already in hg38) cohort-specific results are all stored under /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/ (original data is already in hg38) EADB-core (EADB-TOPMed): /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADB_core/EADB_core.</description>
+    </item>
+    
+    <item>
+      <title>DIAN blood derived methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/d/dian-blood-derived-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/d/dian-blood-derived-methylation-qtl/</guid>
+      <description>DIAN blood derived methylation QTL #  Contact #  TBD, Alan Renton and Carlos Cruchaga</description>
+    </item>
+    
+    <item>
+      <title>EFIGA CSF proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/e/efiga-csf-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/efiga-csf-proteomics-qtl/</guid>
+      <description>EFIGA CSF proteomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>HIHG genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/h/hihg-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/h/hihg-genotype-data/</guid>
+      <description>HIHG genotype data #  Contact #  Makaela Mews</description>
+    </item>
+    
+    <item>
+      <title>Integrative multivariate analysis</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-multivariate-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-multivariate-analysis/</guid>
+      <description>Integrative multivariate analysis #  This document outlines various schemes we perform multi-variate analysis across different xQTL using FunGen-xQTL resources, with innovative use of fine-mapping, colocalization and multivariate adaptive shrinkage (MASH) results.
+Contact #  Ru Feng.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-gene-expression-qtl/</guid>
+      <description>Knight ADRC brain gene expression QTL #  Contact #  Chunming Liu</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA African American blood gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-gene-expression/</guid>
+      <description>MAGENTA African American blood gene expression #  Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P. Hussman Institute for Human Genomics (HIHG) at the University of Miami Miller School of Medicine (Miami, FL), North Carolina A&amp;amp;T State University (Greensboro, NC), and Case Western Reserve University (Cleveland, OH).</description>
+    </item>
+    
+    <item>
+      <title>PART working group brain methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/p/part-working-group-brain-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/p/part-working-group-brain-methylation-qtl/</guid>
+      <description>PART working group brain methylation QTL #  Contact #  Alexandre Pelletier, Corey McMillan</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing-qtl/</guid>
+      <description>ROSMAP AC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>STARNET</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet/</guid>
+      <description>STARNET #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Further information about the STARNET patients: Northern European Caucasian : 31% FEMALE, 32% have diabetes, 75% have hypertension, 67% have hyperlipidemia, 33% had myocardial infarction before age 60.
+ PI : Dr. Johan Björkegren Institution : Icahn School of Medicine at Mount Sinai Grant number : TBD Contact person : Dr.</description>
+    </item>
+    
+    <item>
+      <title>WHICAP (pilot) plasma metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics-qtl/</guid>
+      <description>WHICAP (pilot) plasma metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Jansen)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-jansen/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Jansen) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Jansen et al 2021 Nature Genetics. This study uses proxy AD individuals from UK Biobank.
+Contact #  Oluwatosin Olayinka
+Download source #  This data is derived from summary statistics from the Jansen et al. Nature Genetics paper.
+Path(s) to summary statistics #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/ADGWAS_Jansen_2019_hg38_liftover/jansen_sumstat_hg38_qc.chr* CU original data: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230620_Jansen/AD_sumstats_Jansenetal_2019sept.</description>
+    </item>
+    
+    <item>
+      <title>EFIGA genotype</title>
+      <link>https://cumc.github.io/xqtl-data/e/efiga-genotype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/efiga-genotype/</guid>
+      <description>EFIGA genotype #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>HIHG Non-Hispanic White blood alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/h/hihg-non-hispanic-white-blood-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/h/hihg-non-hispanic-white-blood-alternative-splicing-qtl/</guid>
+      <description>HIHG Non-Hispanic White blood alternative splicing QTL #  Contact #  Makaela Mews</description>
+    </item>
+    
+    <item>
+      <title>Integrative simple xQTL meta-analysis</title>
+      <link>https://cumc.github.io/xqtl-data/i/integrative-simple-xqtl-meta-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/i/integrative-simple-xqtl-meta-analysis/</guid>
+      <description>Integrative simple xQTL meta-analysis #  This document outlines the simple meta-analysis performed in the FunGen-xQTL study in contexts as it fits, using fixed and random effects meta-analysis (METAL software).
+Contact #  Xuanhe Chen</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics/</guid>
+      <description>Knight ADRC brain metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA African American Blood Gene Expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-african-american-blood-gene-expression-qtl/</guid>
+      <description>MAGENTA African American Blood Gene Expression QTL #  Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P. Hussman Institute for Human Genomics (HIHG) at the University of Miami Miller School of Medicine (Miami, FL), North Carolina A&amp;amp;T State University (Greensboro, NC), and Case Western Reserve University (Cleveland, OH).</description>
+    </item>
+    
+    <item>
+      <title>proteomic quantitative trait locus (pQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/p/proteomic-quantitative-trait-locus-pqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/p/proteomic-quantitative-trait-locus-pqtl/</guid>
+      <description>proteomic quantitative trait locus (pQTL) #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression/</guid>
+      <description>ROSMAP AC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>STARNET genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</guid>
+      <description>STARNET genotype data #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery.
+Contact #  Travyse Edwards
+Data Descriptions #  Raw Data #  The pre-imputation genotype data was received in HG19. We used an internal pipeline to carry out the imputation process using the TOPMED imputation server.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Kunkle)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-kunkle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-kunkle/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Kunkle) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Kunkle et al 2019 Nature Genetics. Position values were converted from hg19 to hg38 using liftOver.
+Contact #  Oluwatosin Olayinka
+Path(s) to summary statistics #   NIAGADS FTP, /ftp_fgc_xqtl/projects/ADGWAS_Kunkle_2019_hg38_liftover/kunkle_sumstat_hg38_qc.chr* CU original data (in GRCh37) stage 1: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/&#39;Kunkle_etal_Stage1_results.txt?file=1&#39; stage 2: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/&#39;Kunkle_etal_Stage2_results.txt?file=1&#39; liftover data (in GRCh38): stage 1: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/Kunkle_etal_Stage1_results.txt_file_1_hg38.txt stage 2: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20231011_Kunkle/Kunkle_etal_Stage2_results.txt_file_1_hg38.txt  Path to SuSiE RSS Fine-mapping Objects #   Li-San Wang FTP: /ftp_fgc_xqtl/projects/GWAS_Finemapping_Results/Kunkle/  Download source #  This data is derived from summary statistics from the Kunkle et al.</description>
+    </item>
+    
+    <item>
+      <title>EFIGA plasma metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/e/efiga-plasma-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/efiga-plasma-metabolomics/</guid>
+      <description>EFIGA plasma metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-metabolomics-qtl/</guid>
+      <description>Knight ADRC brain metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA Non-Hispanic White blood alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-alternative-splicing/</guid>
+      <description>MAGENTA Non-Hispanic White blood alternative splicing #  Contact #  Makaela Mews</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP AC gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression-qtl/</guid>
+      <description>ROSMAP AC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
+    </item>
+    
+    <item>
+      <title>STARNET macrophage gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</guid>
+      <description>STARNET macrophage gene expression QTL #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Please refer to this document for an overview of the STARNET project.
+Contact #   Contact Name: Travyse Edwards Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
+    </item>
+    
+    <item>
+      <title>Alzheimer&#39;s Disease GWAS Summary Data (Wightman)</title>
+      <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-wightman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-wightman/</guid>
+      <description>Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Wightman) #  The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Wightman et al 2021 Nature Genetics. This file contains the meta-analyzed summary statistics of three cohorts: all individuals, all individuals excluding 23andMe, all individuals excluding 23andMe and UKBB.
+Contact #  Oluwatosin Olayinka
+Path(s) to summary statistics #   NIAGADS FTP meta results /ftp_fgc_xqtl/projects/ADGWAS_Wightman_2021_hg38_liftover_meta/wightman_meta_sumstat_hg38_qc.chr* only 23andMe/ftp_fgc_xqtl/projects/ADGWAS_Wightman_2021_hg38_liftover_23andme/wightman_sumstat_hg38_qc.chr* CU original data (in GRCh37) all individuals: /mnt/vast/hpc/csg/data_public/GWAS_sumstats/20230530_Wightman/sum.</description>
+    </item>
+    
+    <item>
+      <title>EFIGA plasma metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/e/efiga-plasma-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/efiga-plasma-metabolomics-qtl/</guid>
+      <description>EFIGA plasma metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain methylation</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation/</guid>
+      <description>Knight ADRC brain methylation #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA Non-Hispanic White blood gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-gene-expression/</guid>
+      <description>MAGENTA Non-Hispanic White blood gene expression #  Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P. Hussman Institute for Human Genomics (HIHG) at the University of Miami Miller School of Medicine (Miami, FL), North Carolina A&amp;amp;T State University (Greensboro, NC), and Case Western Reserve University (Cleveland, OH).</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP Covariates data</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-covariates-data/</guid>
+      <description>ROSMAP Covariates data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data
+Data Descriptions #  There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis. The following are the files that haven been used:
+ For pQTL: FTP: /ftp_fgc_xqtl/ref-data/ROSMAP_covariates/dataset_707_basic_02-08-2022.clean.txt(CU: /mnt/mfs/ctcn/datasets/rosmap/phenotypes/2022Feb08/dataset_707_basic_02-08-2022.clean.txt) This should be the complete covariates file, which have 3000+ samples and more covariates, other than sex, death and pmi, than we need for our QTL calling.</description>
+    </item>
+    
+    <item>
+      <title>expression quantitative trait loci (eQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/e/expression-quantitative-trait-loci-eqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/e/expression-quantitative-trait-loci-eqtl/</guid>
+      <description>expression quantitative trait loci (eQTL) #  Contact #  Frank Grenn</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-methylation-qtl/</guid>
+      <description>Knight ADRC brain methylation QTL #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA Non-Hispanic White Blood Gene Expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-gene-expression-qtl/</guid>
+      <description>MAGENTA Non-Hispanic White Blood Gene Expression QTL #  Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P. Hussman Institute for Human Genomics (HIHG) at the University of Miami Miller School of Medicine (Miami, FL), North Carolina A&amp;amp;T State University (Greensboro, NC), and Case Western Reserve University (Cleveland, OH).</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing/</guid>
+      <description>ROSMAP DLPFC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Xuanhe Chen; Shrishtee Kandoi Contact Email : xuanhechenxhc@163.com; Contact Affiliation : Columbia University; Boston University Contact Role : Xuanhe Chen performed sQTL analysis via psichomics package, and SuSiE uni-variate fine-mapping analysis using psichomics sQTL data, Shrishtee Kandoi performed sQTL analysis via leafCutter package.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics/</guid>
+      <description>Knight ADRC brain proteomics #  Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC)
+Contact #   Contact Name: Zining Qi Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using Knight proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC proteomics analysis Study Description : Performed analysis on 442 Knight proteomics samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>MAGENTA study info</title>
+      <link>https://cumc.github.io/xqtl-data/m/magenta-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/magenta-study-info/</guid>
+      <description>MAGENTA study info #  Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P. Hussman Institute for Human Genomics (HIHG) at the University of Miami Miller School of Medicine (Miami, FL), North Carolina A&amp;amp;T State University (Greensboro, NC), and Case Western Reserve University (Cleveland, OH). Participants were ascertained as part of the ADSP Follow-up Study and included both cases (&amp;gt;65 years of age of onset) and controls (&amp;gt;65 years of age at age of exam).</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing-qtl/</guid>
+      <description>ROSMAP DLPFC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Shrishtee Kandoi and Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Study name : ROSMAP DLPFC sQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) sQTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-proteomics-qtl/</guid>
+      <description>Knight ADRC brain proteomics QTL #  Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC) Please refer to this document for an overview of the Knight project.
+Contact #  Zining Qi( zq2209@cumc.columbia.edu)
+Study Overview #   Study name : Knight ADRC brain proteomics QTL Study Description : Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC) brain proteomics QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>metabolite quantitative trait loci (metaQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/m/metabolite-quantitative-trait-loci-metaqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/metabolite-quantitative-trait-loci-metaqtl/</guid>
+      <description>metabolite quantitative trait loci (metaQTL) #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</guid>
+      <description>ROSMAP DLPFC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression. Please refer to this document for an overview of the ROSMAP project. NOTE: we didn&amp;rsquo;t perform the omics data calling here so this descriptor is mostly documentations from the raw data source
+Contact #  Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC RNA-seq Bulk Brain Study Description : Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain splicing</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing/</guid>
+      <description>Knight ADRC brain splicing #  Contact #  Xuanhe Chen</description>
+    </item>
+    
+    <item>
+      <title>methylation quantitative trait loci (mQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</guid>
+      <description>methylation quantitative trait loci (mQTL) #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</guid>
+      <description>ROSMAP DLPFC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao Contact Email : ; hs3163@cumc.columbia.edu; hs3393@cumc.columbia.edu; jt3386@cumc.columbia.edu Contact Affiliation : Boston University; Columbia University Contact Role : Shrishtee Kandoi and Hao Sun performed QTL analysis; Haochen Sun performed fine-mapping, and Jiajun Tao performed replication  Study Overview #   Study name : ROSMAP DLPFC eQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) eQTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC brain splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing-qtl/</guid>
+      <description>Knight ADRC brain splicing QTL #  Contact #  Xuanhe Chen</description>
+    </item>
+    
+    <item>
+      <title>MiGA genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</guid>
+      <description>MiGA genotype data #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC H3K9ac</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</guid>
+      <description>ROSMAP DLPFC H3K9ac #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name : Xuanhe Chen; Hao Sun; Hans Klein Contact Email : xuanhechenxhc@163.com; hs3163@cumc.columbia.edu; hk2948@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Xuanhe Chen performed QTL analysis using H3K9ac peaks; Hao Sun performed univariate fine-mapping, Hans Klein performed peak calling  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC H3K9ac peak calling Study Description : Performed peak calling on 669 ROSMAP samples&#39; h3k9ac samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF metabolomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics/</guid>
+      <description>Knight ADRC CSF metabolomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MiGA multi-brain region eQTL integration</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</guid>
+      <description>MiGA multi-brain region eQTL integration #  MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
+Contact #  Travyse Edwards</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC H3K9ac QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</guid>
+      <description>ROSMAP DLPFC H3K9ac QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis using the FGC xQTL pipeline. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Xuanhe Chen ( xuanhechenxhc@163.com)
+Study Overview #   Study name : ROSMAP DLPFC H3K9ac QTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF metabolomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics-qtl/</guid>
+      <description>Knight ADRC CSF metabolomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MiGA multi-brain region gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</guid>
+      <description>MiGA multi-brain region gene expression #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. The human post-mortem brain samples were obtained from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC methylation</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation/</guid>
+      <description>ROSMAP DLPFC methylation #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Alexandre Pelletier, Jiajun Tao</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics/</guid>
+      <description>Knight ADRC CSF proteomics #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MiGA multi-brain region gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</guid>
+      <description>MiGA multi-brain region gene expression QTL #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation-qtl/</guid>
+      <description>ROSMAP DLPFC methylation QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC CSF proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics-qtl/</guid>
+      <description>Knight ADRC CSF proteomics QTL #  Contact #  Zining Qi</description>
+    </item>
+    
+    <item>
+      <title>MiGA study info</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-study-info/</guid>
+      <description>MiGA study info #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC protein expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</guid>
+      <description>ROSMAP DLPFC protein expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #   Contact Name: Zining Qi Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using ROSMAP proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC protein expression Study Description : Performed on 596 ROSMAP proteomics samples via the ADSP FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight ADRC genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-genotype-data/</guid>
+      <description>Knight ADRC genotype data #  Contact #  Zining Qi
+Data Descriptions #  Raw genotype files #  MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.bed, MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.bim (N= 10,641,345), MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.0005.fam (N= 441)were the plink set created by extracting the Washu samples using geno = 0.1 and Maf = 0.0005 filters, Which then was checked for the array duplication. If there are duplicate samples (by array) in the data they will be filtered basing on their missingness and array frequency information.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</guid>
+      <description>MSBB brain alternative splicing #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP DLPFC protein expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression-qtl/</guid>
+      <description>ROSMAP DLPFC protein expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Zining Qi( zq2209@cumc.columbia.edu)
+Study Overview #   Study name : ROSMAP DLPFC proteomics QTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) proteomics QTL analysis summary statistics using the FGC xQTL pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Knight-ADRC study info</title>
+      <link>https://cumc.github.io/xqtl-data/k/knight-adrc-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/k/knight-adrc-study-info/</guid>
+      <description>Knight-ADRC study info #  The Memory and Aging Project at the Charles F. And Joanne Knight Alzheimer&amp;rsquo;s Disease Research Center (Knight-ADRC at Washington University in St. Louis) collects collects plasma, CSF, fibroblast, neuroimaging clinical and cognition data longitudinally and autopsied brain samples. This clinical information combined with deep molecular phenotyping (i.e. genetic, proteomics, transcriptomics and others) will lead to the identification of novel genetic modifiers, protective variants, molecular biomarkers and the novel targets.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</guid>
+      <description>MSBB brain alternative splicing QTL #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP multi-trait QTL integration analysis</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</guid>
+      <description>ROSMAP multi-trait QTL integration analysis #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Ru Feng</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</guid>
+      <description>MSBB brain gene expression #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing/</guid>
+      <description>ROSMAP PCC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+Contact #  Frank Grenn
+Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo : https://www.synapse.org/#!Synapse:syn3157322  Dataset Details #  Raw data #  Path(s) on HPC:
+ PCC RNASeq data from Zhang Lab, /restricted/projectnb/casa/skandoi/ROSMAP_PCC_AC:  $ ls -lh rnaseqc_call_PCC/*.bam | head -rw-r--r-- 1 skandoi casa 4.0G Dec 11 18:27 1000-PCC.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</guid>
+      <description>MSBB brain gene expression QTL #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</guid>
+      <description>ROSMAP PCC alternative splicing QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Study Overview #  In progress
+ Sample information: ####/####_sample_attributes.csv. Lab protocol: ####/####_lab_protocol.csv. Computational protocol: ####/####_computational_protocol.csv. QTL summary statistics output: ####/####.qtl_results.csv. Fine-mapping results individual level data model: ####/####.susie.csv. Fine-mapping results summary statistics model: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain methylation</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</guid>
+      <description>MSBB brain methylation #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC Expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-expression-qtl/</guid>
+      <description>ROSMAP PCC Expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Frank Grenn
+Study Overview #  In progress
+ Sample information: ####/####_sample_attributes.csv. Lab protocol: ####/####_lab_protocol.csv. Computational protocol: ####/####_computational_protocol.csv. QTL summary statistics output: ####/####.qtl_results.csv. Fine-mapping results individual level data model: ####/####.susie.csv. Fine-mapping results summary statistics model: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</guid>
+      <description>MSBB brain methylation QTL #  Contact #  Alexandre Pelletier</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP PCC gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-pcc-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-pcc-gene-expression/</guid>
+      <description>ROSMAP PCC gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
+Contact #  Frank Grenn
+Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo : https://www.synapse.org/#!Synapse:syn3157322  Dataset Details #  Raw data #  Path(s) on HPC:
+ PCC RNASeq data from Zhang Lab, /restricted/projectnb/casa/skandoi/ROSMAP_PCC_AC:  $ ls -lh rnaseqc_call_PCC/*.bam | head -rw-r--r-- 1 skandoi casa 4.0G Dec 11 18:27 1000-PCC.</description>
+    </item>
+    
+    <item>
+      <title>MSBB brain proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</guid>
+      <description>MSBB brain proteomics #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq microglia gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression/</guid>
+      <description>ROSMAP RNA-seq microglia gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on Janunary xx, 2023.
+ Path on CU cluster /..  </description>
+    </item>
+    
+    <item>
+      <title>MSBB brain proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</guid>
+      <description>MSBB brain proteomics QTL #  Contact #  Minghui Wang</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq microglia gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</guid>
+      <description>ROSMAP RNA-seq microglia gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) microglia data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on Janunary xx, 2023.
+ Path on CU cluster /..  </description>
+    </item>
+    
+    <item>
+      <title>MSBB WGS data</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</guid>
+      <description>MSBB WGS data #  MSBB whole-genome sequence data.
+Contact #  Minghui Wang and Julia TCW</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq monocyte gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-gene-expression/</guid>
+      <description>ROSMAP RNA-seq monocyte gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data on MSSM were downloaded from syn22024496 on July 11th, 2022. (path on MSSM to be added)
+ Path on MSSM cluster /sc/arion/projects/load/data-ext/ROSMAP/raw/rnaseq_monocytes_syn23650893/Gene_Expression-RNA-seq-monocyte  Preview Monocyte Gene Expression Data #  Over all 615 samples in the dataset, 302 samples have diagnosis meta data, 1 sample missing associated sex meta data.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP RNA-seq monocyte QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-qtl/</guid>
+      <description>ROSMAP RNA-seq monocyte QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) monocyte data-set. Please refer to this document for an overview of the ROSMAP project.
+Contact #  Travyse Edwards
+Data descriptions #  The ROSMAP monocyte data on MSSM were downloaded from syn22024496 on July 11th, 2022. (path on MSSM to be added)
+ Path on MSSM cluster /sc/arion/projects/load/data-ext/ROSMAP/raw/rnaseq_monocytes_syn23650893/Gene_Expression-RNA-seq-monocyte  Preview Monocyte Gene Expression Data #  Over all 615 samples in the dataset, 302 samples have diagnosis meta data, 1 sample missing associated sex meta data.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP snRNA-seq pseudo-bulk gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression/</guid>
+      <description>ROSMAP snRNA-seq pseudo-bulk gene expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC). Please refer to this document for an overview of the ROSMAP project.
+Contact #  Hao Sun and Masashi Fujita
+Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP snRNA-seq pseudo-bulk gene expression Study Description : Disease : Alzheimer’s Disease Data Citation : https://www.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP snRNA-seq pseudo-bulk gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression-qtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-snrna-seq-pseudo-bulk-gene-expression-qtl/</guid>
+      <description>ROSMAP snRNA-seq pseudo-bulk gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC). Please refer to this document for an overview of the ROSMAP project.
+Contact #  Hao Sun (eQTL), Masashi Fujita (eQTL), Haochen Sun (fine-mapping), Jiajun Tao (replication)
+Study Overview #   Sample information: ROSMAP/ROSMAP_Pseudo_Bulk_sample_attributes.csv. Lab protocol: ROSMAP/ROSMAP_Pseudo_Bulk_lab_protocol.csv. Computational protocol: ROSMAP/ROSMAP_Pseudo_Bulk_computational_protocol.csv. QTL summary statistics output: ####/####.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP study info</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-study-info/</guid>
+      <description>ROSMAP study info #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) study: ROS is a longitudinal clinical-pathologic cohort study of aging and Alzheimer&amp;rsquo;s disease (AD) run from Rush University that enrolled individuals from religious communities for longitudinal clinical analysis and brain donation. Participants were enrolled from more than 40 groups of religious orders (nuns, priests, brothers) across the United States. MAP is a longitudinal, epidemiologic clinical-pathologic cohort study of common chronic conditions of aging with an emphasis on decline in cognitive and motor function and risk of Alzheimer’s disease that began in 1997 and is run from Rush University.</description>
+    </item>
+    
+    <item>
+      <title>ROSMAP WGS data</title>
+      <link>https://cumc.github.io/xqtl-data/r/rosmap-wgs-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/r/rosmap-wgs-data/</guid>
+      <description>ROSMAP WGS data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data
+Contact #  Hao Sun and Xuanhe Chen
+Data Descriptions #  This data is part of WGS done for three AMP-AD supported studies: The ROSMAP study (the data provided here), the MayoRNAseq study, and the MSBB study. Provided are VCF files, consisting of all samples from that study divided by chromosome, for the following analysis.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cumc.github.io/xqtl-data/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/index.html</guid>
+      <description>FunGen-xQTL Data Catalog #  A #   ADGC GWAS imputation protocol. Cited from ADGC GWAS Data QC Protocol.  Lead analysts: Note that results from TOPMed imputation server are all against HG38..   Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Bellenguez et al 2022 Nature Genetics.  Lead analysts: Oluwatosin Olayinka, Hao Sun and Rui Dong.   Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Jansen).</description>
+    </item>
+    
+  </channel>
+</rss>
