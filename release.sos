@@ -82,13 +82,14 @@ with open(f'website/content/menu/index.md', 'w') as f:
 
 # Update gh-pages
 [default_2]
-depends: 'website/themes/hugo-book/README.md'
+depends: 'website/themes/hugo-book/README.md', executable('ghp-import')
 bash:
   set -e
   python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o README.md -t "FunGen-xQTL Data Catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/" -c "Lead analysts: "
   python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o website/content/_index.md -t "FunGen-xQTL Data Catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/" -c "Lead analysts: " -p -d "This documentation is still work in progress. We expect to complete it by summer 2024 if not sooner."
   cd website
   hugo
+  ghp-import -n -p -f public
 
 [clean]
 bash: workdir='website'
