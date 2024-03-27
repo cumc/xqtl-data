@@ -40,7 +40,7 @@ def get_meta(files):
             raise ValueError(f'The first line of document "{f}" must start with "#" followed by dataset name')
         data[f]['content'] = lines
         data[f]['name'] = lines[0][1:].strip()
-        data[f]['description'] = lines[1]
+        data[f]['description'] = lines[1].strip('.') + '.'
         try:
           data[f]['short_name'] = lines[[x.lower() for x in lines].index('## project abbreviation') + 1]
         except:
@@ -78,11 +78,20 @@ for k in contents:
              f.write('---\ntitle: {1}\ntoc: true\nweight: {0}\n---\n\n'.format(num + 1, kk[0]))
              f.write(contents[k][kk])
 
+menu = '+++\nheadless = true\n+++\n\n- Alphabetic List of Data Available\n'
+for k in contents:
+    menu += '  - [%s]({{< relref "/%s" >}})\n' % (k.upper(), k.lower())
+   
+os.makedirs(f'website/content/menu', exist_ok=True)
+with open(f'website/content/menu/index.md', 'w') as f:
+    f.write(menu)
+
 # Update gh-pages
 [default_2]
 depends: 'website/themes/hugo-book/README.md', 'gh-pages/.gitignore'
 bash:
   set -e
+  python3 toc.py descriptor/{gwas,omics,qtl,integration}/*.md -o README.md -t "FunGen-xQTL data catalog" -b "https://github.com/cumc/xqtl-analysis/tree/main/data/" -c "Lead analysts: " -p
   cd website
   hugo
   rsync -auz --delete public/* ../gh-pages/

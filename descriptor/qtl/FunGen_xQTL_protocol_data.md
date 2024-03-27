@@ -1,4 +1,4 @@
-# xQTL protocol data
+# FunGen-xQTL protocol data
 
 A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs). 
 

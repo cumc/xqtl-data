@@ -92,4 +92,5 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--title', required=True, help = 'Output page title')
     parser.add_argument('-b', '--base_url', help = 'Base URL for pages')
     parser.add_argument('-e', '--exclude', nargs = '+', help = 'Exclude pages')
+    parser.add_argument('-p', '--no-link', action='store_true', help='Plain text, do not include URL')
     main(parser.parse_args())
