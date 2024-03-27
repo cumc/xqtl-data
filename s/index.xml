@@ -43,7 +43,8 @@ Data Descriptions #  Raw Data #  The pre-imputation genotype data was received i
       
       <guid>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</guid>
       <description>STARNET macrophage gene expression QTL #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Please refer to this document for an overview of the STARNET project.
-Contact #   Contact Name: Travyse Edwards Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
+Contact #  Travyse Edwards
+ Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
     </item>
     
   </channel>

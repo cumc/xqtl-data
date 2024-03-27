@@ -68,7 +68,8 @@ Data Descriptions #  There are couple of versions of covariates files been used 
       
       <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-alternative-splicing/</guid>
       <description>ROSMAP DLPFC alternative splicing #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing. Please refer to this document for an overview of the ROSMAP project.
-Contact #   Contact Name : Xuanhe Chen; Shrishtee Kandoi Contact Email : xuanhechenxhc@163.com; Contact Affiliation : Columbia University; Boston University Contact Role : Xuanhe Chen performed sQTL analysis via psichomics package, and SuSiE uni-variate fine-mapping analysis using psichomics sQTL data, Shrishtee Kandoi performed sQTL analysis via leafCutter package.</description>
+Contact #  Xuanhe Chen; Shrishtee Kandoi
+ Contact Email : xuanhechenxhc@163.com; Contact Affiliation : Columbia University; Boston University Contact Role : Xuanhe Chen performed sQTL analysis via psichomics package, and SuSiE uni-variate fine-mapping analysis using psichomics sQTL data, Shrishtee Kandoi performed sQTL analysis via leafCutter package.</description>
     </item>
     
     <item>
@@ -100,7 +101,8 @@ Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s 
       
       <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</guid>
       <description>ROSMAP DLPFC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression. Please refer to this document for an overview of the ROSMAP project.
-Contact #   Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao Contact Email : ; hs3163@cumc.columbia.edu; hs3393@cumc.columbia.edu; jt3386@cumc.columbia.edu Contact Affiliation : Boston University; Columbia University Contact Role : Shrishtee Kandoi and Hao Sun performed QTL analysis; Haochen Sun performed fine-mapping, and Jiajun Tao performed replication  Study Overview #   Study name : ROSMAP DLPFC eQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) eQTL analysis summary statistics using the FGC xQTL pipeline.</description>
+Contact #  Shrishtee Kandoi; Frank Grenn
+ Contact Email : ; hs3163@cumc.columbia.edu; hs3393@cumc.columbia.edu; jt3386@cumc.columbia.edu Contact Affiliation : Boston University; Columbia University Contact Role : Shrishtee Kandoi and Hao Sun performed QTL analysis; Haochen Sun performed fine-mapping, and Jiajun Tao performed replication  Study Overview #   Study name : ROSMAP DLPFC eQTL Study Description : Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) eQTL analysis summary statistics using the FGC xQTL pipeline.</description>
     </item>
     
     <item>
@@ -110,7 +112,8 @@ Contact #   Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao Co
       
       <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</guid>
       <description>ROSMAP DLPFC H3K9ac #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac data-set. Please refer to this document for an overview of the ROSMAP project.
-Contact #   Contact Name : Xuanhe Chen; Hao Sun; Hans Klein Contact Email : xuanhechenxhc@163.com; hs3163@cumc.columbia.edu; hk2948@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Xuanhe Chen performed QTL analysis using H3K9ac peaks; Hao Sun performed univariate fine-mapping, Hans Klein performed peak calling  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC H3K9ac peak calling Study Description : Performed peak calling on 669 ROSMAP samples&#39; h3k9ac samples via the ADSP FGC xQTL pipeline.</description>
+Contact #  Xuanhe Chen; Hao Sun; Hans Klein
+ Contact Email : xuanhechenxhc@163.com; hs3163@cumc.columbia.edu; hk2948@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Xuanhe Chen performed QTL analysis using H3K9ac peaks; Hao Sun performed univariate fine-mapping, Hans Klein performed peak calling  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC H3K9ac peak calling Study Description : Performed peak calling on 669 ROSMAP samples&#39; h3k9ac samples via the ADSP FGC xQTL pipeline.</description>
     </item>
     
     <item>
@@ -151,7 +154,8 @@ Contact #  Alexandre Pelletier</description>
       
       <guid>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</guid>
       <description>ROSMAP DLPFC protein expression #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression. Please refer to this document for an overview of the ROSMAP project.
-Contact #   Contact Name: Zining Qi Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using ROSMAP proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC protein expression Study Description : Performed on 596 ROSMAP proteomics samples via the ADSP FGC xQTL pipeline.</description>
+Contact #  Zining Qi
+ Contact Email: zq2209@cumc.columbia.edu Contact Affiliation : Columbia University Contact Role : Zining Qi performed QTL analysis by using ROSMAP proteomics  Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s grant number) Publication : Acknowledgement : Study name : ROSMAP DLPFC protein expression Study Description : Performed on 596 ROSMAP proteomics samples via the ADSP FGC xQTL pipeline.</description>
     </item>
     
     <item>
