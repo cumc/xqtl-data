@@ -6,8 +6,8 @@
 | [I](#i) 	| [J](#j) 	| [K](#k) 	| [L](#l) 	| [M](#m) 	| [N](#n) 	| [O](#o) 	| [P](#p) 	| [Q](#q) 	|
 | [R](#r) 	| [S](#s) 	| [T](#t) 	| [U](#u) 	| [V](#v) 	| [W](#w) 	| [X](#x) 	| [Y](#y) 	| [Z](#z)  	|
 ## A
-* [ADGC GWAS imputation protocol](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/ADGC_GWAS_imputation_protocol.md). Cited from [ADGC GWAS Data QC Protocol](https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/).
-	* Lead analysts: **Note that results from TOPMed imputation server are all against **HG38.**.**
+* [ADGC GWAS imputation protocol](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/ADGC_GWAS_imputation_protocol.md). Adapted from [ADGC GWAS Data QC Protocol](https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/) to generate imputed genotype data for xQTL analysis in some cohorts.
+	* Lead analysts: **Xuanhe Chen.**
 * [Alzheimer's Disease GWAS Summary Data (Bellenguez)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Bellenguez et al 2022 Nature Genetics.
 	* Lead analysts: **Oluwatosin Olayinka, Hao Sun and Rui Dong.**
 * [Alzheimer's Disease GWAS Summary Data (Jansen)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Jansen_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Jansen et al 2021 Nature Genetics.
@@ -47,14 +47,6 @@
 * [HIHG Non-Hispanic White blood alternative splicing QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/MAGENTA_NHW_blood_splicing_qtl.md).
 	* Lead analysts: **Makaela Mews.**
 
-## I
-* [Integrative multi-trait colocalization](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/integration_colocalization.md). This document outlines the multi-trait colocalization analysis performed using FunGen-xQTL resources, with existing and some of the new method developed by the AWG.
-	* Lead analysts: **Xuewei Cao (coloc-boost), Kushal Dey (coloc-boost), Chengran Yang (HyPrColoc).**
-* [Integrative multivariate analysis](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/integration_multivariate.md). This document outlines various schemes we perform multi-variate analysis across different xQTL using FunGen-xQTL resources, with innovative use of fine-mapping, colocalization and multivariate adaptive shrinkage (MASH) results.
-	* Lead analysts: **Ru Feng.**
-* [Integrative simple xQTL meta-analysis](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/integration_metal.md). This document outlines the simple meta-analysis performed in the FunGen-xQTL study in contexts as it fits, using fixed and random effects meta-analysis (METAL software).
-	* Lead analysts: **Xuanhe Chen.**
-
 ## K
 * [Knight ADRC brain gene expression](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/Knight_ADRC_brain_expression.md).
 	* Lead analysts: **Chunming Liu.**
@@ -86,6 +78,8 @@
 	* Lead analysts: **Zining Qi.**
 * [Knight ADRC genotype data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/Knight_ADRC_genotype.md).
 	* Lead analysts: **Zining Qi.**
+* [Knight-ADRC study info](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/KnightADRC.md). The Memory and Aging Project at the Charles F.
+	* Lead analysts: **Xuanhe.**
 
 ## M
 * [MAGENTA African American blood alternative splicing QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/MAGENTA_AA_blood_splicing_qtl.md).
@@ -100,13 +94,15 @@
 	* Lead analysts: **Makaela Mews (analyst); Dr.**
 * [MAGENTA Non-Hispanic White Blood Gene Expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/MAGENTA_NHW_blood_expression_qtl.md). Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.
 	* Lead analysts: **Makaela Mews (analyst; mxm1368@case.edu);  Dr.**
+* [MAGENTA study info](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/MAGENTA.md).
+	* Lead analysts: **Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.**
 * [MiGA genotype data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/MiGA_genotype.md). Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
-	* Lead analysts: **Travyse Edwards.**
-* [MiGA multi-brain region eQTL integration](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/MiGA_integration.md). MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
 	* Lead analysts: **Travyse Edwards.**
 * [MiGA multi-brain region gene expression](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/MiGA_brain_expression.md). A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls.
 	* Lead analysts: **Travyse Edwards.**
 * [MiGA multi-brain region gene expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/MiGA_brain_expression_qtl.md). A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls.
+	* Lead analysts: **Travyse Edwards.**
+* [MiGA study info](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/MiGA.md). Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
 	* Lead analysts: **Travyse Edwards.**
 * [MSBB brain alternative splicing](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/MSBB_brain_splicing.md).
 	* Lead analysts: **Minghui Wang.**
@@ -126,6 +122,10 @@
 	* Lead analysts: **Minghui Wang.**
 * [MSBB WGS data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/MSBB_WGS.md). MSBB whole-genome sequence data.
 	* Lead analysts: **Minghui Wang and Julia TCW.**
+
+## N
+* [Non-Hispanic White Linkage Disequilibrium Reference Panel](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/reference_data/ld_reference.md). Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from [this Github page](https://github.com/jmacdon/LDblocks_GRCh38/) (generated from 1000 Genomes EUR samples).
+	* Lead analysts: **Oluwatosin Olayinka.**
 
 ## P
 * [PART working group brain methylation](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/PART_brain_methylation.md).
@@ -164,8 +164,6 @@
 	* Lead analysts: **Zining Qi.**
 * [ROSMAP DLPFC protein expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_proteomics_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression.
 	* Lead analysts: **Zining Qi(zq2209@cumc.columbia.edu).**
-* [ROSMAP multi-trait QTL integration analysis](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/ROSMAP_integration.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration.
-	* Lead analysts: **Ru Feng.**
 * [ROSMAP PCC alternative splicing](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_PCC_splicing.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
 	* Lead analysts: **Frank Grenn.**
 * [ROSMAP PCC alternative splicing QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_PCC_splicing_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
@@ -186,14 +184,22 @@
 	* Lead analysts: **Hao Sun and Masashi Fujita.**
 * [ROSMAP snRNA-seq pseudo-bulk gene expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_snRNAseq_pseudo_bulk_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) snRNA-seq from different cells in Dorsolateral Prefrontal Cortex (DLPFC).
 	* Lead analysts: **Hao Sun (eQTL), Masashi Fujita (eQTL), Haochen Sun (fine-mapping), Jiajun Tao (replication).**
+* [ROSMAP study info](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/ROSMAP.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) study: ROS is a longitudinal clinical-pathologic cohort study of aging and Alzheimer's disease (AD) run from Rush University that enrolled individuals from religious communities for longitudinal clinical analysis and brain donation.
+	* Lead analysts: **Xuanhe Chen (xuanhechenxhc@163.com).**
 * [ROSMAP WGS data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_WGS.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data.
 	* Lead analysts: **Hao Sun and Xuanhe Chen.**
 
 ## S
+* [STARNET](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/STARNET.md). STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
+	* Lead analysts: **Travyse Edwards.**
 * [STARNET genotype data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/STARNET_genotype.md). STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
 	* Lead analysts: **Travyse Edwards.**
 * [STARNET macrophage gene expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/STARNET_macrophage_qtl.md). STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
 	* Lead analysts: **- Contact Name: Travyse Edwards.**
+
+## T
+* [The Mount Sinai Brain Bank (MSBB) study info](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/study_info/MSBB.md). This cohort study generated large-scale matched multi-Omics data in AD and control brains for exploring novel molecular underpinnings of AD.
+	* Lead analysts: **Xuanhe.**
 
 ## W
 * [WHICAP (pilot) plasma metabolomics](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/WHICAP_plasma_metabolomics.md).
