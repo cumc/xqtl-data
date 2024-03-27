@@ -1,8 +1,9 @@
 # Knight ADRC brain proteomics
-Charles F. And Joanne Knight Alzheimer's Disease Research Center (Knight-ADRC)
+Charles F And Joanne Knight Alzheimer's Disease Research Center (Knight-ADRC)
 
 ## Contact
-- Contact Name: Zining Qi
+Zining Qi
+
 - Contact Email: zq2209@cumc.columbia.edu
 - Contact Affiliation : Columbia University
 - Contact Role : Zining Qi performed QTL analysis by using Knight proteomics

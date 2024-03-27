@@ -68,8 +68,8 @@
 	* Lead analysts: **Alexandre Pelletier.**
 * [Knight ADRC brain methylation QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/Knight_ADRC_brain_methylation_qtl.md).
 	* Lead analysts: **Alexandre Pelletier.**
-* [Knight ADRC brain proteomics](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/Knight_ADRC_brain_proteomics.md). Charles F.
-	* Lead analysts: **- Contact Name: Zining Qi.**
+* [Knight ADRC brain proteomics](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/Knight_ADRC_brain_proteomics.md). Charles F And Joanne Knight Alzheimer's Disease Research Center (Knight-ADRC).
+	* Lead analysts: **Zining Qi.**
 * [Knight ADRC brain proteomics QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/Knight_ADRC_brain_proteomics_qtl.md). Charles F.
 	* Lead analysts: **Zining Qi(zq2209@cumc.columbia.edu).**
 * [Knight ADRC brain splicing](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/Knight_ADRC_brain_splicing.md).
@@ -145,15 +145,15 @@
 * [ROSMAP Covariates data](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_covariates.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) covariates data.
 	* Lead analysts: **There are couple of versions of covariates files been used for QTL calling, which may lead to inconsistency of data production and downstream integration analysis.**
 * [ROSMAP DLPFC alternative splicing](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_DLPFC_splicing.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing.
-	* Lead analysts: **- Contact Name : Xuanhe Chen; Shrishtee Kandoi.**
+	* Lead analysts: **Xuanhe Chen; Shrishtee Kandoi.**
 * [ROSMAP DLPFC alternative splicing QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_splicing_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC alternative splicing.
 	* Lead analysts: **Shrishtee Kandoi and Xuanhe Chen (xuanhechenxhc@163.com).**
 * [ROSMAP DLPFC gene expression](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_DLPFC_expression.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression.
 	* Lead analysts: **Xuanhe Chen (xuanhechenxhc@163.com).**
 * [ROSMAP DLPFC gene expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_expression_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC gene expression.
-	* Lead analysts: **- Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao.**
+	* Lead analysts: **Shrishtee Kandoi; Frank Grenn.**
 * [ROSMAP DLPFC H3K9ac](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_DLPFC_ChIPSeq_H3K9ac.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac data-set.
-	* Lead analysts: **- Contact Name : Xuanhe Chen; Hao Sun; Hans Klein.**
+	* Lead analysts: **Xuanhe Chen; Hao Sun; Hans Klein.**
 * [ROSMAP DLPFC H3K9ac QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_ChIPSeq_H3K9ac_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) h3k9ac QTL analysis using the FGC xQTL pipeline.
 	* Lead analysts: **Xuanhe Chen (xuanhechenxhc@163.com).**
 * [ROSMAP DLPFC methylation](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_DLPFC_methylation.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set.
@@ -161,7 +161,7 @@
 * [ROSMAP DLPFC methylation QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_methylation_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC methylation data-set.
 	* Lead analysts: **Alexandre Pelletier.**
 * [ROSMAP DLPFC protein expression](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/omics/ROSMAP_DLPFC_proteomics.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression.
-	* Lead analysts: **- Contact Name: Zining Qi.**
+	* Lead analysts: **Zining Qi.**
 * [ROSMAP DLPFC protein expression QTL](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/qtl/ROSMAP_DLPFC_proteomics_qtl.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) DLPFC protein expression.
 	* Lead analysts: **Zining Qi(zq2209@cumc.columbia.edu).**
 * [ROSMAP multi-trait QTL integration analysis](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/integration/ROSMAP_integration.md). Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration.

@@ -6,7 +6,8 @@ Please refer to [this document](https://github.com/cumc/fungen-xqtl-analysis/tre
 
 ## Contact
 
-- Contact Name: Travyse Edwards
+Travyse Edwards
+
 - Contact Email: travyse.edwards@icahn.mssm.edu
 - Contact Affiliation: Icahn School of Medicine at Mount Sinai
 - Contact Role: Travyse performed QC & QTL analysis

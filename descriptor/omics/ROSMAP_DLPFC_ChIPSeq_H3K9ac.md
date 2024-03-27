@@ -6,7 +6,8 @@ Please refer to [this document](../study_info/ROSMAP.md) for an overview of the 
 
 ## Contact 
 
-- Contact Name : Xuanhe Chen; Hao Sun; Hans Klein
+Xuanhe Chen; Hao Sun; Hans Klein
+
 - Contact Email : xuanhechenxhc@163.com; hs3163@cumc.columbia.edu; hk2948@cumc.columbia.edu
 - Contact Affiliation : Columbia University
 - Contact Role : Xuanhe Chen performed QTL analysis using H3K9ac peaks; Hao Sun performed univariate fine-mapping, Hans Klein performed peak calling

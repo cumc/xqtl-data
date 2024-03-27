@@ -6,7 +6,8 @@ Please refer to [this document](../study_info/ROSMAP.md) for an overview of the 
 
 ## Contact
 
-- Contact Name : Shrishtee Kandoi; Hao Sun; Haochen Sun; Jiajun Tao
+Shrishtee Kandoi; Frank Grenn
+
 - Contact Email : ; hs3163@cumc.columbia.edu; hs3393@cumc.columbia.edu; jt3386@cumc.columbia.edu
 - Contact Affiliation : Boston University; Columbia University
 - Contact Role : Shrishtee Kandoi and Hao Sun performed QTL analysis; Haochen Sun performed fine-mapping, and Jiajun Tao performed replication
