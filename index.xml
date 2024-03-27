@@ -91,7 +91,7 @@ Study Overview #   Study information: descriptor/study_info/KnightADRC.md. Websi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cumc.github.io/xqtl-data/n/non-hispanic-white-linkage-disequilibrium-reference-panel/</guid>
-      <description>Non-Hispanic White Linkage Disequilibrium Reference Panel #  Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from this Github page (generated from 1000 Genomes EUR samples). Actual correlations values were calculated from whole genome sequencing data from 16571 non-Hispanic white individuals obtained from the Genome Center for Alzheimer&amp;rsquo;s Disease (GCAD).
+      <description>Non-Hispanic White Linkage Disequilibrium Reference Panel #  LD matrices calculated from whole genome sequencing data from 16571 non-Hispanic white individuals obtained from the Genome Center for Alzheimer&amp;rsquo;s Disease (GCAD). Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from this Github page (generated from 1000 Genomes EUR samples).
 Contact #  Oluwatosin Olayinka
 Output Format #  Each LD block contains two files of interest:</description>
     </item>
