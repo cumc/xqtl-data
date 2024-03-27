@@ -124,7 +124,7 @@
 	* Lead analysts: **Minghui Wang and Julia TCW.**
 
 ## N
-* [Non-Hispanic White Linkage Disequilibrium Reference Panel](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/reference_data/ld_reference.md). Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from [this Github page](https://github.com/jmacdon/LDblocks_GRCh38/) (generated from 1000 Genomes EUR samples).
+* [Non-Hispanic White Linkage Disequilibrium Reference Panel](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/reference_data/ld_reference.md). LD matrices calculated from whole genome sequencing data from 16571 non-Hispanic white individuals obtained from the Genome Center for Alzheimer's Disease (GCAD).
 	* Lead analysts: **Oluwatosin Olayinka.**
 
 ## P
