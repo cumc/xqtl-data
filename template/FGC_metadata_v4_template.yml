@@ -1,0 +1,100 @@
+Study:
+    PI: Dr Carlos Cruchaga
+    Institution: Washington University School of Medicin
+    Grant_number: This work was supported by grants from the National Institutes of
+        Health (R01AG044546, P01AG003991, RF1AG053303, R01AG058501, U01AG058922, RF1AG058501
+        and R01AG057777), the Alzheimer Association (NIRG-11-200110, BAND-14-338165,
+        AARG-16-441560 and BFG-15-362540). This work was supported by access to equipment
+        made possible by the Hope Center for Neurological Disorders, and the Departments
+        of Neurology and Psychiatry at Washington University School of Medicine. The
+        recruitment and clinical characterization of research participants at Washington
+        University were supported by NIH P50 AG05681, P01 AG03991, and P01 AG026276.
+    NIH_sponsoring_institute: NIA
+    Contact_person: Dr Carlos Cruchaga, cruchagac@wustl.edu (or data submitter info
+        on behalf of Dr Cruchaga)
+    Publication: '34239129'
+    Acknowledgement: 'Reference: PMID xxx in Text: '
+    Study_name: Knight ADRC
+    Study_name_brief: Knight ADRC
+    Study_Description: 'NIAGADS already has the info. '
+    Dataset_name: Genomic atlas of the proteome from brain, CSF and plasma prioritizes
+        proteins implicated in neurological disorders
+    Dataset_name_brief: Proteome_Atlas_Washu_Cruchaga
+    Dataset_Description: 'In this study, we generated a genomic atlas of protein levels
+        in three tissues relevant to neurological disorders (brain, cerebrospinal
+        fluid and plasma) by profiling thousands of proteins from participants with
+        and without Alzheimer’s disease. '
+    Disease: Alzheimer's Disease
+    Website&Logo: https://www.niagads.org/knight-adrc-collection
+    Logo: .nan
+    Additional Study information: .nan
+Samples:
+    SubjectID_submitter: KnightADRC_1234
+    Organism: Homo sapiens
+    Biosample_type: Tissue
+    Tissue: Parietal lobe
+    Cell_type: .nan
+    Cell_line: .nan
+    Sample_ID_submitter: ABC1234
+    Life_stage: Adult
+    Treatment: Untreated
+    Experiment_ID: KnightADRC_ABC1234_Parietal-Lobe_SinglecellRNAseq
+    Experiment_Date: '2016-03-20 00:00:00'
+    Material_type: RNA
+    Assay: Single Cell RNAseq
+    Antibody: .nan
+    Platform: Illumina HiSeqX
+Phenotype:
+    SubjectID_submitter: KnightADRC_1234
+    Cohort: Knight_ADRC
+    Disease_status: Late onset Alzheimer's Disease
+    Age at onset: '70'
+    Age at last exam: '78'
+    Age at death: '79'
+    Gender: M
+    Ethnicity: White/Caucasian
+    Race: European
+    Autopsy: 'Yes'
+    Autopsy_info: 'PMI: 7 hours'
+    MMSE: '22'
+    APOE e4 alleles: e3/e4
+    '13': .nan
+Protocol:
+    Sample_ID_submitter: ABC1234
+    Material_amount: 100ng of DNA
+    RIN: '8.2'
+    Extraction_brief: .nan
+    Experiment_description_brief: 'The microglia profile of the Parietal lobe of 44
+        donors from the Knight ADRC were sequenced using 10X genomics 3’ Chemistry
+        v3 (10,000 nuclei per donor, 50,000 reads per nuclei), and aligned to the
+        precursor mRNA reference (build GRCh38) '
+    Run_type: .nan
+    Library_info_brief: '10X genomics 3’ Chemistry v3 '
+    Read_length: 150bp
+    barcode: x1234
+    nCount_RNA: '1000'
+    Fresh Brain Weight: 1kg
+Files:
+    Sample_ID_submitter: ABC1234
+    Raw_or_Processed: Processed
+    File_format: mtx
+    contents: Counts
+    File_name_raw: .nan
+    File_name_processed: microglia_matrix.mtx
+    md5sum: d6d8c56fb8bef24d5966aff8f955cad3
+    Genome_build: hg38
+    Transferred_date: '2021-06-11 00:00:00'
+    File_size: 100Mb
+    Annotation_info: .nan
+    Pipeline_info: .nan
+    Data_type_info: .nan
+    Normalization_info: .nan
+    variable 1: .nan
+    variable 2: .nan
+    variable n: .nan
+File_schema:
+    File_format: mtx
+    Number of columns: '3'
+    Col 1: Barcode
+    Col 2: Genename
+    Col 3: Normalized read count
