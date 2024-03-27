@@ -1,20 +1,20 @@
-## xQTL protocol data
+# xQTL protocol data
 
 A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs). 
 
 
-### Contact
+## Contact
 
 Hao Sun
 
-### Location
+## Location
 
 The input data and some of the intermediate output data can be download from [this Synapse folder](https://www.synapse.org/#!Synapse:syn36416601). To download the files, a synapse account and synapse clients are both needed. To setup a synapse client, please follow [this post](https://help.synapse.org/docs/Installing-Synapse-API-Clients.1985249668.html).
 
 
-### How the data was prepared
+## How the data was prepared
 
-#### Source files
+### Source files
 
 The samples that we use are 49 samples of [ROSMAP dataset](https://www.synapse.org/#!Synapse:syn4164376). The data used in this protocol paper after we processed and de-identified can be found at [here]()
 
@@ -51,7 +51,7 @@ Since we are using the fastq files as starting point of our RNASeq calling pipel
 
 
 
-#### Generating the input phenotype data
+### Generating the input phenotype data
 Command 1 take only the chromosome 21 and 22 from each of the bam file in the desinated diretory, then command 2 changes them into fastq file. Doing so keeps our xqtl protocol data into a managable size
 
 
@@ -70,7 +70,7 @@ sos run pipeline/phenotype_formatting.ipynb bam_to_fastq  \
     --container containers/rna_quantification.sif 
 ```
 
-#### Creation of sample name mapper and masks
+### Creation of sample name mapper and masks
 To match and de-identified the samples in both Genotype/phenotype, a index file was created with the following codes
 
 
@@ -96,7 +96,7 @@ abc.to_csv("../../comprehensive_xqtl_protocol_sample_index.tsv","\t",index = Fal
 
 `ROSMAP_assay_rnaSeq_metadata.csv` can be downloaded from [ROSMAP metadata](https://www.synapse.org/#!Synapse:syn21088596) wherease `filtered_sample_index` is an internal file we used to determined which samples to used. For the purpose of deidentifying this file will not be released to the public.
 
-#### De-identifing the input phenotype data
+### De-identifing the input phenotype data
 In compliance to HIPAA and the regulation on ROSMAP, we need to de-identify the data before releasing them to publics
 
 
@@ -113,7 +113,7 @@ for i in ${!array1[*]} ; do mv ${array1[$i]}.subsetted.1.stderr Sample_${array2[
 for i in ${!array1[*]} ; do mv ${array1[$i]}.subsetted.1.stdout Sample_${array2[$i]}.subsetted.1.stdout   ;done
 ```
 
-#### Generating the input fastq list
+### Generating the input fastq list
 The input of our RNA calling section requirs a list of following format, it was generated manually. We allows 2 optional columns: strand and read_length so that user can specify different stand and read length for each of the samples. However, it is not necessary to include them. Our pipeline can detect the strand based on the output of STAR Alignment.
 
 ***Following codes are ran in python.***
@@ -129,7 +129,7 @@ abc.colums = ["ID","fq1","fq2","strand","read_length"]
 abc.to_csv("xqtl_protocol_data.fastqlist","\t",index = False)
 ```
 
-#### Subsetting and Indexing the genotypes
+### Subsetting and Indexing the genotypes
 Since we only use 49 samples, we extract 49 samples from the genotype data to save memory and time
 
 

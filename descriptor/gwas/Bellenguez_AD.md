@@ -1,13 +1,13 @@
-## Alzheimer's Disease GWAS Summary Data (Bellenguez)
+# Alzheimer's Disease GWAS Summary Data (Bellenguez)
 
 The SNP-level association testing summary statistics for Alzheimer's disease from Bellenguez et al 2022 Nature Genetics. This study uses UK Biobank (UKBB) proxy AD samples
 
-### Contact
+## Contact
 
 Oluwatosin Olayinka, Hao Sun and Rui Dong
 
 
-### Path(s) to summary statistics
+## Path(s) to summary statistics
 
 - NIAGADS FTP: `/ftp_fgc_xqtl/projects/ADGWAS_Bellenguez_2022/ADGWAS2022.chr*.sumstat.tsv`
 - CU
@@ -16,17 +16,17 @@ Oluwatosin Olayinka, Hao Sun and Rui Dong
         - EADB-core (EADB-TOPMed): `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADB_core/EADB_core.tsv.gz` (original data is already in hg38)
         - EADI: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADI/EADI.tsv.gz` (original data is already in hg38)
 
-### Path to SuSiE RSS Fine-mapping Objects
+## Path to SuSiE RSS Fine-mapping Objects
 - Li-San Wang FTP: `/ftp_fgc_xqtl/projects/GWAS_Finemapping_Results/Bellenguez/`
 - CU: `/mnt/vast/hpc/csg/xqtl_workflow_testing/susie_rss/output/ADGWAS_finemapping_extracted/Bellenguez/ADGWAS_sumstat`
 
-### Download source
+## Download source
 
 This data is derived from summary statistics from the [Bellenguez et al.](http://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90027001-GCST90028000/GCST90027158/) Nature Genetics paper.
 
 The cohort-specific data is requested from Rui Dong and got approved in early 2024. The data is uploaded to the cluster in March 2024.
 
-### File Schema
+## File Schema
 
 - `chromosome`: chromosome ID
 -  `position`: hg38 position
@@ -121,14 +121,4 @@ cohorts:
 | \*age at death or current age |                       |           |            |  |  |  |  |  |  |  |
 |                               |                       |           |            |  |  |  |  |  |  |  |
 | total                         | 111,326               |           |            |  |  |  | 677,663 |  |  |  |
-
-
-
-
-
-
-
-
-
-
 
