@@ -30,8 +30,6 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/x/xqtl-protocol-data/</loc>
-  </url><url>
     <loc>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/d/dian-blood-derived-methylation-qtl/</loc>
@@ -194,8 +192,6 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/w/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/x/</loc>
-  </url><url>
     <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</loc>
@@ -231,9 +227,6 @@
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-wgs-data/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/index.html</loc>
     <priority>0</priority>
   </url>
 </urlset>

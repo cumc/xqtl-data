@@ -144,17 +144,6 @@ Data Descriptions #  Verifying current avaliable location for the dataset now Sa
     </item>
     
     <item>
-      <title>xQTL protocol data</title>
-      <link>https://cumc.github.io/xqtl-data/x/xqtl-protocol-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/x/xqtl-protocol-data/</guid>
-      <description>xQTL protocol data #  A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
-Contact #  Hao Sun
-Location #  The input data and some of the intermediate output data can be download from this Synapse folder. To download the files, a synapse account and synapse clients are both needed.</description>
-    </item>
-    
-    <item>
       <title>Alzheimer&#39;s Disease GWAS Summary Data (Bellenguez)</title>
       <link>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-bellenguez/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -982,15 +971,6 @@ Study Overview #   Sample information: ROSMAP/ROSMAP_Pseudo_Bulk_sample_attribut
       <description>ROSMAP WGS data #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data
 Contact #  Hao Sun and Xuanhe Chen
 Data Descriptions #  This data is part of WGS done for three AMP-AD supported studies: The ROSMAP study (the data provided here), the MayoRNAseq study, and the MSBB study. Provided are VCF files, consisting of all samples from that study divided by chromosome, for the following analysis.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cumc.github.io/xqtl-data/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/index.html</guid>
-      <description>FunGen-xQTL Data Catalog #  A #   ADGC GWAS imputation protocol. Cited from ADGC GWAS Data QC Protocol.  Lead analysts: Note that results from TOPMed imputation server are all against HG38..   Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&amp;rsquo;s disease from Bellenguez et al 2022 Nature Genetics.  Lead analysts: Oluwatosin Olayinka, Hao Sun and Rui Dong.   Alzheimer&amp;rsquo;s Disease GWAS Summary Data (Jansen).</description>
     </item>
     
   </channel>
