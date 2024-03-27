@@ -12,9 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</guid>
-      <description>ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+      <description>ADGC GWAS imputation protocol #  Adapted from ADGC GWAS Data QC Protocol to generate imputed genotype data for xQTL analysis in some cohorts.
+Contact #  Xuanhe Chen
 Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
- Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4.</description>
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.</description>
     </item>
     
     <item>

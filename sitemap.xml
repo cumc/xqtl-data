@@ -26,6 +26,8 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/s/splicing-quantitative-trait-loci-sqtl/</loc>
   </url><url>
+    <loc>https://cumc.github.io/xqtl-data/s/starnet/</loc>
+  </url><url>
     <loc>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics/</loc>
@@ -48,7 +50,7 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-ac-alternative-splicing-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/s/starnet/</loc>
+    <loc>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/w/whicap-pilot-plasma-metabolomics-qtl/</loc>
   </url><url>
@@ -68,7 +70,7 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</loc>
+    <loc>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/a/</loc>
   </url><url>
@@ -81,8 +83,6 @@
     <loc>https://cumc.github.io/xqtl-data/m/magenta-non-hispanic-white-blood-alternative-splicing/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-ac-gene-expression-qtl/</loc>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/a/alzheimers-disease-gwas-summary-data-wightman/</loc>
   </url><url>
@@ -120,99 +120,99 @@
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/m/metabolite-quantitative-trait-loci-metaqtl/</loc>
   </url><url>
+    <loc>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</loc>
+  </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/i/</loc>
+  </url><url>
+    <loc>https://cumc.github.io/xqtl-data/k/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/k/</loc>
+    <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-brain-splicing-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/</loc>
+  </url><url>
+    <loc>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/</loc>
-  </url><url>
     <loc>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</loc>
+  </url><url>
+    <loc>https://cumc.github.io/xqtl-data/m/miga-study-info/</loc>
+  </url><url>
+    <loc>https://cumc.github.io/xqtl-data/n/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-metabolomics-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/n/</loc>
+    <loc>https://cumc.github.io/xqtl-data/p/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/p/</loc>
+    <loc>https://cumc.github.io/xqtl-data/r/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-methylation-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-csf-proteomics-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/miga-study-info/</loc>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/r/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression/</loc>
   </url><url>
+    <loc>https://cumc.github.io/xqtl-data/s/</loc>
+  </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-genotype-data/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-protein-expression-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/s/</loc>
+    <loc>https://cumc.github.io/xqtl-data/t/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/k/knight-adrc-study-info/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</loc>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/t/</loc>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/w/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-pcc-alternative-splicing-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-pcc-expression-qtl/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-pcc-gene-expression/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</loc>
+    <loc>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression/</loc>
   </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</loc>
-  </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</loc>
-  </url><url>
-    <loc>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</loc>
   </url><url>
     <loc>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-monocyte-gene-expression/</loc>
   </url><url>

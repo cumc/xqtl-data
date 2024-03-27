@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="FunGen-xQTL Data Catalog #  This documentation is still work in progress. We expect to complete it by summer 2024 if not sooner.
-A #   ADGC GWAS imputation protocol. Cited from ADGC GWAS Data QC Protocol.  Lead analysts: Note that results from TOPMed imputation server are all against HG38..   Alzheimer&rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Bellenguez et al 2022 Nature Genetics.">
+A #   ADGC GWAS imputation protocol. Adapted from ADGC GWAS Data QC Protocol to generate imputed genotype data for xQTL analysis in some cohorts.  Lead analysts: Xuanhe Chen.   Alzheimer&rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Bellenguez et al 2022 Nature Genetics.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
@@ -19,7 +19,7 @@ A #   ADGC GWAS imputation protocol. Cited from ADGC GWAS Data QC Protocol.  Lea
 <link rel="canonical" href="https://cumc.github.io/xqtl-data/">
 <link rel="stylesheet" href="/xqtl-data/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
   <script defer src="/xqtl-data/flexsearch.min.js"></script>
-  <script defer src="/xqtl-data/en.search.min.fd7011d93cabe050c70980ac5fda5d47a1920abc6a0f225733faa3ae96df1be4.js" integrity="sha256-/XAR2Tyr4FDHCYCsX9pdR6GSCrxqDyJXM/qjrpbfG&#43;Q=" crossorigin="anonymous"></script>
+  <script defer src="/xqtl-data/en.search.min.26ec5af939b7ea920bd0a2734b7344c1e2076b7ed37b22088900c60cf519ff8e.js" integrity="sha256-Juxa&#43;Tm36pIL0KJzS3NEweIHa37TeyIIiQDGDPUZ/44=" crossorigin="anonymous"></script>
 
   <script defer src="/xqtl-data/sw.min.5a8d9ccf5ea73dcbbb1f34b183236a28dd36cc6d6540bb5b46431b4e00517252.js" integrity="sha256-Wo2cz16nPcu7HzSxgyNqKN02zG1lQLtbRkMbTgBRclI=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://cumc.github.io/xqtl-data/index.xml" title="FunGen-xQTL Data Repository" />
@@ -73,8 +73,6 @@ https://github.com/alex-shpak/hugo-book
   <a href="/xqtl-data/f/">F</a></li>
 <li>
   <a href="/xqtl-data/h/">H</a></li>
-<li>
-  <a href="/xqtl-data/i/">I</a></li>
 <li>
   <a href="/xqtl-data/k/">K</a></li>
 <li>
@@ -145,12 +143,13 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#e">E</a></li>
     <li><a href="#f">F</a></li>
     <li><a href="#h">H</a></li>
-    <li><a href="#i">I</a></li>
     <li><a href="#k">K</a></li>
     <li><a href="#m">M</a></li>
+    <li><a href="#n">N</a></li>
     <li><a href="#p">P</a></li>
     <li><a href="#r">R</a></li>
     <li><a href="#s">S</a></li>
+    <li><a href="#t">T</a></li>
     <li><a href="#w">W</a></li>
   </ul>
 </nav>
@@ -174,10 +173,10 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#a">#</a>
 </h2>
 <ul>
-<li>ADGC GWAS imputation protocol. Cited from 
-  <a href="https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/">ADGC GWAS Data QC Protocol</a>.
+<li>ADGC GWAS imputation protocol. Adapted from 
+  <a href="https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/">ADGC GWAS Data QC Protocol</a> to generate imputed genotype data for xQTL analysis in some cohorts.
 <ul>
-<li>Lead analysts: <strong>Note that results from TOPMed imputation server are all against <strong>HG38.</strong>.</strong></li>
+<li>Lead analysts: <strong>Xuanhe Chen.</strong></li>
 </ul>
 </li>
 <li>Alzheimer&rsquo;s Disease GWAS Summary Data (Bellenguez). The SNP-level association testing summary statistics for Alzheimer&rsquo;s disease from Bellenguez et al 2022 Nature Genetics.
@@ -280,27 +279,6 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 </ul>
-<h2 id="i">
-  I
-  <a class="anchor" href="#i">#</a>
-</h2>
-<ul>
-<li>Integrative multi-trait colocalization. This document outlines the multi-trait colocalization analysis performed using FunGen-xQTL resources, with existing and some of the new method developed by the AWG.
-<ul>
-<li>Lead analysts: <strong>Xuewei Cao (coloc-boost), Kushal Dey (coloc-boost), Chengran Yang (HyPrColoc).</strong></li>
-</ul>
-</li>
-<li>Integrative multivariate analysis. This document outlines various schemes we perform multi-variate analysis across different xQTL using FunGen-xQTL resources, with innovative use of fine-mapping, colocalization and multivariate adaptive shrinkage (MASH) results.
-<ul>
-<li>Lead analysts: <strong>Ru Feng.</strong></li>
-</ul>
-</li>
-<li>Integrative simple xQTL meta-analysis. This document outlines the simple meta-analysis performed in the FunGen-xQTL study in contexts as it fits, using fixed and random effects meta-analysis (METAL software).
-<ul>
-<li>Lead analysts: <strong>Xuanhe Chen.</strong></li>
-</ul>
-</li>
-</ul>
 <h2 id="k">
   K
   <a class="anchor" href="#k">#</a>
@@ -382,6 +360,11 @@ https://github.com/alex-shpak/hugo-book
 <li>Lead analysts: <strong>Zining Qi.</strong></li>
 </ul>
 </li>
+<li>Knight-ADRC study info. The Memory and Aging Project at the Charles F.
+<ul>
+<li>Lead analysts: <strong>Xuanhe.</strong></li>
+</ul>
+</li>
 </ul>
 <h2 id="m">
   M
@@ -420,12 +403,12 @@ https://github.com/alex-shpak/hugo-book
   <a href="mailto:mxm1368@case.edu">mxm1368@case.edu</a>);  Dr.</strong></li>
 </ul>
 </li>
-<li>MiGA genotype data. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
+<li>MAGENTA study info.
 <ul>
-<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+<li>Lead analysts: <strong>Multi-Ancestry Genomics, Epigenomics, and Transcriptomics of Alzheimer’s (MAGENTA) Project: Participants include 465 individuals (AA – 113 with AD, 118 cognitively intact controls; NHW – 116 with AD, 118 controls) ascertained by the John P.</strong></li>
 </ul>
 </li>
-<li>MiGA multi-brain region eQTL integration. MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
+<li>MiGA genotype data. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
 <ul>
 <li>Lead analysts: <strong>Travyse Edwards.</strong></li>
 </ul>
@@ -436,6 +419,11 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 <li>MiGA multi-brain region gene expression QTL. A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls.
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
+<li>MiGA study info. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital.
 <ul>
 <li>Lead analysts: <strong>Travyse Edwards.</strong></li>
 </ul>
@@ -483,6 +471,18 @@ https://github.com/alex-shpak/hugo-book
 <li>MSBB WGS data. MSBB whole-genome sequence data.
 <ul>
 <li>Lead analysts: <strong>Minghui Wang and Julia TCW.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="n">
+  N
+  <a class="anchor" href="#n">#</a>
+</h2>
+<ul>
+<li>Non-Hispanic White Linkage Disequilibrium Reference Panel. Correlation matrices were calculated between SNPs within 1361 LD blocks which were obtained from 
+  <a href="https://github.com/jmacdon/LDblocks_GRCh38/">this Github page</a> (generated from 1000 Genomes EUR samples).
+<ul>
+<li>Lead analysts: <strong>Oluwatosin Olayinka.</strong></li>
 </ul>
 </li>
 </ul>
@@ -586,11 +586,6 @@ https://github.com/alex-shpak/hugo-book
   <a href="mailto:zq2209@cumc.columbia.edu">zq2209@cumc.columbia.edu</a>).</strong></li>
 </ul>
 </li>
-<li>ROSMAP multi-trait QTL integration analysis. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration.
-<ul>
-<li>Lead analysts: <strong>Ru Feng.</strong></li>
-</ul>
-</li>
 <li>ROSMAP PCC alternative splicing. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) PCC alternative splicing.
 <ul>
 <li>Lead analysts: <strong>Frank Grenn.</strong></li>
@@ -641,6 +636,12 @@ https://github.com/alex-shpak/hugo-book
 <li>Lead analysts: <strong>Hao Sun (eQTL), Masashi Fujita (eQTL), Haochen Sun (fine-mapping), Jiajun Tao (replication).</strong></li>
 </ul>
 </li>
+<li>ROSMAP study info. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) study: ROS is a longitudinal clinical-pathologic cohort study of aging and Alzheimer&rsquo;s disease (AD) run from Rush University that enrolled individuals from religious communities for longitudinal clinical analysis and brain donation.
+<ul>
+<li>Lead analysts: <strong>Xuanhe Chen (
+  <a href="mailto:xuanhechenxhc@163.com">xuanhechenxhc@163.com</a>).</strong></li>
+</ul>
+</li>
 <li>ROSMAP WGS data. Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) whole-genome sequence data.
 <ul>
 <li>Lead analysts: <strong>Hao Sun and Xuanhe Chen.</strong></li>
@@ -652,6 +653,11 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#s">#</a>
 </h2>
 <ul>
+<li>STARNET. STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
+<ul>
+<li>Lead analysts: <strong>Travyse Edwards.</strong></li>
+</ul>
+</li>
 <li>STARNET genotype data. STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
 <ul>
 <li>Lead analysts: <strong>Travyse Edwards.</strong></li>
@@ -660,6 +666,17 @@ https://github.com/alex-shpak/hugo-book
 <li>STARNET macrophage gene expression QTL. STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD).
 <ul>
 <li>Lead analysts: <strong>- Contact Name: Travyse Edwards.</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="t">
+  T
+  <a class="anchor" href="#t">#</a>
+</h2>
+<ul>
+<li>The Mount Sinai Brain Bank (MSBB) study info. This cohort study generated large-scale matched multi-Omics data in AD and control brains for exploring novel molecular underpinnings of AD.
+<ul>
+<li>Lead analysts: <strong>Xuanhe.</strong></li>
 </ul>
 </li>
 </ul>
@@ -725,12 +742,13 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#e">E</a></li>
     <li><a href="#f">F</a></li>
     <li><a href="#h">H</a></li>
-    <li><a href="#i">I</a></li>
     <li><a href="#k">K</a></li>
     <li><a href="#m">M</a></li>
+    <li><a href="#n">N</a></li>
     <li><a href="#p">P</a></li>
     <li><a href="#r">R</a></li>
     <li><a href="#s">S</a></li>
+    <li><a href="#t">T</a></li>
     <li><a href="#w">W</a></li>
   </ul>
 </nav>

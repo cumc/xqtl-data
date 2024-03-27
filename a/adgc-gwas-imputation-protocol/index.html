@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+<meta name="description" content="ADGC GWAS imputation protocol #  Adapted from ADGC GWAS Data QC Protocol to generate imputed genotype data for xQTL analysis in some cohorts.
+Contact #  Xuanhe Chen
 Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
- Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &ldquo;Run&rdquo; and &ldquo;Genotype Imputation (Minimac4)&rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4.">
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &ldquo;Run&rdquo; and &ldquo;Genotype Imputation (Minimac4)&rdquo; Fill out the form 4.1. Name: Assign a job name 4.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="ADGC GWAS imputation protocol" />
-<meta property="og:description" content="ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+<meta property="og:description" content="ADGC GWAS imputation protocol #  Adapted from ADGC GWAS Data QC Protocol to generate imputed genotype data for xQTL analysis in some cohorts.
+Contact #  Xuanhe Chen
 Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
- Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &ldquo;Run&rdquo; and &ldquo;Genotype Imputation (Minimac4)&rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4." />
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &ldquo;Run&rdquo; and &ldquo;Genotype Imputation (Minimac4)&rdquo; Fill out the form 4.1. Name: Assign a job name 4." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/" /><meta property="article:section" content="a" />
 
@@ -23,7 +25,7 @@ Imputation by TOPMed imputation server #  Note that results from TOPMed imputati
 <link rel="canonical" href="https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/">
 <link rel="stylesheet" href="/xqtl-data/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
   <script defer src="/xqtl-data/flexsearch.min.js"></script>
-  <script defer src="/xqtl-data/en.search.min.fd7011d93cabe050c70980ac5fda5d47a1920abc6a0f225733faa3ae96df1be4.js" integrity="sha256-/XAR2Tyr4FDHCYCsX9pdR6GSCrxqDyJXM/qjrpbfG&#43;Q=" crossorigin="anonymous"></script>
+  <script defer src="/xqtl-data/en.search.min.26ec5af939b7ea920bd0a2734b7344c1e2076b7ed37b22088900c60cf519ff8e.js" integrity="sha256-Juxa&#43;Tm36pIL0KJzS3NEweIHa37TeyIIiQDGDPUZ/44=" crossorigin="anonymous"></script>
 
   <script defer src="/xqtl-data/sw.min.5a8d9ccf5ea73dcbbb1f34b183236a28dd36cc6d6540bb5b46431b4e00517252.js" integrity="sha256-Wo2cz16nPcu7HzSxgyNqKN02zG1lQLtbRkMbTgBRclI=" crossorigin="anonymous"></script>
 <!--
@@ -76,8 +78,6 @@ https://github.com/alex-shpak/hugo-book
   <a href="/xqtl-data/f/">F</a></li>
 <li>
   <a href="/xqtl-data/h/">H</a></li>
-<li>
-  <a href="/xqtl-data/i/">I</a></li>
 <li>
   <a href="/xqtl-data/k/">K</a></li>
 <li>
@@ -143,7 +143,8 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">Imputation by <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a> </a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">Imputation by <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a></a></li>
   </ul>
 </nav>
 
@@ -160,11 +161,16 @@ https://github.com/alex-shpak/hugo-book
   ADGC GWAS imputation protocol
   <a class="anchor" href="#adgc-gwas-imputation-protocol">#</a>
 </h1>
-<p>Cited from 
-  <a href="https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/">ADGC GWAS Data QC Protocol</a></p>
+<p>Adapted from 
+  <a href="https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/">ADGC GWAS Data QC Protocol</a> to generate imputed genotype data for xQTL analysis in some cohorts.</p>
+<h2 id="contact">
+  Contact
+  <a class="anchor" href="#contact">#</a>
+</h2>
+<p>Xuanhe Chen</p>
 Imputation by <h2 id="imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">
   
-  <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a> 
+  <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a>
   <a class="anchor" href="#imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">#</a>
 </h2>
 <p>Note that results from TOPMed imputation server are all against <strong>HG38.</strong></p>
@@ -227,7 +233,8 @@ Imputation by <h2 id="imputation-by-topmed-imputation-serverhttpsimputationbioda
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">Imputation by <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a> </a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#imputation-by-topmed-imputation-serverhttpsimputationbiodatacatalystnhlbinihgov">Imputation by <a href="https://imputation.biodatacatalyst.nhlbi.nih.gov/#!">TOPMed imputation server</a></a></li>
   </ul>
 </nav>
 

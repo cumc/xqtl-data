@@ -79,15 +79,6 @@
     </item>
     
     <item>
-      <title>methylation quantitative trait loci (mQTL)</title>
-      <link>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</guid>
-      <description>methylation quantitative trait loci (mQTL) #  Contact #  Alexandre Pelletier</description>
-    </item>
-    
-    <item>
       <title>MiGA genotype data</title>
       <link>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,13 +88,12 @@
     </item>
     
     <item>
-      <title>MiGA multi-brain region eQTL integration</title>
-      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</link>
+      <title>methylation quantitative trait loci (mQTL)</title>
+      <link>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</guid>
-      <description>MiGA multi-brain region eQTL integration #  MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
-Contact #  Travyse Edwards</description>
+      <guid>https://cumc.github.io/xqtl-data/m/methylation-quantitative-trait-loci-mqtl/</guid>
+      <description>methylation quantitative trait loci (mQTL) #  Contact #  Alexandre Pelletier</description>
     </item>
     
     <item>
@@ -122,6 +112,16 @@ Contact #  Travyse Edwards</description>
       
       <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</guid>
       <description>MiGA multi-brain region gene expression QTL #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+    </item>
+    
+    <item>
+      <title>MiGA multi-brain region eQTL integration</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-eqtl-integration/</guid>
+      <description>MiGA multi-brain region eQTL integration #  MiGA eQTL multivariate adaptive shrinkage and multivariate fine-mapping.
+Contact #  Travyse Edwards</description>
     </item>
     
     <item>

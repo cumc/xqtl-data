@@ -12,9 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cumc.github.io/xqtl-data/a/adgc-gwas-imputation-protocol/</guid>
-      <description>ADGC GWAS imputation protocol #  Cited from ADGC GWAS Data QC Protocol
+      <description>ADGC GWAS imputation protocol #  Adapted from ADGC GWAS Data QC Protocol to generate imputed genotype data for xQTL analysis in some cohorts.
+Contact #  Xuanhe Chen
 Imputation by TOPMed imputation server #  Note that results from TOPMed imputation server are all against HG38.
- Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.2. Reference panel: TOPMed r2 4.3. Input Files: File Upload 4.4. Array Build: GRCh37/hg19 4.5. Rsq Filter: Off 4.</description>
+ Register an account (link)[https://imputation.biodatacatalyst.nhlbi.nih.gov/index.html#!pages/register]  Log in Click &amp;ldquo;Run&amp;rdquo; and &amp;ldquo;Genotype Imputation (Minimac4)&amp;rdquo; Fill out the form 4.1. Name: Assign a job name 4.</description>
     </item>
     
     <item>
@@ -125,6 +126,16 @@ Data Descriptions #  Verifying current avaliable location for the dataset now Sa
     </item>
     
     <item>
+      <title>STARNET</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/s/starnet/</guid>
+      <description>STARNET #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Further information about the STARNET patients: Northern European Caucasian : 31% FEMALE, 32% have diabetes, 75% have hypertension, 67% have hyperlipidemia, 33% had myocardial infarction before age 60.
+ PI : Dr. Johan Björkegren Institution : Icahn School of Medicine at Mount Sinai Grant number : TBD Contact person : Dr.</description>
+    </item>
+    
+    <item>
       <title>The Mount Sinai Brain Bank (MSBB) study info</title>
       <link>https://cumc.github.io/xqtl-data/t/the-mount-sinai-brain-bank-msbb-study-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -230,13 +241,14 @@ Data Descriptions #  Verifying current avaliable location for the dataset now Sa
     </item>
     
     <item>
-      <title>STARNET</title>
-      <link>https://cumc.github.io/xqtl-data/s/starnet/</link>
+      <title>STARNET genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/s/starnet/</guid>
-      <description>STARNET #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Further information about the STARNET patients: Northern European Caucasian : 31% FEMALE, 32% have diabetes, 75% have hypertension, 67% have hyperlipidemia, 33% had myocardial infarction before age 60.
- PI : Dr. Johan Björkegren Institution : Icahn School of Medicine at Mount Sinai Grant number : TBD Contact person : Dr.</description>
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</guid>
+      <description>STARNET genotype data #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery.
+Contact #  Travyse Edwards
+Data Descriptions #  Raw Data #  The pre-imputation genotype data was received in HG19. We used an internal pipeline to carry out the imputation process using the TOPMED imputation server.</description>
     </item>
     
     <item>
@@ -327,14 +339,14 @@ Data Descriptions #  Verifying current avaliable location for the dataset now Sa
     </item>
     
     <item>
-      <title>STARNET genotype data</title>
-      <link>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</link>
+      <title>STARNET macrophage gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/s/starnet-genotype-data/</guid>
-      <description>STARNET genotype data #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery.
+      <guid>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</guid>
+      <description>STARNET macrophage gene expression QTL #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Please refer to this document for an overview of the STARNET project.
 Contact #  Travyse Edwards
-Data Descriptions #  Raw Data #  The pre-imputation genotype data was received in HG19. We used an internal pipeline to carry out the imputation process using the TOPMED imputation server.</description>
+ Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
     </item>
     
     <item>
@@ -384,17 +396,6 @@ Path(s) to summary statistics #   NIAGADS FTP, /ftp_fgc_xqtl/projects/ADGWAS_Kun
       <description>ROSMAP AC gene expression QTL #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. Please refer to this document for an overview of the ROSMAP project.
 Contact #  Frank Grenn
 Data Descriptions #  Verifying current avaliable location for the dataset now Samples were extracted using Qiagen&amp;rsquo;s miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254), and quantified by Nanodrop and quality was evaluated by Agilent Bioanalyzer.</description>
-    </item>
-    
-    <item>
-      <title>STARNET macrophage gene expression QTL</title>
-      <link>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/s/starnet-macrophage-gene-expression-qtl/</guid>
-      <description>STARNET macrophage gene expression QTL #  STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery. Please refer to this document for an overview of the STARNET project.
-Contact #  Travyse Edwards
- Contact Email: travyse.edwards@icahn.mssm.edu Contact Affiliation: Icahn School of Medicine at Mount Sinai Contact Role: Travyse performed QC &amp;amp; QTL analysis  Study Overview #   Grant Number: TBD Publication: TBD Acknowledgement: TBD Study Name: STARNET Macrophage RNA-Seq Quantification Study Description: TBD Disease: Alzheimer&amp;rsquo;s Disease Data Citation: Local Path: /sc/arion/projects/load/data-int/STARNET/raw Additional Study Information: This data is not okay to use outside of the xQTL group.</description>
     </item>
     
     <item>
@@ -536,6 +537,15 @@ Study Overview #   Study name : Knight ADRC brain proteomics QTL Study Descripti
     </item>
     
     <item>
+      <title>MiGA genotype data</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</guid>
+      <description>MiGA genotype data #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+    </item>
+    
+    <item>
       <title>ROSMAP DLPFC gene expression</title>
       <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -565,6 +575,15 @@ Study Overview #   Grant number : R01 AG076901 (temporary using Gao&amp;rsquo;s 
     </item>
     
     <item>
+      <title>MiGA multi-brain region gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</guid>
+      <description>MiGA multi-brain region gene expression #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. The human post-mortem brain samples were obtained from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+    </item>
+    
+    <item>
       <title>ROSMAP DLPFC gene expression QTL</title>
       <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-gene-expression-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -585,12 +604,12 @@ Contact #  Shrishtee Kandoi; Frank Grenn
     </item>
     
     <item>
-      <title>MiGA genotype data</title>
-      <link>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</link>
+      <title>MiGA multi-brain region gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/miga-genotype-data/</guid>
-      <description>MiGA genotype data #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</guid>
+      <description>MiGA multi-brain region gene expression QTL #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
     </item>
     
     <item>
@@ -624,6 +643,15 @@ Contact #  Travyse Edwards</description>
     </item>
     
     <item>
+      <title>MiGA study info</title>
+      <link>https://cumc.github.io/xqtl-data/m/miga-study-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cumc.github.io/xqtl-data/m/miga-study-info/</guid>
+      <description>MiGA study info #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+    </item>
+    
+    <item>
       <title>ROSMAP DLPFC H3K9ac QTL</title>
       <link>https://cumc.github.io/xqtl-data/r/rosmap-dlpfc-h3k9ac-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -644,12 +672,12 @@ Study Overview #   Study name : ROSMAP DLPFC H3K9ac QTL Study Description : Reli
     </item>
     
     <item>
-      <title>MiGA multi-brain region gene expression</title>
-      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</link>
+      <title>MSBB brain alternative splicing</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression/</guid>
-      <description>MiGA multi-brain region gene expression #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. The human post-mortem brain samples were obtained from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</guid>
+      <description>MSBB brain alternative splicing #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -672,12 +700,12 @@ Contact #  Alexandre Pelletier, Jiajun Tao</description>
     </item>
     
     <item>
-      <title>MiGA multi-brain region gene expression QTL</title>
-      <link>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</link>
+      <title>MSBB brain alternative splicing QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/miga-multi-brain-region-gene-expression-qtl/</guid>
-      <description>MiGA multi-brain region gene expression QTL #  A genetic and transcriptomic resource comprised of 255 primary human microglia samples isolated ex vivo from four different brain regions of 100 human subjects with neurodegenerative, neurological, or neuropsychiatric disorders, as well as unaffected controls. Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board.</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</guid>
+      <description>MSBB brain alternative splicing QTL #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -700,12 +728,12 @@ Contact #  Alexandre Pelletier</description>
     </item>
     
     <item>
-      <title>MiGA study info</title>
-      <link>https://cumc.github.io/xqtl-data/m/miga-study-info/</link>
+      <title>MSBB brain gene expression</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/miga-study-info/</guid>
-      <description>MiGA study info #  Microglia Genomic Atlas from the Netherlands Brain Bank (NBB) and the Neuropathology Brain Bank and Research CoRE at Mount Sinai Hospital. The permission to collect human brain material was obtained from the Ethical Committee of the VU University Medical Center, Amsterdam, The Netherlands, and the Mount Sinai Institutional Review Board. For the Netherlands Brain bank, informed consent for autopsy, the use of brain tissue and accompanied clinical information for research purposes was obtained per donor ante-mortem.</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</guid>
+      <description>MSBB brain gene expression #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -730,12 +758,12 @@ Data Descriptions #  Raw genotype files #  MAP_Brain-xQTL_Gwas_geno_0.1_maf_0.00
     </item>
     
     <item>
-      <title>MSBB brain alternative splicing</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</link>
+      <title>MSBB brain gene expression QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing/</guid>
-      <description>MSBB brain alternative splicing #  Contact #  Minghui Wang</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</guid>
+      <description>MSBB brain gene expression QTL #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -759,12 +787,12 @@ Study Overview #   Study name : ROSMAP DLPFC proteomics QTL Study Description : 
     </item>
     
     <item>
-      <title>MSBB brain alternative splicing QTL</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</link>
+      <title>MSBB brain methylation</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-alternative-splicing-qtl/</guid>
-      <description>MSBB brain alternative splicing QTL #  Contact #  Minghui Wang</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</guid>
+      <description>MSBB brain methylation #  Contact #  Alexandre Pelletier</description>
     </item>
     
     <item>
@@ -775,15 +803,6 @@ Study Overview #   Study name : ROSMAP DLPFC proteomics QTL Study Description : 
       <guid>https://cumc.github.io/xqtl-data/r/rosmap-multi-trait-qtl-integration-analysis/</guid>
       <description>ROSMAP multi-trait QTL integration analysis #  Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) multi-trait QTL integration. Please refer to this document for an overview of the ROSMAP project.
 Contact #  Ru Feng</description>
-    </item>
-    
-    <item>
-      <title>MSBB brain gene expression</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression/</guid>
-      <description>MSBB brain gene expression #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -799,12 +818,12 @@ Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo 
     </item>
     
     <item>
-      <title>MSBB brain gene expression QTL</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</link>
+      <title>MSBB brain methylation QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-gene-expression-qtl/</guid>
-      <description>MSBB brain gene expression QTL #  Contact #  Minghui Wang</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</guid>
+      <description>MSBB brain methylation QTL #  Contact #  Alexandre Pelletier</description>
     </item>
     
     <item>
@@ -820,12 +839,12 @@ Study Overview #  In progress
     </item>
     
     <item>
-      <title>MSBB brain methylation</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</link>
+      <title>MSBB brain proteomics</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation/</guid>
-      <description>MSBB brain methylation #  Contact #  Alexandre Pelletier</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</guid>
+      <description>MSBB brain proteomics #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -841,12 +860,12 @@ Study Overview #  In progress
     </item>
     
     <item>
-      <title>MSBB brain methylation QTL</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</link>
+      <title>MSBB brain proteomics QTL</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-methylation-qtl/</guid>
-      <description>MSBB brain methylation QTL #  Contact #  Alexandre Pelletier</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</guid>
+      <description>MSBB brain proteomics QTL #  Contact #  Minghui Wang</description>
     </item>
     
     <item>
@@ -862,12 +881,13 @@ Study Overview #   Study information: study_info/ROSMAP.md Website&amp;amp;Logo 
     </item>
     
     <item>
-      <title>MSBB brain proteomics</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</link>
+      <title>MSBB WGS data</title>
+      <link>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics/</guid>
-      <description>MSBB brain proteomics #  Contact #  Minghui Wang</description>
+      <guid>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</guid>
+      <description>MSBB WGS data #  MSBB whole-genome sequence data.
+Contact #  Minghui Wang and Julia TCW</description>
     </item>
     
     <item>
@@ -883,15 +903,6 @@ Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on
     </item>
     
     <item>
-      <title>MSBB brain proteomics QTL</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-brain-proteomics-qtl/</guid>
-      <description>MSBB brain proteomics QTL #  Contact #  Minghui Wang</description>
-    </item>
-    
-    <item>
       <title>ROSMAP RNA-seq microglia gene expression QTL</title>
       <link>https://cumc.github.io/xqtl-data/r/rosmap-rna-seq-microglia-gene-expression-qtl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -901,16 +912,6 @@ Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on
 Contact #  Travyse Edwards
 Data descriptions #  The ROSMAP monocyte data were downloaded from syn2580853 on Janunary xx, 2023.
  Path on CU cluster /..  </description>
-    </item>
-    
-    <item>
-      <title>MSBB WGS data</title>
-      <link>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cumc.github.io/xqtl-data/m/msbb-wgs-data/</guid>
-      <description>MSBB WGS data #  MSBB whole-genome sequence data.
-Contact #  Minghui Wang and Julia TCW</description>
     </item>
     
     <item>
