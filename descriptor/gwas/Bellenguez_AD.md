@@ -6,15 +6,21 @@ The SNP-level association testing summary statistics for Alzheimer's disease fro
 
 Oluwatosin Olayinka, Hao Sun and Rui Dong
 
-
 ## Path(s) to summary statistics
 
 - NIAGADS FTP: `/ftp_fgc_xqtl/projects/ADGWAS_Bellenguez_2022/ADGWAS2022.chr*.sumstat.tsv`
 - CU
     - meta-analysis results: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/GCST90027158_buildGRCh38.tsv.gz` (original data is already in hg38)
     - cohort-specific results are all stored under `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/` (original data is already in hg38)
-        - EADB-core (EADB-TOPMed): `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADB_core/EADB_core.tsv.gz` (original data is already in hg38)
-        - EADI: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADI/EADI.tsv.gz` (original data is already in hg38)
+        - EADB-core (EADB-TOPMed): `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADB_core_cohort/EADB_core.tsv.gz` (original data is already in hg38)
+        - EADI: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/EADI_cohort/EADI.tsv.gz` (original data is already in hg38)
+        - GR@ACE: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/GRACE/GRACE_cohort/AD_4Pcs_TopMedGRACE_Rsq0.3_20200109.tar.gz` The summary statistics is in hg38 (imputation with Topmed Rsq>0.3) adjusted by 4PCs.
+        - FinnGen (used in Bellenguez paper): `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240200_FinnGen/R6/finngen_R6_G6_AD_WIDE.gz` (original data is already in hg38)
+        - FinnGen (most recent version until 20240222): `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240200_FinnGen/R10/`. All in hg38.
+    - another related meta-analysis result of GR@ACE, IGAP and UKB. This one is publicly available in [de Rojas 2021, Nature Communications](https://www.nature.com/articles/s41467-021-22491-8).
+        - original: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/GRACE/meta-analysis` (GRCh37) 
+        - liftover to hg38: `/mnt/vast/hpc/csg/data_public/GWAS_sumstats/20240300_Bellenguez/GRACE/meta-analysis/Sumstats_SPIGAPUK2_20190625.hg38.txt`
+
 
 ## Path to SuSiE RSS Fine-mapping Objects
 - Li-San Wang FTP: `/ftp_fgc_xqtl/projects/GWAS_Finemapping_Results/Bellenguez/`
@@ -54,14 +60,17 @@ The cohort-specific data is requested from Rui Dong and got approved in early 20
 cohorts:
 - EADB: The European Alzheimer & Dementia Biobank (15 European countries). Also refered as `EADB-TOPMed` and `EADB-core`. 21,101,680 variants in sum.stats.
 - EADI: European Association of Development Research and Training Institutes. 12,540,914 variants in sum.stats.
-- UKBB
-- GRACE
+- UKBB: UK Biobank. We have the genotype and imputed variants ourselves.
+- GR@ACE: the Genome Research at Fundació ACE. 61,744,410 variants in sum.stats.
 - GERAD/PERADES
 - DemGene
 - Bonn
 - the Rotterdam study
 - the CCHS study
 - NxC
+- FinnGen: 
+    - R6 includes 147,061 females and 113,344 males, and the one that Bellenguez paper used should be `R6/AD_WIDE` (N=7,329 cases and N=252,879 controls).
+    - R10 is the latest version (until 20240222), including 230,310 females and 181,871 males.
 
 *Supplementary Table 1: Demographic descriptions of the different meta-analyzed GWAS, including a description of EADB per country*
 

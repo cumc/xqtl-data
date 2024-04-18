@@ -8,13 +8,18 @@
 ## A
 * [ADGC GWAS imputation protocol](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/ADGC_GWAS_imputation_protocol.md). Adapted from [ADGC GWAS Data QC Protocol](https://bitbucket.org/wanpinglee_penn/gwas_qc/src/master/) to generate imputed genotype data for xQTL analysis in some cohorts.
 	* Lead analysts: **Xuanhe Chen.**
-* [Alzheimer's Disease GWAS Summary Data (Bellenguez)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Bellenguez et al 2022 Nature Genetics.
+* [Alzheimer's Disease GWAS Summary Data (Bellenguez)](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Bellenguez et al 2022 Nature Genetics.
 	* Lead analysts: **Oluwatosin Olayinka, Hao Sun and Rui Dong.**
-* [Alzheimer's Disease GWAS Summary Data (Jansen)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Jansen_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Jansen et al 2021 Nature Genetics.
+    * [EADB_core](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease using only EADB_core (TOPmed) cohort from Bellenguez et al 2022 Nature Genetics.
+    * [EADI](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease using only EADI cohort from Bellenguez et al 2022 Nature Genetics.
+    * [meta-result of GR@ACE, IGAP and UKB](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease using GR@ACE, IGAP, and UKBB from [de Rojas 2021, Nature Communications](https://www.nature.com/articles/s41467-021-22491-8).
+    * [GR@ACE](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease using cohort EADI cohort from Bellenguez et al 2022 Nature Genetics, also used in [de Rojas 2021, Nature Communications](https://www.nature.com/articles/s41467-021-22491-8).
+    * [FinnGen](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Bellenguez_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease using only FinnGen cohort from Bellenguez et al 2022 Nature Genetics.
+* [Alzheimer's Disease GWAS Summary Data (Jansen)](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Jansen_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Jansen et al 2021 Nature Genetics.
 	* Lead analysts: **Oluwatosin Olayinka.**
-* [Alzheimer's Disease GWAS Summary Data (Kunkle)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Kunkle_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Kunkle et al 2019 Nature Genetics.
+* [Alzheimer's Disease GWAS Summary Data (Kunkle)](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Kunkle_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Kunkle et al 2019 Nature Genetics.
 	* Lead analysts: **Oluwatosin Olayinka.**
-* [Alzheimer's Disease GWAS Summary Data (Wightman)](https://github.com/cumc/xqtl-analysis/tree/main/descriptor/gwas/Wightman_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Wightman et al 2021 Nature Genetics.
+* [Alzheimer's Disease GWAS Summary Data (Wightman)](https://github.com/cumc/xqtl-data/tree/main/descriptor/gwas/Wightman_AD.md). The SNP-level association testing summary statistics for Alzheimer's disease from Wightman et al 2021 Nature Genetics.
 	* Lead analysts: **Oluwatosin Olayinka.**
 
 ## D
