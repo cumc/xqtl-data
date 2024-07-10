@@ -242,7 +242,7 @@ $ ls -lh *.gz
 
 **output of cis_haqtl_association.ipynb**
 
-- Wang lab: `/mnt/vast/hpc/csg/ftp_lisanwanglab_sync/ftp_fgc_xqtl/projects/histone-methylation/CU/h3k9_sumstats/`
+- `/projects/histone-methylation/CU/h3k9_sumstats/`
 ```
 ls -lh *.txt
 -rw-r--r-- 1 xc2610 root 7.5G Nov 29 13:44 h3k9ac_bed_recipe_h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.related.filtered.extracted.pca.projected.resid.PEER.merged.10.norminal.cis_long_table.txt
