@@ -238,7 +238,7 @@ $ ls -lh *.gz
 -rw-r--r-- 1 xc2610 xc2610 391K Oct  1 02:54 h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.related.filtered.extracted.pca.projected.resid.PEER.merged.gz
 ```
 
-### Path(s) to QTL results 
+### Path(s) to cis-QTL association testing
 
 **output of cis_haqtl_association.ipynb**
 
