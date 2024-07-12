@@ -72,3 +72,10 @@ In this analysis we performed two methods: leafcutter and psichomics.
 #### psichomics
 
 - data generation using psichomics still in progress
+
+### Path(s) to cis-QTL association testing
+
+**output of TensorQTL.ipynb**
+
+- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/AC`
+

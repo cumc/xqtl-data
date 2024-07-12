@@ -1,6 +1,6 @@
-# ROSMAP AC alternative splicing QTL
+# ROSMAP AC gene expression QTL
 
-Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC alternative splicing. 
+Religious Orders Study (ROS) or the Rush Memory and Aging Project (MAP) AC gene expression. 
 
 Please refer to [this document](../study_info/ROSMAP.md) for an overview of the ROSMAP project.
 
@@ -72,9 +72,3 @@ In this analysis we performed two methods: leafcutter and psichomics.
 #### psichomics
 
 - data generation using psichomics still in progress
-
-### Path(s) to cis-QTL association testing
-
-**output of TensorQTL.ipynb**
-
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/AC`

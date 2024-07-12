@@ -81,14 +81,6 @@ df <- readRDS("matrix-eqtl.rds")$cis$eqtl
 
 - Wang Lab(CU Server):  `/mnt/vast/hpc/csg/wanggroup/fungen-xqtl-analysis/analysis/Wang_Columbia/ROSMAP/pseudo_bulk_eqtl`
 
-### Path(s) to cis-QTL association testing
-
-**output of TensorQTL.ipynb**
-
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/snuc_DeJager`
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/snuc_Kellis`
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/snuc_mega`
-  
 ### Path(s) to fine-mapping with SuSiE model
 
 ### Path(s) to fine-mapping with SuSiE RSS model

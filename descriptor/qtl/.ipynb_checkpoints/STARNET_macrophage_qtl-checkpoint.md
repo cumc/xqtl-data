@@ -245,12 +245,7 @@ $ ls -lh *.cis_long_table.txt
 -rw-r-xr--+ 1 edwart10 LOAD 915M May  6 11:46 STARNET.tpm.gct.bed.per_chrom_STARNET.MP.cov.merged.8.norminal.cis_long_table.txt
 -rw-r-xr--+ 1 edwart10 LOAD 922M May  6 11:46 STARNET.tpm.gct.bed.per_chrom_STARNET.MP.cov.merged.9.norminal.cis_long_table.txt
 ```
-### Path(s) to cis-QTL association testing
 
-**output of TensorQTL.ipynb**
-
-- `/ftp_fgc_xqtl/analysis_result/cis_association/STARNET/eQTL/`
-- 
 ### Path(s) to Fine-Mapping via SuSiE
 TBD
 

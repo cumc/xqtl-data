@@ -183,12 +183,8 @@ lrwxrwxrwx 1 edwart10 LOAD 206 Oct 14 21:05 /sc/arion/projects/load/users/edwart
 -rw-r----- 1 edwart10 LOAD 9.3K Dec 20 15:50 miga.THA.final.PEER.5N.cov.gz
 ```
 
-### Path(s) to cis-QTL association testing
+### Path(s) to QTL results
 
-**output of TensorQTL.ipynb**
-
-- `/ftp_fgc_xqtl/analysis_result/cis_association/MiGA/eQTL`
-  
 ### Path(s) to fine-mapping with SuSiE model
 
 ### Path(s) to fine-mapping with SuSiE RSS model

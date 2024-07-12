@@ -261,12 +261,6 @@ ls -lh *.txt
 -rw-r--r-- 1 xc2610 xc2610 1.6G Jan 23 11:58 dlpfc_batch_all.rnaseqc.low_expression_filtered.outlier_removed.tmm.expression.bed.processed_phenotype.per_chrom_dlpfc_batch_all.rnaseqc.ROSMAP_covariates.ROSMAP_NIA_WGS.pca.PEER.txt.8.norminal.cis_long_table.txt
 -rw-r--r-- 1 xc2610 xc2610 1.7G Jan 23 12:01 dlpfc_batch_all.rnaseqc.low_expression_filtered.outlier_removed.tmm.expression.bed.processed_phenotype.per_chrom_dlpfc_batch_all.rnaseqc.ROSMAP_covariates.ROSMAP_NIA_WGS.pca.PEER.txt.9.norminal.cis_long_table.txt
 ```
-### Path(s) to cis-QTL association testing
-
-**output of TensorQTL.ipynb**
-
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/DLPFC`
-
 ### Path(s) to trans-QTL results
 
 - Wang Lab, `/mnt/vast/hpc/csg/ftp_lisanwanglab_sync/ftp_fgc_xqtl/projects/rna-seq/BU/ROSMAP_DLPFC/eQTL/output_new/association/trans/`
