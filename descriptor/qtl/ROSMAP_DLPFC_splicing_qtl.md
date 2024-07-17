@@ -368,4 +368,10 @@ $ ls -lh *.txt
 
 The results are seperated in psi_A3SS, psi_A5SS, psi_AFE, psi_ALE, psi_MXE, psi_SE sub directories according to their event type. Due to the massive amount of files for splicing data they are not listed here.
 
+### Path(s) to cis-QTL association testing
+
+**output of TensorQTL.ipynb**
+
+- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/DLPFC`
+  
 ### Path(s) to fine-mapping with SuSiE RSS model

@@ -112,6 +112,12 @@ total 27G
 -rw-r--r-- 1 fgrennjr casa 187K Mar 24 16:48 batch_all_bam_no_ext_no_outlier_intron_usage_perind.counts.gz_raw_data.qqnorm.formated.bed.per_chrom_leafcutter.pcc_batch_all.ROSMAP_covariates.ROSMAP_NIA_WGS.pca.PEER.txt.10.emprical.cis_sumstats.txt
 ```
 
+### Path(s) to cis-QTL association testing
+
+**output of TensorQTL.ipynb**
+
+- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/PCC`
+  
 ### Path(s) to fine-mapping with SuSiE model
 
 ### Path(s) to fine-mapping with SuSiE RSS model

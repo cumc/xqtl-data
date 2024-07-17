@@ -266,6 +266,12 @@ ls -lh *.txt
 
 - FTP: 
 
+### Path(s) to cis-QTL association testing
+
+**output of TensorQTL.ipynb**
+
+- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/pQTL/DLPFC`
+  
 ### Path(s) to fine-mapping with SuSiE model
 
 ### Path(s) to fine-mapping with SuSiE RSS model
