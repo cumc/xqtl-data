@@ -11,6 +11,14 @@ Travyse Edwards
 ## Study Overview
 
 - Sample information: `MiGA/MiGA_brain_expression_sample_attributes.csv`.
+sample size calculated from the phenotype data on cloud
+| Cohort | Sample Size |
+|--------|-------------|
+| GFM    | 74          |
+| GTS    | 62          |
+| SVZ    | 52          |
+| THA    | 60          |
+
 - Lab protocol: `MiGA/MiGA_brain_expression_lab_protocol.csv`.
 - Computational protocol: `MiGA/MiGA_brain_expression_computational_protocol.csv`.
 - Medial Frontal Gyrus QTL summary statistics output:  
