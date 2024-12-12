@@ -30,15 +30,15 @@
 
 ## E
 * [EFIGA CSF proteomics](https://github.com/cumc/xqtl-data/tree/main/descriptor/omics/EFIGA_CSF_proteomics.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 * [EFIGA CSF proteomics QTL](https://github.com/cumc/xqtl-data/tree/main/descriptor/qtl/EFIGA_CSF_proteomics_qtl.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 * [EFIGA genotype](https://github.com/cumc/xqtl-data/tree/main/descriptor/omics/WHICAP_genotype.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 * [EFIGA plasma metabolomics](https://github.com/cumc/xqtl-data/tree/main/descriptor/omics/EFIGA_plasma_metabolomics.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 * [EFIGA plasma metabolomics QTL](https://github.com/cumc/xqtl-data/tree/main/descriptor/qtl/EFIGA_plasma_metabolomics_qtl.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 
 ## F
 * [FunGen-xQTL protocol data](https://github.com/cumc/xqtl-data/tree/main/descriptor/qtl/FunGen_xQTL_protocol_data.md). A toy data-set consisting of 49 de-identified samples from ROSMAP project, used to illustrates the computational protocols we developed for the detection and analysis of molecular QTLs (xQTLs).
@@ -208,6 +208,6 @@
 
 ## W
 * [WHICAP (pilot) plasma metabolomics](https://github.com/cumc/xqtl-data/tree/main/descriptor/omics/WHICAP_plasma_metabolomics.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
 * [WHICAP (pilot) plasma metabolomics QTL](https://github.com/cumc/xqtl-data/tree/main/descriptor/qtl/WHICAP_plasma_metabolomics_qtl.md).
-	* Lead analysts: **Zining Qi.**
+	* Lead analysts: **Yifei Wang.**
