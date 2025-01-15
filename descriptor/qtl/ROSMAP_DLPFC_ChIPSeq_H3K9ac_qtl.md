@@ -72,7 +72,7 @@ Final covariates: Sex, Age at death, PMI, PCs(13), PEER factors(60)
 
 See notebooks in: 
 
-- https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Wang_Columbia/haqtl
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the h3k9ac data in ROSMAP. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
@@ -87,11 +87,11 @@ Subsequently, we calculated residuals on these merged covariates and embarked on
 
 phenotype preprocessing can be run in parallel but covariate preprocessing needsto be done last since it requires both phenotype data and PCs from PCA in genotype preprocessing.
 
-- [genotype_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haqtl/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
-  - Includes QC, PCA, and PCA result figures, for example [h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haqtl/figures/h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf) is the view of PCA result of the haQTL analysis.
-- [phenotype_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haqtl/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
+  - Includes QC, PCA, and PCA result figures, for example [h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haQTL/figures/h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf) is the view of PCA result of the haQTL analysis.
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
   - This notebook strated from some already cleaned data and convert them to bed format inputs taken by tensorQTL.
-- [covariate_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haqtl/covariates_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/covariates_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
   - This includes PEER factor analysis steps and merging the PEER factors to covariates in raw data and PCA. 
   
 ### Association scan using TensorQTL and summary statistics standardization
@@ -101,7 +101,7 @@ During this process, we strategically expanded the cis window to capture signals
 
 ### Aggregating QTLs across datasets?
 
-- [cis_haqtl_association.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haqtl/cis_haqtl_association.ipynb) provides information about the TensorQTL cis association scan.
+- [cis_haqtl_association.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/cis_haqtl_association.ipynb) provides information about the TensorQTL cis association scan.
 
 ### SuSiE univariate fine mapping
 

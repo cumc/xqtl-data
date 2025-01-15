@@ -1,7 +1,7 @@
 # STARNET macrophage gene expression QTL
 
 STARNET is an RNA expression study of various disease-relevant tissues obtained from living patients with cardiovascular disease (CVD). The inclusion criterion for patients was eligibility for coronary artery by-pass graft (CABG) surgery.
-
+Please refer to [this document](../study_info/STARNET.md) for an overview of the STARNET project.
 ## Contact
 
 - Contact Name: Travyse Edwards
@@ -98,6 +98,10 @@ contain the commands and some of the results visualizations produced by the pipe
 - `covariate_preprocessing.ipynb` shows the commands used for the covariate data processing and preparation steps.
   - This includes factor analysis steps
 - `association_scan_cis.ipynb` provides information about the TensorQTL cis association scan.
+
+Wang lab: 
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [STARNET_eQTL](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/STARNET_eQTL/command_generator.ipynb) provides information about the input files for TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ## Dataset Details
 
@@ -249,7 +253,7 @@ $ ls -lh *.cis_long_table.txt
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/STARNET/eQTL/`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/STARNET/eQTL/`
 - 
 ### Path(s) to Fine-Mapping via SuSiE
 TBD

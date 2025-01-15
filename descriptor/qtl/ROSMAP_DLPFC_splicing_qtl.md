@@ -89,7 +89,9 @@ phenotype preprocessing and genotype preprocessing can be run in parallel but co
   
 ### Association scan using TensorQTL and summary statistics standardization
 
-- [association_scan_sQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/association_scan_sQTL.ipynb) provides information about the TensorQTL cis association scan.
+- [association_scan_sQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/association_scan_sQTL.ipynb) provides information about the TensorQTL cis association scan.(this might be Leafcutter,not Leafcutter2)
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_sQTL_LeafCutter2](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### SuSiE univariate fine mapping
 
@@ -372,6 +374,6 @@ The results are seperated in psi_A3SS, psi_A5SS, psi_AFE, psi_ALE, psi_MXE, psi_
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/DLPFC`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/DLPFC/leafcutter2/`
   
 ### Path(s) to fine-mapping with SuSiE RSS model

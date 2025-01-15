@@ -47,35 +47,15 @@ Brain multi-region RNA-seq data was proccessed with the xQTL-pipeline, for analy
 
 - Output summary statistics are uploaded to the FTP server: `/ftp_fgc_xqtl/projects/rna-seq/BU/ROSMAP_DLPFC/eQTL/association_scan`
 
-## sQTL analysis performed by Gao Wang's Lab and Xiaoling Zhang's lab
+### Association scan using TensorQTL and summary statistics standardization
 
-### Analyst
 
-Shrishtee Kandoi, Xuanhe Chen
-
-### Analysis Description
-
-Brain multi-region RNA-seq data was proccessed with the xQTL-pipeline, for analysis detial please check records here: [sQTL](https://github.com/cumc/brain-xqtl-analysis/tree/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL)
-
-- Genotype used in this analysis on BU cluster: `/restricted/projectnb/casa/skandoi/ROSMAP_DLPFC/genotype_partition/ROSMAP_NIA_WGS.leftnorm.filtered.filtered.plink_files_list.txt`
-
-- Covariates used in this analysis on BU cluster: `/restricted/projectnb/casa/skandoi/ROSMAP_DLPFC/reference_data/ROSMAP_xqtl_covariates_sex_death_pmi_study.tsv`
-
-### Results
-
-In this analysis we performed two methods: leafcutter and psichomics.
-
-#### leafcutter
-
-- Output summary statistics are uploaded to the FTP server: `/ftp_fgc_xqtl/projects/rna-seq/BU/ROSMAP_DLPFC/sQTL/association_scan/`
-
-#### psichomics
-
-- data generation using psichomics still in progress
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_DeJager_bulk_eQTL](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_DeJager_bulk_eQTL/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### Path(s) to cis-QTL association testing
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/AC`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/AC/`
 
