@@ -86,7 +86,7 @@ Subsequently, we calculated residuals on these merged covariates and embarked on
 
 
 phenotype preprocessing can be run in parallel but covariate preprocessing needsto be done last since it requires both phenotype data and PCs from PCA in genotype preprocessing.
-
+- [phenotype_calling]() shows the commands used for phenotype calling.
 - [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
   - Includes QC, PCA, and PCA result figures, for example [h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/haQTL/figures/h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.h3k9ac.related.filtered.extracted.pca.projected.resid.PEER.diag.pdf) is the view of PCA result of the haQTL analysis.
 - [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
@@ -99,9 +99,7 @@ For molecular cis-QTL mapping, we utilized quantified H3K9ac levels in BED forma
 We employed the TensorQTL pipeline to perform the association analysis, setting a minor allele count (MAC) cutoff of 5. This approach allowed us to generate phenotype-level summary statistics with empirical p-values, facilitating the calculation of genome-wide false discovery rates (FDR) through permutations. Additionally, summary statistics were obtained for all variant-phenotype pairs.
 During this process, we strategically expanded the cis window to capture signals that were not confined to the coordinate level, but rather operated on the spatial level within a specific region. The cis window was meticulously defined as a region encompassing 1,000,000 base pairs, in addition to the topologically associated domain (TAD) and its boundary (TAB). This was executed with an understanding that variants located within this spatial domain could exert an impact on gene expression, thus associating with the corresponding gene. In instances where a gene was positioned within the confines of two generalized TABD boundaries, we systematically selected the outermost TABD boundary for incorporation into the cis window definition, ensuring a comprehensive and rigorous approach to our spatial genomic analysis.
 
-### Aggregating QTLs across datasets?
 
-- [cis_haqtl_association.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/cis_haqtl_association.ipynb) provides information about the TensorQTL cis association scan.
 
 ### SuSiE univariate fine mapping
 
@@ -270,7 +268,7 @@ ls -lh *.txt
 -rw-r--r-- 1 xc2610 root  32M Nov 29 14:05 h3k9ac_bed_recipe_h3k9ac_whole.k9_cov.xqtl_protocol_data.filtered.related.filtered.extracted.pca.projected.resid.PEER.merged.emprical.cis_sumstats.txt
 ```
 - FTP: `/ftp_fgc_xqtl/projects/histone-methylation/CU/h3k9_sumstats/`
-
+- AWS: `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/haQTL/DLPFC/`
 ### Path(s) to fine-mapping with SuSiE model 
 
 **output of univariate_fine_mapping.ipynb**

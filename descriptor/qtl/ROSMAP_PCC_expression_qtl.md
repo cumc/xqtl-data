@@ -117,7 +117,7 @@ total 35G
 
 **output of TensorQTL.ipynb**
 
-- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/PCC/`(different versions?)
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/PCC/`
   
 ### Path(s) to fine-mapping with SuSiE model
 

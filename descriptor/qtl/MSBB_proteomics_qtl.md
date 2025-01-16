@@ -8,18 +8,16 @@ Minghui Wang
 
 See notebooks in: 
 
-- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/MSBB/pQTL(no folder)
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/MSBB/pQTL
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in MSBB. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
 ### Association data preprocessing
-#### Genotype data preprocessing
 
-#### Principal component analysis for eQTL mapping
-
-#### Phenotype data preprocessing
-
-#### Covariate data preprocessing
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/TCW_BU/MSBB/genotype_preprocessing) shows the commands used for genotype processing and preparation steps.
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/TCW_BU/MSBB/pqtl/01-phenotype_preprocessing.R) shows the commands used for the phenotype data processing and preparation steps.
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/TCW_BU/MSBB/mqtl/03-Covariates_Preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
+  Genotype data and covariate data are the same for MSBB.
   
 ### Association scan using TensorQTL and summary statistics standardization
 

@@ -34,28 +34,22 @@ Please see this notebook for details.
 
 See notebooks in: 
 
-- (link needed)
+- (https://github.com/cumc/xqtl-analysis/tree/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl)
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in KnightADRC. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
 ### Association data preprocessing
-#### Genotype data preprocessing
 
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
 
-#### Principal component analysis for eQTL mapping
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
 
-
-- [genotype_preprocessing.ipynb]() shows the commands used for genotype processing and preparation steps.
-
-- [phenotype_preprocessing.ipynb]() shows the commands used for the phenotype data processing and preparation steps.
-
-- [covariate_preprocessing.ipynb]() shows the commands used for the covariate data processing and preparation steps.
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/covariate_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
 
   
 ### Association scan using TensorQTL and summary statistics standardization
 
 
-### Aggregating QTLs across datasets?
 
 - [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
 - [ROSMAP_DeJager_monocyte_eQTL](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_DeJager_monocyte_eQTL/command_generator.ipynb) provides information about the input files for TensorQTL cis association in the base_params variable in [generate_command_1].

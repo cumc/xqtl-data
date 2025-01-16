@@ -208,28 +208,24 @@ lrwxrwxrwx 1 edwart10 LOAD 206 Oct 14 21:05 /sc/arion/projects/load/users/edwart
 
 See notebooks in: 
 
-- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/KnightADRC/eQTL
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Marcora_MSSM/MiGA
 
-The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in KnightADRC. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
+The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in MiGA. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
 ### Association data preprocessing
-#### Genotype data preprocessing
 
+- [molecular_phenotype_calling.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/MiGA/molecular-phenotype-calling.ipynb) shows the the commands used for phenotype calling.
 
-#### Principal component analysis for eQTL mapping
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/MiGA/genotype-preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
 
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/MiGA/phenotype-preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
 
-- [genotype_preprocessing.ipynb](no MiGA folder in xqtl-analysis) shows the commands used for genotype processing and preparation steps.
-
-- [phenotype_preprocessing.ipynb]() shows the commands used for the phenotype data processing and preparation steps.
-
-- [covariate_preprocessing.ipynb]() shows the commands used for the covariate data processing and preparation steps.
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/MiGA/covariate-preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
 
   
 ### Association scan using TensorQTL and summary statistics standardization
 
 
-### Aggregating QTLs across datasets?
 
 - [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
 - [MiGA_eQTL_commands](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/MiGA_eQTL/command_generator.ipynb) provides information about the input files for TensorQTL cis association in the base_params variable in [generate_command_1].

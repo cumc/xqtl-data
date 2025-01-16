@@ -8,7 +8,7 @@ Minghui Wang
 
 See notebooks in: 
 
-- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/MSBB/sQTL(no folder)
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/MSBB/sQTL
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in MSBB. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
@@ -30,4 +30,3 @@ The notebooks in this folder contain the commands and data wrangling codes for a
 
 **output of TensorQTL.ipynb**
 
-- I didn't do cis association analysis for MSBB Leafcutter2...

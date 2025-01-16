@@ -116,4 +116,6 @@ pseudo_bulk_eQTL_Kellis:
 
 
 pseudo_bulk_eQTL_mega:
-tbc...
+[Genotype_pca](https://github.com/rl3328/xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pseudo_bulk_eQTL_mega/genotype_pca.ipynb) provides steps for PCA analysis for genotype data.
+[Phenotype_preprocessing](https://github.com/rl3328/xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pseudo_bulk_eQTL_mega/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
+[Covariates_preprocessing](https://github.com/rl3328/xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pseudo_bulk_eQTL_mega/covariates_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.

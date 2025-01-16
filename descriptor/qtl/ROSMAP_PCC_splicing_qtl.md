@@ -112,7 +112,16 @@ total 27G
 -rw-r--r-- 1 fgrennjr casa 187K Mar 24 16:48 batch_all_bam_no_ext_no_outlier_intron_usage_perind.counts.gz_raw_data.qqnorm.formated.bed.per_chrom_leafcutter.pcc_batch_all.ROSMAP_covariates.ROSMAP_NIA_WGS.pca.PEER.txt.10.emprical.cis_sumstats.txt
 ```
 
+
+## Links to QTL analysis notebooks
+
+### Data Preprocessing
+- [sQTL_LeafCutter2](https://github.com/gaow/leafcutter2-paper/tree/main/analysis/ROSMAP) provides data preprocessing procedures for genotype/phenotype and covariate data/
+
 ### Path(s) to cis-QTL association testing
+
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_sQTL_LeafCutter2](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 **output of TensorQTL.ipynb**
 
@@ -123,12 +132,3 @@ total 27G
 ### Path(s) to fine-mapping with SuSiE RSS model
 
 ### Path(s) to colocalization with SuSiE-coloc
-
-## Links to QTL analysis notebooks
-
-Analysis notebook generation in progress and will be uploaded to [https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Zhang_BU/PCC_AC](https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Zhang_BU/PCC_AC). Steps will be similar to what is found in [https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Zhang_BU/ROSMAP_DLPFC](https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Zhang_BU/ROSMAP_DLPFC).
-
-
-Wang lab:
-- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
-- [ROSMAP_sQTL_LeafCutter2](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
