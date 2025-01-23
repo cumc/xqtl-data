@@ -72,24 +72,18 @@ Final covariates: Sex, Age at death, PMI, PCs(13), PEER factors(60)
 
 See notebooks in: 
 
-- https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Zhang_BU/ROSMAP_DLPFC/
+- https://github.com/gaow/leafcutter2-paper/tree/main/analysis/ROSMAP
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the eQTL and sQTL data in ROSMAP. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline). Since the sQTL phenotype pre-processing used eQTL STAR alignment output, some of the early stage code are shared.
 
 ### Association data preprocessing
 
-phenotype preprocessing and genotype preprocessing can be run in parallel but covariate preprocessing needs to be done last since it requires both phenotype data and PCs from PCA in genotype preprocessing.
-
-- [genotype_qc.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/genotype/genotype_qc.ipynb) shows the commands used for genotype processing and preparation steps, including why we decided not to remove any outliers.
-  - Also includes QC, PCA, and PCA result figures, some are inside the notebook and some are seperated PDF files. For example [leafcutter_PEER.diag.pdf](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/leafcutter_PEER.diag.pdf) is the view of PCA result of the sQTL analysis.
-- [phenotype_preprocessing_sqtl.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/phenotype_preprocessing_sQTL.ipynb) shows the commands used for the phenotype data processing and preparation steps.
-  - This notebook strated from some eQTL intermidiate output and convert them to bed format inputs taken by tensorQTL.
-- [covariate_preprocessing_sQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/covariate_preprocessing_sQTL.ipynb) shows the commands used for the covariate data processing and preparation steps.
-  - This includes PEER factor analysis steps and merging the PEER factors to covariates in raw data and PCA. 
+[data_preprocessing](https://github.com/gaow/leafcutter2-paper/tree/main/analysis/ROSMAP) shows commands used for data preprocessing and preparation.
   
 ### Association scan using TensorQTL and summary statistics standardization
 
-- [association_scan_sQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/sQTL/association_scan_sQTL.ipynb) provides information about the TensorQTL cis association scan.
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_sQTL_LeafCutter2](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### SuSiE univariate fine mapping
 
@@ -372,6 +366,6 @@ The results are seperated in psi_A3SS, psi_A5SS, psi_AFE, psi_ALE, psi_MXE, psi_
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/DLPFC`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/sQTL/DLPFC/leafcutter2/`
   
 ### Path(s) to fine-mapping with SuSiE RSS model

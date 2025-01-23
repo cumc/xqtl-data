@@ -1,7 +1,7 @@
 # Knight ADRC brain proteomics QTL
 Charles F. And Joanne Knight Alzheimer's Disease Research Center (Knight-ADRC)
 
-Please refer to [this document](../study_info/KnightADRC.ipynb) for an overview of the Knight project.
+Please refer to [this document](https://github.com/cumc/xqtl-data/blob/main/descriptor/study_info/KnightADRC.md) for an overview of the Knight project.
 
 ## Contact
 Zining Qi(zq2209@cumc.columbia.edu)
@@ -11,7 +11,7 @@ Zining Qi(zq2209@cumc.columbia.edu)
 - Study name : Knight ADRC brain proteomics QTL
 - Study Description : Charles F. And Joanne Knight Alzheimer's Disease Research Center (Knight-ADRC) brain proteomics QTL analysis summary statistics using the FGC xQTL pipeline. 
 
-Samples' phenotype information (sex, age, race etc.) can be found in Knight metadata, see "Other information" section in [this document](../study_info/KnightADRC.md)
+Samples' phenotype information (sex, age, race etc.) can be found in Knight metadata, see "Other information" section in [this document](https://github.com/cumc/xqtl-data/blob/main/descriptor/study_info/KnightADRC.md)
 
 ## Analysis Status
 TransQTL association: Need to be updated with new covariate files.
@@ -77,7 +77,7 @@ phenotype preprocessing can be run in parallel but covariate preprocessing need 
   
 ### Association scan using TensorQTL and summary statistics standardization
 
-- [cis_pqtl_association.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/knight/pqtl/cis_haqtl_association.ipynb) provides information and result of cis-QTL analysis.
+- [cis_pqtl_association.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/KnightADRC/pqtl/cis_pqtl_association.ipynb) provides information and result of cis-QTL analysis.
 - [trans_pqtl_association.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/knight/pqtl/trans_pqtl_association.ipynb) provides information and result of AD genes trans-QTL analysis.
 
 ## Dataset Description
@@ -259,7 +259,7 @@ ls -lh *.txt
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/KNIGHT/pQTL/`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/KNIGHT/pQTL/Brain/`
   
 ### Path(s) to fine-mapping with SuSiE model
 

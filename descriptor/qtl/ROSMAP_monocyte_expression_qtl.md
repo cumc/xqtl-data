@@ -29,3 +29,34 @@ Among the 613 samples in the bed.gz file,
 3. 154 out of the 320 samples are in the synapse metadata, but only 3 has wgs, whose genotype ID cannot be found
 4. 166 out of the 320 is not in any of metadata, nor in any covariates data.
 Please see this notebook for details.
+
+## Links to QTL analysis notebooks
+
+See notebooks in: 
+
+- (https://github.com/cumc/xqtl-analysis/tree/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl)
+
+The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in KnightADRC. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
+
+### Association data preprocessing
+
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.
+
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
+
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Marcora_MSSM/ROSMAP/monocyte_eqtl/covariate_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
+
+  
+### Association scan using TensorQTL and summary statistics standardization
+
+
+
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_DeJager_monocyte_eQTL](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_DeJager_monocyte_eQTL/command_generator.ipynb) provides information about the input files for TensorQTL cis association in the base_params variable in [generate_command_1].
+
+
+### Path(s) to cis-QTL association testing
+
+**output of TensorQTL.ipynb**
+
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/monocyte/`

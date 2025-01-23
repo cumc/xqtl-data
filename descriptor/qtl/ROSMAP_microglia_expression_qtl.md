@@ -13,3 +13,5 @@ Travyse Edwards
 The ROSMAP monocyte data were downloaded from [syn2580853](https://www.synapse.org/#!Synapse:syn11468526) on Janunary xx, 2023.
 
 - Path on CU cluster `/..`
+
+I didn't do cis assocaition for microglia seperately?

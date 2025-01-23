@@ -35,7 +35,7 @@ TransQTL association: Finished.
 ### QC and Normalization Details for Phenotype Data
 
 Brain multi-region RNA-seq data was proccessed with the xQTL-pipeline, for analysis detial please check records here: [eQTL](https://github.com/cumc/brain-xqtl-analysis/tree/main/analysis/Zhang_BU/ROSMAP_DLPFC/eQTL) [eQTL_susie_result_analysis
-](https://github.com/cumc/brain-xqtl-analysis/tree/main/analysis/Wang_Columbia/eqtl)
+](need to replace)
 
 ### Genotype parameters
 
@@ -97,7 +97,9 @@ phenotype preprocessing and genotype preprocessing can be run in parallel but co
   
 ### Association scan using TensorQTL and summary statistics standardization
 
-- [association_scan_eQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/eQTL/association_scan_eQTL.ipynb) provides information about the TensorQTL cis association scan.
+- [association_scan_eQTL.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Zhang_BU/ROSMAP_DLPFC/eQTL/association_scan_eQTL.ipynb) provides information about the TensorQTL cis association scan.(might be confused when there are multiple versions)
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_DeJager_bulk_eQTL](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_DeJager_bulk_eQTL/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### SuSiE univariate fine mapping
 
@@ -265,7 +267,7 @@ ls -lh *.txt
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/DLPFC`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/eQTL/DLPFC/`
 
 ### Path(s) to trans-QTL results
 

@@ -23,7 +23,7 @@ TransQTL association: Finished.
 
 See notebooks in: 
 
-- https://github.com/cumc/fungen-xqtl-analysis/tree/main/analysis/Wang_Columbia/pqtl
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the proteomics data in ROSMAP. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
 
@@ -31,15 +31,15 @@ The notebooks in this folder contain the commands and data wrangling codes for a
 
 phenotype preprocessing can be run in parallel but covariate preprocessing need to be done last since it requires both phenotype data and PCs from PCA in genotype preprocessing.
 
-- [genotype_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/genotype/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps, including QC and formatting for genotype data.
-- [genotype_pca.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pqtl/genotype_pca.ipynb) shows the commands used for computing genotype PC for population structure inference.
-- [phenotype_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pqtl/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data formatting steps. QC is not included (should be performed already elsewhere).
-- [covariate_preprocessing.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pqtl/covariates_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps, including icomputing molecular phenotype PCA for hidden factor analysis and merging all covariates together.
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps, including QC and formatting for genotype data.
+- [genotype_pca.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/genotype_pca.ipynb) shows the commands used for computing genotype PC for population structure inference.
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/phenotype_preprocessing.ipynb) shows the commands used for the phenotype data formatting steps. QC is not included (should be performed already elsewhere).
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/covariates_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps, including icomputing molecular phenotype PCA for hidden factor analysis and merging all covariates together.
   
 ### Association scan using TensorQTL and summary statistics standardization
 
-- [cis_association.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pqtl/cis_association.ipynb) provides information and result of cis-QTL analysis.
-- [trans_association.ipynb](https://github.com/cumc/fungen-xqtl-analysis/blob/main/analysis/Wang_Columbia/ROSMAP/pqtl/trans_association.ipynb) provides information and result of AD genes trans-QTL analysis.
+- [cis_association.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/cis_association.ipynb) provides information and result of cis-QTL analysis.
+- [trans_association.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/pQTL/trans_association.ipynb) provides information and result of AD genes trans-QTL analysis.
 
 ## Analysis Details
 
@@ -270,7 +270,7 @@ ls -lh *.txt
 
 **output of TensorQTL.ipynb**
 
-- `/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/pQTL/DLPFC`
+- `s3://statfungen/ftp_fgc_xqtl/analysis_result/cis_association/ROSMAP/pQTL/DLPFC/`
   
 ### Path(s) to fine-mapping with SuSiE model
 
