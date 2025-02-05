@@ -24,7 +24,29 @@ Samples were extracted using Qiagen's miRNeasy mini kit (cat. no. 217004) and th
 **Notes regarding sample naming:** Sequencing samples that were sequenced more than once include the sequencing batch number as the last 2 digits of the id. For example, sample 123_456789_02 is sample "123_456789", from batch 2. The sample IDs are otherwise randomly-assigned identifiers. Some samples were re-sequenced due to poor quality or low output, they may have "redo" in the sample identifier.
 
 
-## Link to Notebooks for Data Preprocessing
+## Links to QTL analysis notebooks for LeafCutter2
+
+See notebooks in: 
+
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/AC
+
+The notebooks in this folder contain the commands and data wrangling codes for analysis of the expression data in ROSMAP. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline).
+
+### Association data preprocessing
+
+- [LeafCutter2_QC](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/AC/1.2_ac_leafcutter2_results_QC.ipynb) shows the commands used for quality control of the LeafCutter2 results.
+
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.All QTLs in one cohort have the same genotype_preprocessing procedure.
+
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/AC/1_ac_phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
+
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/AC/3_ac_covariate_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
+
+  
+### Association scan using TensorQTL and summary statistics standardization
+
+- [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
+- [ROSMAP_sQTL_LeafCutter2_commands](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb) provides information about the input files for TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### Analysis Description
 
