@@ -68,22 +68,29 @@ Final covariates: Sex, Age at death, PMI, PCs(13), PEER factors(60)
 - Minor allele frequency cutoff: 5/(2.0*592) = 0.00422297
 
 
-## Links to QTL analysis notebooks
+## Links to QTL analysis notebooks for LeafCutter2
 
 See notebooks in: 
 
-- https://github.com/gaow/leafcutter2-paper/tree/main/analysis/ROSMAP
+- https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/DLPFC
 
 The notebooks in this folder contain the commands and data wrangling codes for analysis of the eQTL and sQTL data in ROSMAP. (data wrangling exist because not all data are processed using the xqtl-pipeline from the beginning and need to be reformatted to fit one intermediate step of the pipeline). Since the sQTL phenotype pre-processing used eQTL STAR alignment output, some of the early stage code are shared.
 
 ### Association data preprocessing
 
-[data_preprocessing](https://github.com/gaow/leafcutter2-paper/tree/main/analysis/ROSMAP) shows commands used for data preprocessing and preparation.
+- [LeafCutter2_QC](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/DLPFC/1.2_dlpfc_leafcutter2_results_QC.ipynb) shows the commands used for quality control of the LeafCutter2 results.
+
+- [genotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/haQTL/genotype_preprocessing.ipynb) shows the commands used for genotype processing and preparation steps.all QTLs in one cohort have the same genotype_preprocessing procedure.
+
+- [phenotype_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/DLPFC/1_dlpfc_phenotype_preprocessing.ipynb) shows the commands used for the phenotype data processing and preparation steps.
+
+- [covariate_preprocessing.ipynb](https://github.com/cumc/xqtl-analysis/tree/main/analysis/Wang_Columbia/ROSMAP/sQTL/DLPFC/3_dlpfc_covariate_preprocessing.ipynb) shows the commands used for the covariate data processing and preparation steps.
+
   
 ### Association scan using TensorQTL and summary statistics standardization
 
 - [TensorQTL.ipynb](https://github.com/cumc/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb) provides the pipeline to generate TensorQTL cis association results for all QTLs. 
-- [ROSMAP_sQTL_LeafCutter2](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb)provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
+- [ROSMAP_sQTL_LeafCutter2_commands](https://github.com/cumc/xqtl-analysis/blob/main/analysis/Wang_Columbia/cis_association/ROSMAP_sQTL_LeafCutter2/command_generator.ipynb) provides information about the input files for AC/DLPFC/PCC TensorQTL cis association in the base_params variable in [generate_command_1].
 
 ### SuSiE univariate fine mapping
 
