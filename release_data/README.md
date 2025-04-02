@@ -63,11 +63,11 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | eQTL | MSBB | BM_22 | multi_gene_finemapping | analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_22_eQTL.exported.toploci.bed.gz |
 | eQTL | MSBB | BM_36 | multi_gene_finemapping | analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_36_eQTL.exported.toploci.bed.gz |
 | eQTL | MSBB | BM_44 | multi_gene_finemapping | analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_44_eQTL.exported.toploci.bed.gz |
-| eQTL | ROSMAP | AC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_AC_eQTL.exported.toploci.bed.gz |
+| eQTL | ROSMAP | AC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_AC_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Ast_DeJager | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Ast_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Ast_mega | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Ast_mega_eQTL.exported.toploci.bed.gz |
 | pQTL | ROSMAP | DLPFC_Bennett | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_DLPFC_Bennett_pQTL.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DLPFC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_DLPFC_eQTL.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DLPFC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_DLPFC_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Exc_DeJager | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Exc_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Exc_mega | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Exc_mega_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Inh_DeJager | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Inh_DeJager_eQTL.exported.toploci.bed.gz |
@@ -78,7 +78,7 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | eQTL | ROSMAP | OPC_mega | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_OPC_mega_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Oli_DeJager | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Oli_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | Oli_mega | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Oli_mega_eQTL.exported.toploci.bed.gz |
-| eQTL | ROSMAP | PCC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_PCC_eQTL.exported.toploci.bed.gz |
+| eQTL | ROSMAP | PCC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_PCC_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | monocyte | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_monocyte_ROSMAP_eQTL.exported.toploci.bed.gz |
 | eQTL | KNIGHT | Brain | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_eQTL.exported.toploci.bed.gz |
 | pQTL | KNIGHT | Brain | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_pQTL.exported.toploci.bed.gz |
@@ -125,7 +125,7 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | GWAS | AD_Wightman_ExcludingUKBand23andME_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed |
 | GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed |
 | QTL | ROSMAP | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/xqtl_only_colocboost_export_filtered.bed.gz |
-| QTL & GWAS | ROSMAP | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
+| QTL & GWAS | ROSMAP & AD_Bellenguez_2022 | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 
 
 ## Usage Notes
