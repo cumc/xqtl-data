@@ -116,14 +116,14 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | eQTL | ROSMAP | mega_Oli | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Oli.exported.toploci.bed.gz |
 | metabolome | ROSMAP | - | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_metabolome.exported.toploci.bed.gz |
 | eQTL | STARNET | Mac | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/STARNET_eQTL.exported.toploci.bed.gz |
-| GWAS | AD_Bellenguez_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_2022.exported.toploci.bed |
-| GWAS | AD_Jansen_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Jansen_2021.exported.toploci.bed |
-| GWAS | AD_Wightman_Full_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Full_2021.exported.toploci.bed |
-| GWAS | AD_Bellenguez_EADB_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADB_2022.exported.toploci.bed |
-| GWAS | AD_Kunkle_Stage1_2019 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Kunkle_Stage1_2019.exported.toploci.bed |
-| GWAS | AD_Wightman_Excluding23andMe_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Excluding23andMe_2021.exported.toploci.bed |
-| GWAS | AD_Wightman_ExcludingUKBand23andME_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed |
-| GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed |
+| GWAS | AD_Bellenguez_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_2022.exported.toploci.bed.gz |
+| GWAS | AD_Jansen_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Jansen_2021.exported.toploci.bed.gz |
+| GWAS | AD_Wightman_Full_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Full_2021.exported.toploci.bed.gz |
+| GWAS | AD_Bellenguez_EADB_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADB_2022.exported.toploci.bed.gz |
+| GWAS | AD_Kunkle_Stage1_2019 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Kunkle_Stage1_2019.exported.toploci.bed.gz |
+| GWAS | AD_Wightman_Excluding23andMe_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz |
+| GWAS | AD_Wightman_ExcludingUKBand23andME_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz |
+| GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed.gz |
 | QTL | ROSMAP | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/xqtl_only_colocboost_export_filtered.bed.gz |
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 
