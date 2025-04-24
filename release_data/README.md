@@ -127,6 +127,7 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | QTL | ROSMAP | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/xqtl_only_colocboost_export_filtered.bed.gz |
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
