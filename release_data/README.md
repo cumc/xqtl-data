@@ -161,6 +161,39 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | `PIP`                 | double    | Posterior inclusion probability for causality                               |
 | `conditional_effect`  | double    | Effect size from conditional model                                          |
 | `lfsr`                | double    | Only in multi conetxt or multi gene results. Local False Sign Rate: the probability that the estimated effect has the wrong sign. Lower values indicate higher confidence in the direction of the effect. Variants without an lfsr value (i.e., NA) did not pass the filtering threshold in multi-context fine-mapping and are retained for reference only |                            |
+ 
+Unique in ColocBoost Results
+
+| Column Name       | Type      | Description                                                                                                             |
+|-------------------|-----------|-------------------------------------------------------------------------------------------------------------------------|
+| `event_ID`        | character | Trait combination that colocalizes within the same 95% colocalization confidence set (CoS).                             |
+| `cos_ID`          | character | Unique identifier for each 95% colocalization confidence set (CoS).                                                    |
+| `vcp`             | double    | Variant Colocalization Probability—estimated probability that a variant is shared among colocalized traits.            |
+| `cos_npc`         | double    | Normalized probability of colocalization within a CoS, supporting shared vs. trait-specific signals.                   |
+| `min_npc_outcome` | double    | Minimum normalized probability across traits in the CoS.                                                               |
+| `coef`            | double    | Regression coefficient from the ColocBoost model for each trait.                                                       |
+
+Unique in TWAS
+
+| Column Name           | Type      | Description                                                                                                                                          |
+|-----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `start`               | integer   | Transcription start site - 1.                                                                                                                    |
+| `end`                 | integer   | Transcription start site.                                                                                                                            |
+| `TADB_start`          | integer   | Start coordinate of the extended TADB window used for cis-fine mapping ([TADB BED](https://github.com/cumc/xqtl-analysis/blob/main/resource/TADB_enhanced_cis.coding.bed)). |
+| `TADB_end`            | integer   | End coordinate of the extended TADB window.                                                                                                          |
+| `is_imputable`        | logical   | Whether the gene-context pair has predictive models with CV \( R^2 > 0.01 \) and \( p < 0.05 \) in at least one method.                              |
+| `rsq_cv`              | double    | Cross-validated \( R^2 \) for expression prediction performance.                                                                                     |
+| `pval_cv`             | double    | Cross-validation p-value for expression prediction performance.                                                                                      |
+| `is_selected_method`  | logical   | Indicates if this method is the best (highest CV \( R^2 \) and \( p < 0.05 \)) for the gene–context pair.                                            |
+| `block`               | character | LD block containing the gene’s TSS, based on predefined LD partitions.                                                                                |
+
+Unique in cTWAS
+
+| Column Name | Type    | Description                      |
+|-------------|---------|----------------------------------|
+| `start`     | integer | Transcription start site - 1 |
+| `end`       | integer | Transcription start site         |
+
 
 
 ### Notes
