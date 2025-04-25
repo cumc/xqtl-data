@@ -5,7 +5,7 @@
 This repository contains Quantitative Trait Loci (QTL) analysis results from multiple datasets, focusing on various contexts and biological systems. The data includes expression QTLs (eQTLs), protein QTLs (pQTLs), and splicing QTLs (sQTLs) across different brain regions and cell types.
 
 ## Dataset Breakdown
-# xQTL Results Summary
+# xQTL Finemapping Results Summary
 
 | Data Type | Cohort | Modality | Method | Path |
 |-----------|--------|----------|--------|------|
@@ -208,3 +208,39 @@ Unique in cTWAS
 - Filter rows by `cs_coverage_0.95` or `PIP` to prioritize candidate causal variants.
 - Restrict to rows with non-missing `event_ID` for significance-filtered analysis.
 - For visualization, group by `context` and `gene_ID` to examine gene-level credible sets across studies.
+
+
+# xQTL Association Results Summary
+| Data Type | Cohort | Modality | Method | Path |
+|-----------|--------|----------|--------|------|
+| eQTL | KNIGHT | Brain | LR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/LR |
+| eQTL | KNIGHT | Brain | msex interaction | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/interaction/msex |
+| pQTL | KNIGHT | Brain | LR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/LR |
+| pQTL | KNIGHT | Brain | msex interaction | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/interaction/msex |
+| eQTL | MSBB | BM_10 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/LR |
+| eQTL | MSBB | BM_10 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/interaction/msex |
+| eQTL | MSBB | BM_22 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/LR |
+| eQTL | MSBB | BM_22 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/interaction/msex |
+| eQTL | MSBB | BM_36 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/LR |
+| eQTL | MSBB | BM_36 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/interaction/msex |
+| eQTL | MSBB | BM_44 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/LR |
+| eQTL | MSBB | BM_44 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/interaction/msex |
+| pQTL | MSBB | BM_36 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/LR |
+| pQTL | MSBB | BM_36 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/interaction/msex |
+| eQTL | MiGA | GFM | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/LR |
+| eQTL | MiGA | GFM | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/interaction/msex |
+| eQTL | MiGA | GTS | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/LR |
+| eQTL | MiGA | GTS | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/interaction/msex |
+| eQTL | MiGA | SVZ | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/LR |
+| eQTL | MiGA | SVZ | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/interaction/msex |
+| eQTL | MiGA | THA | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/LR |
+| eQTL | MiGA | THA | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/interaction/msex |
+| eQTL | ROSMAP | AC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/LR |
+| eQTL | ROSMAP | AC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/APOE |
+| eQTL | ROSMAP | AC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/msex |
+| eQTL | ROSMAP | DLPFC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/LR |
+| eQTL | ROSMAP | DLPFC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/APOE |
+| eQTL | ROSMAP | DLPFC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/msex |
+| eQTL | ROSMAP | PCC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/LR
+
+For details on the results, please refer to our [protocol](https://github.com/StatFunGen/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb)
