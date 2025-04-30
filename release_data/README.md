@@ -128,6 +128,12 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
+| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
+| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
+| mQTL     | MSBB        | -              | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.bed.gz         |
 
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
@@ -194,7 +200,22 @@ Unique in cTWAS
 | `start`     | integer | Transcription start site - 1 |
 | `end`       | integer | Transcription start site         |
 
-
+Unique in fSuSiE
+| Column Name          | Type     | Description                                                                 |
+|----------------------|----------|-----------------------------------------------------------------------------|
+| `maf`                | numeric  | Minor allele frequency                                                      |
+| `cs_coverage_0.95`   | numeric  | Credible set coverage at 95% threshold                                     |
+| `TADB_start`   | integer  | Cis-window start position, typically defined by TAD boundary               |
+| `TADB_end`     | integer  | Cis-window end position, typically defined by TAD boundary                 |
+| `effect_direction`   | integer  | Overall sign of the effect peak, based on `z` values                       |
+| `effect_peak_start`  | integer  | Genomic start position of the effect peak                                  |
+| `effect_peak_end`    | integer  | Genomic end position of the effect peak                                    |
+| `effect_peak_index`  | integer  | Index of the effect peak in 1024-grid representation of the TAD            |
+| `grid_position`      | integer  | Grid-based positions (x-axis) covered by the effect peak                   |
+| `grid_resolution`    | integer  | Number of grid rows used (typically 512 or 1024)                            |
+| `effect_size_z`      | numeric  | Unadjusted effect size (`z`) at each grid position                         |
+| `cs_id`              | string   | ID of the 95% credible set within this context and TAD                     |
+| `cs_root`            | string   | Unified root name for overlapping CS in the same context                   |
 
 ### Notes
 
