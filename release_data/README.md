@@ -5,7 +5,7 @@
 This repository contains Quantitative Trait Loci (QTL) analysis results from multiple datasets, focusing on various contexts and biological systems. The data includes expression QTLs (eQTLs), protein QTLs (pQTLs), and splicing QTLs (sQTLs) across different brain regions and cell types.
 
 ## Dataset Breakdown
-# xQTL Results Summary
+# xQTL Finemapping Results Summary
 
 | Data Type | Cohort | Modality | Method | Path |
 |-----------|--------|----------|--------|------|
@@ -128,6 +128,12 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
+| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
+| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
+| mQTL     | MSBB        | -              | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.bed.gz         |
 
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
@@ -194,7 +200,22 @@ Unique in cTWAS
 | `start`     | integer | Transcription start site - 1 |
 | `end`       | integer | Transcription start site         |
 
-
+Unique in fSuSiE
+| Column Name          | Type     | Description                                                                 |
+|----------------------|----------|-----------------------------------------------------------------------------|
+| `maf`                | numeric  | Minor allele frequency                                                      |
+| `cs_coverage_0.95`   | numeric  | Credible set coverage at 95% threshold                                     |
+| `TADB_start`   | integer  | Cis-window start position, typically defined by TAD boundary               |
+| `TADB_end`     | integer  | Cis-window end position, typically defined by TAD boundary                 |
+| `effect_direction`   | integer  | Overall sign of the effect peak, based on `z` values                       |
+| `effect_peak_start`  | integer  | Genomic start position of the effect peak                                  |
+| `effect_peak_end`    | integer  | Genomic end position of the effect peak                                    |
+| `effect_peak_index`  | integer  | Index of the effect peak in 1024-grid representation of the TAD            |
+| `grid_position`      | integer  | Grid-based positions (x-axis) covered by the effect peak                   |
+| `grid_resolution`    | integer  | Number of grid rows used (typically 512 or 1024)                            |
+| `effect_size_z`      | numeric  | Unadjusted effect size (`z`) at each grid position                         |
+| `cs_id`              | string   | ID of the 95% credible set within this context and TAD                     |
+| `cs_root`            | string   | Unified root name for overlapping CS in the same context                   |
 
 ### Notes
 
@@ -208,3 +229,103 @@ Unique in cTWAS
 - Filter rows by `cs_coverage_0.95` or `PIP` to prioritize candidate causal variants.
 - Restrict to rows with non-missing `event_ID` for significance-filtered analysis.
 - For visualization, group by `context` and `gene_ID` to examine gene-level credible sets across studies.
+
+
+# xQTL Association Results Summary
+| Data Type | Cohort | Modality | Method | Path |
+|-----------|--------|----------|--------|------|
+| eQTL | KNIGHT | Brain | LR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/LR/ |
+| eQTL | MiGA | GFM | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/LR/ |
+| eQTL | MiGA | GTS | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/LR/ |
+| eQTL | MiGA | SVZ | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/LR/ |
+| eQTL | MiGA | THA | LR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/LR/ |
+| eQTL | MSBB | BM_10 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/LR/ |
+| eQTL | MSBB | BM_22 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/LR/ |
+| eQTL | MSBB | BM_36 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/LR/ |
+| eQTL | MSBB | BM_44 | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/LR/ |
+| eQTL | ROSMAP | AC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/LR/ |
+| eQTL | ROSMAP | DLPFC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/LR/ |
+| eQTL | ROSMAP | monocyte | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/LR/ |
+| eQTL | ROSMAP | PCC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/Ast | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/Exc | LR | analysis_result/marginal_significant_qtl/cisAssociational/ROSMAP/eQTL/snuc_DeJager/Exc/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/Inh | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/Mic | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/OPC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/LR/ |
+| eQTL | ROSMAP | snuc_DeJager/Oli | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/Ast | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/Exc | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/Inh | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/Mic | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/OPC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/LR/ |
+| eQTL | ROSMAP | snuc_Kellis/Oli | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/LR/ |
+| eQTL | ROSMAP | snuc_mega/Ast | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/LR/ |
+| eQTL | ROSMAP | snuc_mega/Exc | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/LR/ |
+| eQTL | ROSMAP | snuc_mega/Inh | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/LR/ |
+| eQTL | ROSMAP | snuc_mega/Mic | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/LR/ |
+| eQTL | ROSMAP | snuc_mega/OPC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/LR/ |
+| eQTL | ROSMAP | snuc_mega/Oli | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/LR/ |
+| eQTL | STARNET | - | LR | analysis_result/marginal_significant_qtl/cis_association/STARNET/eQTL/LR/ |
+| eQTL | KNIGHT | Brain | msex interaction | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/interaction/msex/ |
+| eQTL | MiGA | GFM | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/interaction/msex/ |
+| eQTL | MiGA | GTS | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/interaction/msex/ |
+| eQTL | MiGA | SVZ | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/interaction/msex/ |
+| eQTL | MiGA | THA | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/interaction/msex/ |
+| eQTL | MSBB | BM_10 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/interaction/msex/ |
+| eQTL | MSBB | BM_22 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/interaction/msex/ |
+| eQTL | MSBB | BM_36 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/interaction/msex/ |
+| eQTL | MSBB | BM_44 | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/interaction/msex/ |
+| eQTL | ROSMAP | AC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/msex/ |
+| eQTL | ROSMAP | DLPFC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/msex/ |
+| eQTL | ROSMAP | monocyte | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/interaction/msex/ |
+| eQTL | ROSMAP | PCC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/Ast | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/Exc | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Exc/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/Inh | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/Mic | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/OPC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/interaction/msex/ |
+| eQTL | ROSMAP | snuc_DeJager/Oli | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/Ast | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/Exc | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/Inh | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/Mic | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/OPC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/interaction/msex/ |
+| eQTL | ROSMAP | snuc_Kellis/Oli | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/Ast | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/Exc | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/Inh | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/Mic | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/OPC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/interaction/msex/ |
+| eQTL | ROSMAP | snuc_mega/Oli | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/interaction/msex/ |
+| eQTL | STARNET | - | msex interaction | analysis_result/marginal_significant_qtl/cis_association/STARNET/eQTL/interaction/msex/ |
+| eQTL | ROSMAP | AC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/APOE/ |
+| eQTL | ROSMAP | DLPFC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/APOE/ |
+| eQTL | ROSMAP | monocyte | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/interaction/APOE/ |
+| eQTL | ROSMAP | PCC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/Ast | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/Exc | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Exc/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/Inh | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/Mic | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/OPC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_DeJager/Oli | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/Ast | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/Exc | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/Inh | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/Mic | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/OPC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_Kellis/Oli | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/Ast | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/Exc | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/Inh | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/Mic | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/OPC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/interaction/APOE/ |
+| eQTL | ROSMAP | snuc_mega/Oli | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/interaction/APOE/ |
+| pQTL | KNIGHT | Brain | LR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/LR/ |
+| pQTL | MSBB | - | LR | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/LR/ |
+| pQTL | ROSMAP | DLPFC | LR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/LR/ |
+| pQTL | KNIGHT | Brain | msex interaction | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/interaction/msex/ |
+| pQTL | MSBB | - | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/interaction/msex/ |
+| pQTL | ROSMAP | DLPFC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/msex/ |
+| pQTL | ROSMAP | DLPFC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/APOE/ |
+
+For details on the results, please refer to our [protocol](https://github.com/StatFunGen/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb)
