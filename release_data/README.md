@@ -130,10 +130,18 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
-| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
-| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
-| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
-| mQTL     | MSBB        | -              | fSuSiE_finemapping | /data/analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.bed.gz         |
+| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
+| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
+| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
+| mQTL     | MSBB        | -              | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.bed.gz         |
+| snATAC   | ROSMAP      | Kelis_OPC       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_OPC.exported.toploci.bed.gz                  |
+| snATAC   | ROSMAP      | Kelis_Exc       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Exc.exported.toploci.bed.gz                  |
+| snATAC   | ROSMAP      | Kelis_Ast       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Ast.exported.toploci.bed.gz                  |
+| snATAC   | ROSMAP      | Kelis_Oli       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Oli.exported.toploci.bed.gz                  |
+| snATAC   | ROSMAP      | Kelis_Mic       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Mic.exported.toploci.bed.gz                  |
+| snATAC   | ROSMAP      | Kelis_Inh       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Inh.exported.toploci.bed.gz                  |
+
+
 
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
