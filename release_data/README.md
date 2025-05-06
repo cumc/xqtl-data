@@ -128,8 +128,6 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
-| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
-| Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 | haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
 | mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
 | mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
