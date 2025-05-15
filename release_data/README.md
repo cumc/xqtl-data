@@ -333,5 +333,27 @@ Unique in fSuSiE
 | pQTL | MSBB | - | msex interaction | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/interaction/msex/ |
 | pQTL | ROSMAP | DLPFC | msex interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/msex/ |
 | pQTL | ROSMAP | DLPFC | APOE interaction | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/APOE/ |
+| eQTL | KNIGHT | Brain | QR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/QR/ |
+| eQTL | MiGA | GFM | QR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/QR/ |
+| eQTL | MiGA | GTS | QR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/QR/ |
+| eQTL | MiGA | SVZ | QR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/QR/ |
+| eQTL | MiGA | THA | QR | analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/QR/ |
+| eQTL | MSBB | BM_10 | QR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/QR/ |
+| eQTL | MSBB | BM_22 | QR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/QR/ |
+| eQTL | MSBB | BM_36 | QR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/QR/ |
+| eQTL | MSBB | BM_44 | QR | analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/QR/ |
+| eQTL | ROSMAP | AC | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/QR/ |
+| eQTL | ROSMAP | DLPFC | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/QR/ |
+| eQTL | ROSMAP | monocyte | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/QR/ |
+| eQTL | ROSMAP | PCC | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/QR/ |
+| eQTL | ROSMAP | snuc_mega/Ast | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/QR/ |
+| eQTL | ROSMAP | snuc_mega/Exc | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/QR/ |
+| eQTL | ROSMAP | snuc_mega/Inh | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/QR/ |
+| eQTL | ROSMAP | snuc_mega/Mic | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/QR/ |
+| eQTL | ROSMAP | snuc_mega/OPC | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/QR/ |
+| eQTL | ROSMAP | snuc_mega/Oli | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/QR/ |
+| pQTL | KNIGHT | Brain | QR | analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/QR/ |
+| pQTL | MSBB | - | QR | analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/QR/ |
+| pQTL | ROSMAP | DLPFC | QR | analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/QR/ |
 
 For details on the results, please refer to our [protocol](https://github.com/StatFunGen/xqtl-protocol/blob/main/code/association_scan/TensorQTL/TensorQTL.ipynb)
