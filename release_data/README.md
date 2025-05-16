@@ -126,6 +126,7 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed.gz |
 | QTL | ROSMAP | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/xqtl_only_colocboost_export_filtered.bed.gz |
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz |
+| GWAS | AD | AD_meta_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 | haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
