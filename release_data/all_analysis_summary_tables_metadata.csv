@@ -1,0 +1,246 @@
+Data Type,Cohort,Modality,context,context_broad,Method,Path
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/AC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_AC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_AC,AC_DeJager_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_AC.exported.toploci.bed.gz
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/LR/
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/msex/
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/interaction/APOE/
+eQTL,ROSMAP,AC,AC_DeJager_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/AC/QR/
+GWAS,AD_Bellenguez_2022,-,AD_Bellenguez_2022,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_2022.exported.toploci.bed.gz
+GWAS,AD_Bellenguez_EADB_2022,-,AD_Bellenguez_EADB_2022,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADB_2022.exported.toploci.bed.gz
+GWAS,AD_Bellenguez_EADI_2022,-,AD_Bellenguez_EADI_2022,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
+GWAS,AD_Jansen_2021,-,AD_Jansen_2021,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Jansen_2021.exported.toploci.bed.gz
+GWAS,AD_Kunkle_Stage1_2019,-,AD_Kunkle_Stage1_2019,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Kunkle_Stage1_2019.exported.toploci.bed.gz
+GWAS,AD_Wightman_Excluding23andMe_2021,-,AD_Wightman_Excluding23andMe_2021,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
+GWAS,AD_Wightman_ExcludingUKBand23andME_2021,-,AD_Wightman_ExcludingUKBand23andME_2021,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
+GWAS,AD_Wightman_Full_2021,-,AD_Wightman_Full_2021,GWAS,AD_GWAS_finemapping,analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Full_2021.exported.toploci.bed.gz
+eQTL,ROSMAP,Ast_10_Kellis,Ast_10_Kellis_eQTL,Ast_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Ast_10_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Ast_DeJager,Ast_DeJager_eQTL,Ast_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Ast_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Ast_DeJager,Ast_DeJager_eQTL,Ast_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Ast_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_Ast,Ast_DeJager_eQTL,Ast_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Ast.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/Ast,Ast_DeJager_eQTL,Ast_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/LR/
+eQTL,ROSMAP,snuc_DeJager/Ast,Ast_DeJager_eQTL,Ast_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/Ast,Ast_DeJager_eQTL,Ast_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Ast/interaction/APOE/
+eQTL,ROSMAP,Ast_Kellis,Ast_Kellis_eQTL,Ast_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Ast_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_Ast,Ast_Kellis_eQTL,Ast_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Ast.exported.toploci.bed.gz
+eQTL,ROSMAP,Ast_mega,Ast_mega_eQTL,Ast_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Ast_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Ast_mega,Ast_mega_eQTL,Ast_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Ast_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_Ast,Ast_mega_eQTL,Ast_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Ast.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/Ast,Ast_mega_eQTL,Ast_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/LR/
+eQTL,ROSMAP,snuc_mega/Ast,Ast_mega_eQTL,Ast_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/interaction/msex/
+eQTL,ROSMAP,snuc_mega/Ast,Ast_mega_eQTL,Ast_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/Ast,Ast_mega_eQTL,Ast_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Ast/QR/
+eQTL,MSBB,BM_10,BM_10_MSBB_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MSBB_eQTL/export/summary/context_specific/BM_10_MSBB_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM_10,BM_10_MSBB_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_10_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM10,BM_10_MSBB_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM10.exported.toploci.bed.gz
+eQTL,MSBB,BM_10,BM_10_MSBB_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/LR/
+eQTL,MSBB,BM_10,BM_10_MSBB_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/interaction/msex/
+eQTL,MSBB,BM_10,BM_10_MSBB_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_10/QR/
+eQTL,MSBB,BM_22,BM_22_MSBB_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MSBB_eQTL/export/summary/context_specific/BM_22_MSBB_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM_22,BM_22_MSBB_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_22_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM22,BM_22_MSBB_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM22.exported.toploci.bed.gz
+eQTL,MSBB,BM_22,BM_22_MSBB_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/LR/
+eQTL,MSBB,BM_22,BM_22_MSBB_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/interaction/msex/
+eQTL,MSBB,BM_22,BM_22_MSBB_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_22/QR/
+eQTL,MSBB,BM_36,BM_36_MSBB_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MSBB_eQTL/export/summary/context_specific/BM_36_MSBB_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM_36,BM_36_MSBB_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_36_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM36,BM_36_MSBB_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM36.exported.toploci.bed.gz
+eQTL,MSBB,BM_36,BM_36_MSBB_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/LR/
+eQTL,MSBB,BM_36,BM_36_MSBB_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/interaction/msex/
+eQTL,MSBB,BM_36,BM_36_MSBB_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_36/QR/
+eQTL,MSBB,BM_44,BM_44_MSBB_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MSBB_eQTL/export/summary/context_specific/BM_44_MSBB_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM_44,BM_44_MSBB_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/MSBB/export/summary/context_specific/MSBB_BM_44_eQTL.exported.toploci.bed.gz
+eQTL,MSBB,BM44,BM_44_MSBB_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM44.exported.toploci.bed.gz
+eQTL,MSBB,BM_44,BM_44_MSBB_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/LR/
+eQTL,MSBB,BM_44,BM_44_MSBB_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/interaction/msex/
+eQTL,MSBB,BM_44,BM_44_MSBB_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MSBB/eQTL/BM_44/QR/
+pQTL,ROSMAP,DLPFC_Bennett,DLPFC_Bennett_pQTL,bulk_brain_pQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Bennett_pQTL.exported.toploci.bed.gz
+pQTL,ROSMAP,DLPFC_Bennett,DLPFC_Bennett_pQTL,bulk_brain_pQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_DLPFC_Bennett_pQTL.exported.toploci.bed.gz
+pQTL,ROSMAP,DLPFC,DLPFC_Bennett_pQTL,bulk_brain_pQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/LR/
+pQTL,ROSMAP,DLPFC,DLPFC_Bennett_pQTL,bulk_brain_pQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/msex/
+pQTL,ROSMAP,DLPFC,DLPFC_Bennett_pQTL,bulk_brain_pQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/interaction/APOE/
+pQTL,ROSMAP,DLPFC,DLPFC_Bennett_pQTL,bulk_brain_pQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/pQTL/DLPFC/QR/
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/DLPFC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_DLPFC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_DLPFC.exported.toploci.bed.gz
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/LR/
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/msex/
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/interaction/APOE/
+eQTL,ROSMAP,DLPFC,DLPFC_DeJager_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/DLPFC/QR/
+pQTL,ROSMAP,DLPFC_Klein_adjusted,DLPFC_Klein_gpQTL_adjusted,bulk_brain_gpQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_adjusted.exported.toploci.bed.gz
+pQTL,ROSMAP,DLPFC_Klein_unadjusted,DLPFC_Klein_gpQTL_unadjusted,bulk_brain_gpQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_unadjusted.exported.toploci.bed.gz
+eQTL,ROSMAP,Exc_DeJager,Exc_DeJager_eQTL,Exc_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Exc_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Exc_DeJager,Exc_DeJager_eQTL,Exc_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Exc_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_Exc,Exc_DeJager_eQTL,Exc_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Exc.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/Exc,Exc_DeJager_eQTL,Exc_eQTL,LR,analysis_result/marginal_significant_qtl/cisAssociational/ROSMAP/eQTL/snuc_DeJager/Exc/LR/
+eQTL,ROSMAP,snuc_DeJager/Exc,Exc_DeJager_eQTL,Exc_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Exc/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/Exc,Exc_DeJager_eQTL,Exc_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Exc/interaction/APOE/
+eQTL,ROSMAP,Exc_Kellis,Exc_Kellis_eQTL,Exc_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Exc_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_Exc,Exc_Kellis_eQTL,Exc_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Exc.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_Kellis/Exc,Exc_Kellis_eQTL,Exc_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/LR/
+eQTL,ROSMAP,snuc_Kellis/Exc,Exc_Kellis_eQTL,Exc_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/Exc,Exc_Kellis_eQTL,Exc_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Exc/interaction/APOE/
+eQTL,ROSMAP,Exc_mega,Exc_mega_eQTL,Exc_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Exc_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Exc_mega,Exc_mega_eQTL,Exc_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Exc_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_Exc,Exc_mega_eQTL,Exc_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Exc.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/Exc,Exc_mega_eQTL,Exc_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/LR/
+eQTL,ROSMAP,snuc_mega/Exc,Exc_mega_eQTL,Exc_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/interaction/msex/
+eQTL,ROSMAP,snuc_mega/Exc,Exc_mega_eQTL,Exc_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/Exc,Exc_mega_eQTL,Exc_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Exc/QR/
+eQTL,ROSMAP,Inh_DeJager,Inh_DeJager_eQTL,Inh_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Inh_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Inh_DeJager,Inh_DeJager_eQTL,Inh_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Inh_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_Inh,Inh_DeJager_eQTL,Inh_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Inh.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/Inh,Inh_DeJager_eQTL,Inh_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/LR/
+eQTL,ROSMAP,snuc_DeJager/Inh,Inh_DeJager_eQTL,Inh_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/Inh,Inh_DeJager_eQTL,Inh_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Inh/interaction/APOE/
+eQTL,ROSMAP,Inh_Kellis,Inh_Kellis_eQTL,Inh_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Inh_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_Inh,Inh_Kellis_eQTL,Inh_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Inh.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_Kellis/Inh,Inh_Kellis_eQTL,Inh_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/LR/
+eQTL,ROSMAP,snuc_Kellis/Inh,Inh_Kellis_eQTL,Inh_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/Inh,Inh_Kellis_eQTL,Inh_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Inh/interaction/APOE/
+eQTL,ROSMAP,Inh_mega,Inh_mega_eQTL,Inh_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Inh_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Inh_mega,Inh_mega_eQTL,Inh_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Inh_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_Inh,Inh_mega_eQTL,Inh_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Inh.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/Inh,Inh_mega_eQTL,Inh_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/LR/
+eQTL,ROSMAP,snuc_mega/Inh,Inh_mega_eQTL,Inh_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/interaction/msex/
+eQTL,ROSMAP,snuc_mega/Inh,Inh_mega_eQTL,Inh_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/Inh,Inh_mega_eQTL,Inh_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Inh/QR/
+mQTL,KNIGHT,Brain,KnightADRC_mQTL,bulk_brain_mQTL,fSuSiE_finemapping,analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz
+eQTL,KNIGHT,Brain,Knight_eQTL_brain,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/KNIGHT_eQTL/export/summary/context_specific/Knight_eQTL_brain.exported.toploci.bed.gz
+eQTL,KNIGHT,Brain,Knight_eQTL_brain,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_eQTL.exported.toploci.bed.gz
+eQTL,KNIGHT,Brain,Knight_eQTL_brain,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/LR/
+eQTL,KNIGHT,Brain,Knight_eQTL_brain,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/interaction/msex/
+eQTL,KNIGHT,Brain,Knight_eQTL_brain,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/eQTL/Brain/QR/
+pQTL,KNIGHT,Brain,Knight_pQTL_brain,bulk_brain_pQTL,single_context_finemapping,analysis_result/single_context/KNIGHT_pQTL/export/summary/context_specific/Knight_pQTL_brain.exported.toploci.bed.gz
+pQTL,KNIGHT,Brain,Knight_pQTL_brain,bulk_brain_pQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_pQTL.exported.toploci.bed.gz
+pQTL,KNIGHT,Brain,Knight_pQTL_brain,bulk_brain_pQTL,LR,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/LR/
+pQTL,KNIGHT,Brain,Knight_pQTL_brain,bulk_brain_pQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/interaction/msex/
+pQTL,KNIGHT,Brain,Knight_pQTL_brain,bulk_brain_pQTL,QR,analysis_result/marginal_significant_qtl/cis_association/KNIGHT/pQTL/Brain/QR/
+pQTL,MSBB,BM_36,MSBB_BM36_pQTL,bulk_brain_pQTL,single_context_finemapping,analysis_result/single_context/MSBB_pQTL/export/summary/context_specific/MSBB_BM36_pQTL.exported.toploci.bed.gz
+pQTL,MSBB,BM36,MSBB_BM36_pQTL,bulk_brain_pQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_pQTL.exported.toploci.bed.gz
+pQTL,ROSMAP,DeJager,MSBB_BM36_pQTL,bulk_brain_pQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_pQTL.exported.toploci.bed.gz
+pQTL,MSBB,-,MSBB_BM36_pQTL,bulk_brain_pQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/LR/
+pQTL,MSBB,-,MSBB_BM36_pQTL,bulk_brain_pQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/interaction/msex/
+pQTL,MSBB,-,MSBB_BM36_pQTL,bulk_brain_pQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MSBB/pQTL/QR/
+mQTL,MSBB,-,MSBB_mQTL,bulk_brain_mQTL,fSuSiE_finemapping,analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.bed.gz
+eQTL,MetaBrain,Basalganglia,Metabrain_Basalganglia,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MetaBrain/export/summary/context_specific/Metabrain_Basalganglia.exported.toploci.bed.gz
+eQTL,MetaBrain,Cerebellum,Metabrain_Cerebellum,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MetaBrain/export/summary/context_specific/Metabrain_Cerebellum.exported.toploci.bed.gz
+eQTL,MetaBrain,Cortex,Metabrain_Cortex,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MetaBrain/export/summary/context_specific/Metabrain_Cortex.exported.toploci.bed.gz
+eQTL,MetaBrain,Hippocampus,Metabrain_Hippocampus,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MetaBrain/export/summary/context_specific/Metabrain_Hippocampus.exported.toploci.bed.gz
+eQTL,MetaBrain,Spinalcord,Metabrain_Spinalcord,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/MetaBrain/export/summary/context_specific/Metabrain_Spinalcord.exported.toploci.bed.gz
+eQTL,MiGA,GFM,MiGA_GFM_eQTL,bulk_microglia_eQTL,single_context_finemapping,analysis_result/single_context/MiGA_eQTL/export/summary/context_specific/MiGA_GFM_eQTL.exported.toploci.bed.gz
+eQTL,MiGA,GFM,MiGA_GFM_eQTL,bulk_microglia_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_GFM.exported.toploci.bed.gz
+eQTL,MiGA,GFM,MiGA_GFM_eQTL,bulk_microglia_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/LR/
+eQTL,MiGA,GFM,MiGA_GFM_eQTL,bulk_microglia_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/interaction/msex/
+eQTL,MiGA,GFM,MiGA_GFM_eQTL,bulk_microglia_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GFM/QR/
+eQTL,MiGA,GTS,MiGA_GTS_eQTL,bulk_microglia_eQTL,single_context_finemapping,analysis_result/single_context/MiGA_eQTL/export/summary/context_specific/MiGA_GTS_eQTL.exported.toploci.bed.gz
+eQTL,MiGA,GTS,MiGA_GTS_eQTL,bulk_microglia_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_GTS.exported.toploci.bed.gz
+eQTL,MiGA,GTS,MiGA_GTS_eQTL,bulk_microglia_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/LR/
+eQTL,MiGA,GTS,MiGA_GTS_eQTL,bulk_microglia_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/interaction/msex/
+eQTL,MiGA,GTS,MiGA_GTS_eQTL,bulk_microglia_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/GTS/QR/
+eQTL,MiGA,SVZ,MiGA_SVZ_eQTL,bulk_microglia_eQTL,single_context_finemapping,analysis_result/single_context/MiGA_eQTL/export/summary/context_specific/MiGA_SVZ_eQTL.exported.toploci.bed.gz
+eQTL,MiGA,SVZ,MiGA_SVZ_eQTL,bulk_microglia_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_SVZ.exported.toploci.bed.gz
+eQTL,MiGA,SVZ,MiGA_SVZ_eQTL,bulk_microglia_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/LR/
+eQTL,MiGA,SVZ,MiGA_SVZ_eQTL,bulk_microglia_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/interaction/msex/
+eQTL,MiGA,SVZ,MiGA_SVZ_eQTL,bulk_microglia_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/SVZ/QR/
+eQTL,MiGA,THA,MiGA_THA_eQTL,bulk_microglia_eQTL,single_context_finemapping,analysis_result/single_context/MiGA_eQTL/export/summary/context_specific/MiGA_THA_eQTL.exported.toploci.bed.gz
+eQTL,MiGA,THA,MiGA_THA_eQTL,bulk_microglia_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_THA.exported.toploci.bed.gz
+eQTL,MiGA,THA,MiGA_THA_eQTL,bulk_microglia_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/LR/
+eQTL,MiGA,THA,MiGA_THA_eQTL,bulk_microglia_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/interaction/msex/
+eQTL,MiGA,THA,MiGA_THA_eQTL,bulk_microglia_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/MiGA/eQTL/THA/QR/
+eQTL,ROSMAP,Mic_12_Kellis,Mic_12_Kellis_eQTL,Mic_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Mic_12_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Mic_13_Kellis,Mic_13_Kellis_eQTL,Mic_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Mic_13_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Mic_DeJager,Mic_DeJager_eQTL,Mic_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Mic_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Mic_DeJager,Mic_DeJager_eQTL,Mic_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Mic_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_Mic,Mic_DeJager_eQTL,Mic_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Mic.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/Mic,Mic_DeJager_eQTL,Mic_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/LR/
+eQTL,ROSMAP,snuc_DeJager/Mic,Mic_DeJager_eQTL,Mic_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/Mic,Mic_DeJager_eQTL,Mic_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Mic/interaction/APOE/
+eQTL,ROSMAP,Mic_Kellis,Mic_Kellis_eQTL,Mic_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Mic_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_Mic,Mic_Kellis_eQTL,Mic_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Mic.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_Kellis/Ast,Mic_Kellis_eQTL,Mic_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/LR/
+eQTL,ROSMAP,snuc_Kellis/Mic,Mic_Kellis_eQTL,Mic_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/LR/
+eQTL,ROSMAP,snuc_Kellis/Ast,Mic_Kellis_eQTL,Mic_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/Mic,Mic_Kellis_eQTL,Mic_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/Ast,Mic_Kellis_eQTL,Mic_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Ast/interaction/APOE/
+eQTL,ROSMAP,snuc_Kellis/Mic,Mic_Kellis_eQTL,Mic_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Mic/interaction/APOE/
+eQTL,ROSMAP,Mic_mega,Mic_mega_eQTL,Mic_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Mic_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Mic_mega,Mic_mega_eQTL,Mic_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Mic_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_Mic,Mic_mega_eQTL,Mic_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Mic.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/Mic,Mic_mega_eQTL,Mic_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/LR/
+eQTL,ROSMAP,snuc_mega/Mic,Mic_mega_eQTL,Mic_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/interaction/msex/
+eQTL,ROSMAP,snuc_mega/Mic,Mic_mega_eQTL,Mic_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/Mic,Mic_mega_eQTL,Mic_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Mic/QR/
+Multi,MSBB,All,Multi,,multi_context_finemapping,analysis_result/multi_context/MSBB/export/summary/MSBB.exported.toploci.bed.gz
+Multi,ROSMAP,All,Multi,,multi_context_finemapping,analysis_result/multi_context/ROSMAP/export/summary/ROSMAP.exported.toploci.bed.gz
+QTL,ROSMAP,xQTL_only_colocalization,Multi,,ColocBoost,analysis_result/ColocBoost/export/summary/xqtl_only_colocboost_export_filtered.bed.gz
+QTL & GWAS,ROSMAP & AD,AD_xQTL_colocalization,Multi,,ColocBoost,analysis_result/ColocBoost/export/summary/ad_xqtl_colocboost_export_filtered.bed.gz
+GWAS,AD,AD_meta_colocalization,Multi,,ColocBoost,analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz
+Gene & GWAS,ROSMAP & MSBB & AD,-,Multi,,twas,analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz
+Gene & GWAS,ROSMAP & AD,-,Multi,,ctwas,analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz
+eQTL,ROSMAP,OPC_DeJager,OPC_DeJager_eQTL,OPC_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/OPC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,OPC_DeJager,OPC_DeJager_eQTL,OPC_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_OPC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_OPC,OPC_DeJager_eQTL,OPC_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_OPC.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/OPC,OPC_DeJager_eQTL,OPC_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/LR/
+eQTL,ROSMAP,snuc_DeJager/OPC,OPC_DeJager_eQTL,OPC_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/OPC,OPC_DeJager_eQTL,OPC_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/OPC/interaction/APOE/
+eQTL,ROSMAP,OPC_Kellis,OPC_Kellis_eQTL,OPC_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/OPC_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_OPC,OPC_Kellis_eQTL,OPC_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_OPC.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_Kellis/OPC,OPC_Kellis_eQTL,OPC_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/LR/
+eQTL,ROSMAP,snuc_Kellis/OPC,OPC_Kellis_eQTL,OPC_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/OPC,OPC_Kellis_eQTL,OPC_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/OPC/interaction/APOE/
+eQTL,ROSMAP,OPC_mega,OPC_mega_eQTL,OPC_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/OPC_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,OPC_mega,OPC_mega_eQTL,OPC_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_OPC_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_OPC,OPC_mega_eQTL,OPC_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_OPC.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/OPC,OPC_mega_eQTL,OPC_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/LR/
+eQTL,ROSMAP,snuc_mega/OPC,OPC_mega_eQTL,OPC_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/interaction/msex/
+eQTL,ROSMAP,snuc_mega/OPC,OPC_mega_eQTL,OPC_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/OPC,OPC_mega_eQTL,OPC_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/OPC/QR/
+eQTL,ROSMAP,Oli_DeJager,Oli_DeJager_eQTL,Oli_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Oli_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Oli_DeJager,Oli_DeJager_eQTL,Oli_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Oli_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_Oli,Oli_DeJager_eQTL,Oli_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Oli.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_DeJager/Oli,Oli_DeJager_eQTL,Oli_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/LR/
+eQTL,ROSMAP,snuc_DeJager/Oli,Oli_DeJager_eQTL,Oli_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/interaction/msex/
+eQTL,ROSMAP,snuc_DeJager/Oli,Oli_DeJager_eQTL,Oli_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_DeJager/Oli/interaction/APOE/
+eQTL,ROSMAP,Oli_Kellis,Oli_Kellis_eQTL,Oli_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Oli_Kellis_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Kelli_Oli,Oli_Kellis_eQTL,Oli_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Oli.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_Kellis/Oli,Oli_Kellis_eQTL,Oli_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/LR/
+eQTL,ROSMAP,snuc_Kellis/Oli,Oli_Kellis_eQTL,Oli_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/interaction/msex/
+eQTL,ROSMAP,snuc_Kellis/Oli,Oli_Kellis_eQTL,Oli_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_Kellis/Oli/interaction/APOE/
+eQTL,ROSMAP,Oli_mega,Oli_mega_eQTL,Oli_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Oli_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,Oli_mega,Oli_mega_eQTL,Oli_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Oli_mega_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,mega_Oli,Oli_mega_eQTL,Oli_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Oli.exported.toploci.bed.gz
+eQTL,ROSMAP,snuc_mega/Oli,Oli_mega_eQTL,Oli_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/LR/
+eQTL,ROSMAP,snuc_mega/Oli,Oli_mega_eQTL,Oli_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/interaction/msex/
+eQTL,ROSMAP,snuc_mega/Oli,Oli_mega_eQTL,Oli_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/interaction/APOE/
+eQTL,ROSMAP,snuc_mega/Oli,Oli_mega_eQTL,Oli_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/snuc_mega/Oli/QR/
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/PCC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_PCC_DeJager_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_PCC.exported.toploci.bed.gz
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/LR/
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/interaction/msex/
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/interaction/APOE/
+eQTL,ROSMAP,PCC,PCC_DeJager_eQTL,bulk_brain_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/PCC/QR/
+sQTL,ROSMAP,AC,ROSMAP_AC_sQTL,bulk_brain_sQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_sQTL/LeafCutter2/export/summary/context_specific/ROSMAP_AC_sQTL.exported.toploci.bed.gz
+haQTL,ROSMAP,DLPFC,ROSMAP_DLPFC_haQTL,bulk_brain_haQTL,fSuSiE_finemapping,analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz
+mQTL,ROSMAP,DLPFC,ROSMAP_DLPFC_mQTL,bulk_brain_mQTL,fSuSiE_finemapping,analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz
+sQTL,ROSMAP,DLPFC,ROSMAP_DLPFC_sQTL,bulk_brain_sQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_sQTL/LeafCutter2/export/summary/context_specific/ROSMAP_DLPFC_sQTL.exported.toploci.bed.gz
+sQTL,ROSMAP,PCC,ROSMAP_PCC_sQTL,bulk_brain_sQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_sQTL/LeafCutter2/export/summary/context_specific/ROSMAP_PCC_sQTL.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_Ast,ROSMAP_snATAC_Kelis_Ast,Ast_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Ast.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_Exc,ROSMAP_snATAC_Kelis_Exc,Exc_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Exc.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_Inh,ROSMAP_snATAC_Kelis_Inh,Inh_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Inh.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_Mic,ROSMAP_snATAC_Kelis_Mic,Mic_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Mic.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_OPC,ROSMAP_snATAC_Kelis_OPC,OPC_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_OPC.exported.toploci.bed.gz
+snATAC,ROSMAP,Kelis_Oli,ROSMAP_snATAC_Kelis_Oli,Oli_snATAC,fSuSiE_finemapping,analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Oli.exported.toploci.bed.gz
+eQTL,STARNET,Mac,STARNET_eQTL_Mac,bulk_macrophage_eQTL,single_context_finemapping,analysis_result/single_context/STARNET_eQTL/export/summary/context_specific/STARNET_eQTL_Mac.exported.toploci.bed.gz
+eQTL,STARNET,Mac,STARNET_eQTL_Mac,bulk_macrophage_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/STARNET_eQTL.exported.toploci.bed.gz
+eQTL,STARNET,-,STARNET_eQTL_Mac,bulk_macrophage_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/STARNET/eQTL/LR/
+eQTL,STARNET,-,STARNET_eQTL_Mac,bulk_macrophage_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/STARNET/eQTL/interaction/msex/
+metabolome,ROSMAP,-,metabolome,metabolome,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_metabolome.exported.toploci.bed.gz
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,single_context_finemapping,analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,multi_gene_finemapping,analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
+eQTL,ROSMAP,DeJager_monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,trans_finemapping,analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_monocyte.exported.toploci.bed.gz
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,LR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/LR/
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,msex interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/interaction/msex/
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,APOE interaction,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/interaction/APOE/
+eQTL,ROSMAP,monocyte,monocyte_ROSMAP_eQTL,bulk_monocyte_eQTL,QR,analysis_result/marginal_significant_qtl/cis_association/ROSMAP/eQTL/monocyte/QR/
