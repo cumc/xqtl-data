@@ -3,9 +3,11 @@
 ## Overview
 
 This repository contains Quantitative Trait Loci (QTL) analysis results from multiple datasets, focusing on various contexts and biological systems. The data includes expression QTLs (eQTLs), protein QTLs (pQTLs), and splicing QTLs (sQTLs) across different brain regions and cell types.
+For metadata in csv format of all (Finemapping + LR) analysis generated, with harmonized context column see [here](all_analysis_summary_tables_metadata.csv) 
 
 ## Dataset Breakdown
 # xQTL Finemapping Results Summary
+
 
 | Data Type | Cohort | Modality | Method | Path |
 |-----------|--------|----------|--------|------|
