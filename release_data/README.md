@@ -129,6 +129,12 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | GWAS | AD | AD_meta_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
+| mQTL & haQTL   | ROSMAP & MSSB & Knight     | Brain       | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/FunGen_xQTL_epi.bulk.exported.compact.bed.gz                  |
+| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.compact.bed.gz |
+| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.compact.bed.gz  |
+| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.compact.bed.gz    |
+| mQTL     | MSBB        | -              | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.compact.bed.gz         |
+| mQTL & haQTL   | ROSMAP & MSSB & Knight     | Brain       | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/FunGen_xQTL_epi.bulk.exported.bed.gz                  |
 | haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
 | mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
 | mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.bed.gz    |
@@ -139,8 +145,9 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | snATAC   | ROSMAP      | Kelis_Oli       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Oli.exported.toploci.bed.gz                  |
 | snATAC   | ROSMAP      | Kelis_Mic       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Mic.exported.toploci.bed.gz                  |
 | snATAC   | ROSMAP      | Kelis_Inh       | fSuSiE_finemapping | analysis_result/snatac_fsusie/top_loci/context_specific/ROSMAP_snATAC_Kelis_Inh.exported.toploci.bed.gz                  |
-
-
+| snATAC  & AD   | ROSMAP & AD      | Kelis Celltypes      | Coloc | analysis_result/coloc/fsusie_AD_coloc/snATAC_Kelis_AD_coloc_export_filtered.bed.gz                  |
+| Bulk mQTL and haQTL  & AD   | ROSMAP & AD      | Brain      | Coloc | analysis_result/coloc/fsusie_AD_coloc/bulk_fsusie_AD_coloc_export_filtered.bed.gz                  |
+| snATAC  & Gene   | ROSMAP      | Kelis Celltypes      | Coloc | analysis_result/coloc/fsusie_AD_coloc/snatac_ROSMAP.coloc.tsv.gz                  |
 
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
@@ -223,6 +230,20 @@ Unique in fSuSiE
 | `effect_size_z`      | numeric  | Unadjusted effect size (`z`) at each grid position                         |
 | `cs_id`              | string   | ID of the 95% credible set within this context and TAD                     |
 | `cs_root`            | string   | Unified root name for overlapping CS in the same context                   |
+
+Unique in fSuSiE compact table 
+| Column Name          | Type     | Description                                                                 |
+|----------------------|----------|-----------------------------------------------------------------------------|
+| `effect_peak_start`  | integer  | Genomic start position of the effect peak                                  |
+| `effect_peak_end`    | integer  | Genomic end position of the effect peak                                    |
+| `effect_peak_index`  | integer  | Index of the effect peak in 1024-grid representation of the TAD            |
+| `grid_positions`      | numeric  | Comma‐separated list of numeric grid_position (Grid-based positions (x-axis) covered by the effect peak)                  |
+| `grid_effects`      | string  | Comma‐separated list of numeric effect size (`beta`) at each grid position |
+| `epi_mark_positions`   | string   | Comma‐separated list of genomics positions for the epigenetics marks that are covered by the estimated effect peak |
+| `epi_mark_names`   | string   | Comma‐separated list of name for the epigenetics marks that are covered by the estimated effect peak                     |
+| `epi_mark_effects`   | string   | Comma‐separated list of **interpolated** effect for the epigenetics marks that are covered by the estimated effect peak based on neighboring grid_effects. It should be aware that there is no 1 to 1 relationship between the grid effects and the actual epi mark effects|
+
+
 
 ### Notes
 
