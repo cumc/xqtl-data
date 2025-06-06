@@ -149,10 +149,6 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | Bulk mQTL and haQTL  & AD   | ROSMAP & AD      | Brain      | Coloc | analysis_result/coloc/fsusie_AD_coloc/bulk_fsusie_AD_coloc_export_filtered.bed.gz                  |
 | snATAC  & Gene   | ROSMAP      | Kelis Celltypes      | Coloc | analysis_result/coloc/fsusie_AD_coloc/snatac_ROSMAP.coloc.tsv.gz                  |
 
-
-
-
-
 * AD_xQTL_colocalization results include "AD_Bellenguez_2022", "AD_Wightman_Excluding23andMe_2021", "AD_Wightman_ExcludingUKBand23andME_2021", "AD_Kunkle_Stage1_2019", "AD_Wightman_Full_2021"
 ## Usage Notes
 
@@ -218,7 +214,7 @@ Unique in cTWAS
 | `start`     | integer | Transcription start site - 1 |
 | `end`       | integer | Transcription start site         |
 
-Unique in fSuSiE compact table
+Unique in fSuSiE
 | Column Name          | Type     | Description                                                                 |
 |----------------------|----------|-----------------------------------------------------------------------------|
 | `maf`                | numeric  | Minor allele frequency                                                      |
