@@ -131,11 +131,6 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 | GWAS | AD | AD_meta_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
-| mQTL & haQTL   | ROSMAP & MSSB & Knight     | Brain       | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/FunGen_xQTL_epi.bulk.exported.compact.bed.gz                  |
-| haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.compact.bed.gz |
-| mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.compact.bed.gz  |
-| mQTL     | KNIGHT  | Brain             | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/KnightADRC_mQTL.exported.toploci.compact.bed.gz    |
-| mQTL     | MSBB        | -              | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/MSBB_mQTL.exported.toploci.compact.bed.gz         |
 | mQTL & haQTL   | ROSMAP & MSSB & Knight     | Brain       | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/FunGen_xQTL_epi.bulk.exported.bed.gz                  |
 | haQTL    | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
 | mQTL     | ROSMAP      | DLPFC          | fSuSiE_finemapping | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz  |
@@ -223,19 +218,9 @@ Unique in fSuSiE
 | `cs_coverage_0.95`   | numeric  | Credible set coverage at 95% threshold                                     |
 | `TADB_start`   | integer  | Cis-window start position, typically defined by TAD boundary               |
 | `TADB_end`     | integer  | Cis-window end position, typically defined by TAD boundary                 |
-| `effect_direction`   | integer  | Overall sign of the effect peak, based on `z` values                       |
-| `effect_peak_start`  | integer  | Genomic start position of the effect peak                                  |
-| `effect_peak_end`    | integer  | Genomic end position of the effect peak                                    |
-| `effect_peak_index`  | integer  | Index of the effect peak in 1024-grid representation of the TAD            |
-| `grid_position`      | integer  | Grid-based positions (x-axis) covered by the effect peak                   |
 | `grid_resolution`    | integer  | Number of grid rows used (typically 512 or 1024)                            |
-| `effect_size_z`      | numeric  | Unadjusted effect size (`z`) at each grid position                         |
 | `cs_id`              | string   | ID of the 95% credible set within this context and TAD                     |
 | `cs_root`            | string   | Unified root name for overlapping CS in the same context                   |
-
-Unique in fSuSiE compact table 
-| Column Name          | Type     | Description                                                                 |
-|----------------------|----------|-----------------------------------------------------------------------------|
 | `effect_peak_start`  | integer  | Genomic start position of the effect peak                                  |
 | `effect_peak_end`    | integer  | Genomic end position of the effect peak                                    |
 | `effect_peak_index`  | integer  | Index of the effect peak in 1024-grid representation of the TAD            |
