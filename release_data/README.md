@@ -127,11 +127,11 @@ This repository contains Quantitative Trait Loci (QTL) analysis results from mul
 | QTL | ROSMAP | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz |
 | QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz |
 | QTL | MSBB | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/ad_xqtl_colocboost_export_filtered.bed.gz |
+| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz |
 | QTL | KNIGHT | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz |
 | QTL | MIGA | xQTL_only_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz |
 | GWAS | AD | AD_meta_colocalization | ColocBoost | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | twas | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | ctwas | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
