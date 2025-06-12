@@ -236,6 +236,27 @@ Unique in fSuSiE
 | `epi_mark_names`   | string   | Comma‐separated list of name for the epigenetics marks that are covered by the estimated effect peak                     |
 | `epi_mark_effects`   | string   | Comma‐separated list of **interpolated** effect for the epigenetics marks that are covered by the estimated effect peak based on neighboring grid_effects. It should be aware that there is no 1 to 1 relationship between the grid effects and the actual epi mark effects|
 
+Unique in fSuSiE-AD colocalization
+
+| Column Name   | Type    | Description                                                                                                 |
+|---------------|---------|-------------------------------------------------------------------------------------------------------------|
+| cos_id           | chr     | Unique identifier for each 95% pair-wise coloc confidence set.                                |
+| coloc_index   | int     | Integer index of pair-wise coloc test in the SNP level result of COLOC.                                     |
+| nsnps         | int     | Number of SNPs included in the pair-wise coloc test.                                                       |
+| SNP_PPH4      | dbl     | The posterior probability SNP.PP.H4 of the SNP being causal for the shared signal if L_PP.H4.abf is true. |
+| TADB_region   | chr     | Name or identifier of the topologically associating domain boundary (TADB) within which fsusie is conducted.       |
+| AD            | chr     | Name of the susie-rss fine-mapped Alzheimer’s-disease GWAS dataset used in the colocalization.                                    |
+| cs_id         | chr     | ID of the 95% credible set for this context and TADB from fsusie fine-mapping.                                    |
+| xQTL          | chr     | Name of the fsusie fine-mapped xQTL dataset used in the colocalization.                                                     |
+| xQTL_hit      | chr     | The lead SNP of a particular fine-mapping effect (L) that are tested for colocalization in the fsusie xQTL dataset. (hit1 in coloc)                                  |
+| AD_hit        | chr     | The lead SNP of a particular fine-mapping effect (L) that are tested for colocalization in the susie-rss AD dataset (hit2 in coloc)                                       |
+| xQTL_L        | int     | The index of fine-mapped effect (L) in the xQTL (from fsusie,idx1 in coloc).                                    |
+| AD_L          | int     | The index of fine-mapped effect (L) in the AD GWAS (from susie-rss, idx2 in coloc).                                              |
+| PP.H0.abf     | dbl     | Posterior probability of hypothesis 0: no association in either study.                                      |
+| PP.H1.abf     | dbl     | Posterior probability of hypothesis 1: association in xQTL only.                                            |
+| PP.H2.abf     | dbl     | Posterior probability of hypothesis 2: association in AD GWAS only.                                         |
+| L_PP.H3.abf   | dbl     | posterior probability of hypothesis 3: two distinct causal variants on the effect (L) level. (PP.H3.abf in coloc)                                  |
+| L_PP.H4.abf   | dbl     | posterior probability of hypothesis 4: shared causal variant between xQTL and AD GWAS on the effect (L) level. (PP.H4.abf in coloc)           |
 
 
 ### Notes
