@@ -9,7 +9,7 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 # xQTL Finemapping Results Summary
 
 
-| Data Type | Cohort | Modality | Method | Path |
+| Modality | Cohort | Context | Method | Path |
 |-----------|--------|----------|--------|------|
 | eQTL | KNIGHT | Brain | single_context_finemapping | analysis_result/single_context/KNIGHT_eQTL/export/summary/context_specific/Knight_eQTL_brain.exported.toploci.bed.gz |
 | pQTL | KNIGHT | Brain | single_context_finemapping | analysis_result/single_context/KNIGHT_pQTL/export/summary/context_specific/Knight_pQTL_brain.exported.toploci.bed.gz |
