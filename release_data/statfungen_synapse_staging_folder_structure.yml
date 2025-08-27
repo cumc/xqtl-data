@@ -1,0 +1,224 @@
+README
+variant_gene_summary:
+  xQTL_loci_summary:
+    xQTL_finemapping:
+      single_context_finemapping:
+        eQTL:
+          - Knight_eQTL_brain.exported.toploci.bed.gz
+          - BM_10_MSBB_eQTL.exported.toploci.bed.gz
+          - BM_22_MSBB_eQTL.exported.toploci.bed.gz
+          - BM_36_MSBB_eQTL.exported.toploci.bed.gz
+          - BM_44_MSBB_eQTL.exported.toploci.bed.gz
+          - Metabrain_Basalganglia.exported.toploci.bed.gz
+          - Metabrain_Cerebellum.exported.toploci.bed.gz
+          - Metabrain_Cortex.exported.toploci.bed.gz
+          - Metabrain_Hippocampus.exported.toploci.bed.gz
+          - Metabrain_Spinalcord.exported.toploci.bed.gz
+          - MiGA_GFM_eQTL.exported.toploci.bed.gz
+          - MiGA_GTS_eQTL.exported.toploci.bed.gz
+          - MiGA_SVZ_eQTL.exported.toploci.bed.gz
+          - MiGA_THA_eQTL.exported.toploci.bed.gz
+          - AC_DeJager_eQTL.exported.toploci.bed.gz
+          - Ast_10_Kellis_eQTL.exported.toploci.bed.gz
+          - Ast_DeJager_eQTL.exported.toploci.bed.gz
+          - Ast_Kellis_eQTL.exported.toploci.bed.gz
+          - Ast_mega_eQTL.exported.toploci.bed.gz
+          - DLPFC_DeJager_eQTL.exported.toploci.bed.gz
+          - Exc_DeJager_eQTL.exported.toploci.bed.gz
+          - Exc_Kellis_eQTL.exported.toploci.bed.gz
+          - Exc_mega_eQTL.exported.toploci.bed.gz
+          - Inh_DeJager_eQTL.exported.toploci.bed.gz
+          - Inh_Kellis_eQTL.exported.toploci.bed.gz
+          - Inh_mega_eQTL.exported.toploci.bed.gz
+          - Mic_12_Kellis_eQTL.exported.toploci.bed.gz
+          - Mic_13_Kellis_eQTL.exported.toploci.bed.gz
+          - Mic_DeJager_eQTL.exported.toploci.bed.gz
+          - Mic_Kellis_eQTL.exported.toploci.bed.gz
+          - Mic_mega_eQTL.exported.toploci.bed.gz
+          - OPC_DeJager_eQTL.exported.toploci.bed.gz
+          - OPC_Kellis_eQTL.exported.toploci.bed.gz
+          - OPC_mega_eQTL.exported.toploci.bed.gz
+          - Oli_DeJager_eQTL.exported.toploci.bed.gz
+          - Oli_Kellis_eQTL.exported.toploci.bed.gz
+          - Oli_mega_eQTL.exported.toploci.bed.gz
+          - PCC_DeJager_eQTL.exported.toploci.bed.gz
+          - monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
+          - STARNET_eQTL_Mac.exported.toploci.bed.gz
+        pQTL:
+          - Knight_pQTL_brain.exported.toploci.bed.gz
+          - MSBB_BM36_pQTL.exported.toploci.bed.gz
+          - DLPFC_Bennett_pQTL.exported.toploci.bed.gz
+          - DLPFC_Klein_gpQTL_adjusted.exported.toploci.bed.gz
+          - DLPFC_Klein_gpQTL_unadjusted.exported.toploci.bed.gz
+        sQTL:
+          - ROSMAP_AC_sQTL.exported.toploci.bed.gz
+          - ROSMAP_DLPFC_sQTL.exported.toploci.bed.gz
+          - ROSMAP_PCC_sQTL.exported.toploci.bed.gz
+        mQTL:
+          - ROSMAP_DLPFC_mQTL.exported.toploci.bed.gz
+          - KnightADRC_mQTL.exported.toploci.bed.gz
+          - MSBB_mQTL.exported.toploci.bed.gz
+        haQTL:
+          - ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz
+        snATAC:
+          - ROSMAP_snATAC_Kelis_OPC.exported.toploci.bed.gz
+          - ROSMAP_snATAC_Kelis_Exc.exported.toploci.bed.gz
+          - ROSMAP_snATAC_Kelis_Ast.exported.toploci.bed.gz
+          - ROSMAP_snATAC_Kelis_Oli.exported.toploci.bed.gz
+          - ROSMAP_snATAC_Kelis_Mic.exported.toploci.bed.gz
+          - ROSMAP_snATAC_Kelis_Inh.exported.toploci.bed.gz
+      multi_context_finemapping:
+        Multi:
+          - MSBB.exported.toploci.bed.gz
+          - ROSMAP.exported.toploci.bed.gz
+      multi_gene_finemapping:
+        eQTL:
+          - MSBB_BM_10_eQTL.exported.toploci.bed.gz
+          - MSBB_BM_22_eQTL.exported.toploci.bed.gz
+          - MSBB_BM_36_eQTL.exported.toploci.bed.gz
+          - MSBB_BM_44_eQTL.exported.toploci.bed.gz
+          - ROSMAP_AC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Ast_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Ast_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_DLPFC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Exc_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Exc_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Inh_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Inh_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Mic_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Mic_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_OPC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_OPC_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Oli_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Oli_mega_eQTL.exported.toploci.bed.gz
+          - ROSMAP_PCC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
+        pQTL:
+          - ROSMAP_DLPFC_Bennett_pQTL.exported.toploci.bed.gz
+      trans_finemapping:
+        eQTL:
+          - Knight_eQTL.exported.toploci.bed.gz
+          - MSBB_eQTL_BM10.exported.toploci.bed.gz
+          - MSBB_eQTL_BM22.exported.toploci.bed.gz
+          - MSBB_eQTL_BM36.exported.toploci.bed.gz
+          - MSBB_eQTL_BM44.exported.toploci.bed.gz
+          - MiGA_eQTL_GFM.exported.toploci.bed.gz
+          - MiGA_eQTL_GTS.exported.toploci.bed.gz
+          - MiGA_eQTL_SVZ.exported.toploci.bed.gz
+          - MiGA_eQTL_THA.exported.toploci.bed.gz
+          - ROSMAP_DeJager_AC.exported.toploci.bed.gz
+          - ROSMAP_DeJager_Ast.exported.toploci.bed.gz
+          - ROSMAP_DeJager_DLPFC.exported.toploci.bed.gz
+          - ROSMAP_DeJager_Exc.exported.toploci.bed.gz
+          - ROSMAP_DeJager_Inh.exported.toploci.bed.gz
+          - ROSMAP_DeJager_Mic.exported.toploci.bed.gz
+          - ROSMAP_DeJager_OPC.exported.toploci.bed.gz
+          - ROSMAP_DeJager_Oli.exported.toploci.bed.gz
+          - ROSMAP_DeJager_PCC.exported.toploci.bed.gz
+          - ROSMAP_DeJager_monocyte.exported.toploci.bed.gz
+          - ROSMAP_Kelli_Ast.exported.toploci.bed.gz
+          - ROSMAP_Kelli_Exc.exported.toploci.bed.gz
+          - ROSMAP_Kelli_Inh.exported.toploci.bed.gz
+          - ROSMAP_Kelli_Mic.exported.toploci.bed.gz
+          - ROSMAP_Kelli_OPC.exported.toploci.bed.gz
+          - ROSMAP_Kelli_Oli.exported.toploci.bed.gz
+          - ROSMAP_mega_Ast.exported.toploci.bed.gz
+          - ROSMAP_mega_Exc.exported.toploci.bed.gz
+          - ROSMAP_mega_Inh.exported.toploci.bed.gz
+          - ROSMAP_mega_Mic.exported.toploci.bed.gz
+          - ROSMAP_mega_OPC.exported.toploci.bed.gz
+          - ROSMAP_mega_Oli.exported.toploci.bed.gz
+          - STARNET_eQTL.exported.toploci.bed.gz
+        pQTL:
+          - Knight_pQTL.exported.toploci.bed.gz
+          - MSBB_pQTL.exported.toploci.bed.gz
+          - ROSMAP_DeJager_pQTL.exported.toploci.bed.gz
+        metabolome:
+          - ROSMAP_metabolome.exported.toploci.bed.gz
+  xQTL_colocalization:
+    multi_context_colocalization:
+      QTL:
+        - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
+      QTL_and_GWAS:
+        - AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz
+        - AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz
+        - AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz
+        - AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz
+      GWAS:
+        - ad_meta_colocboost_export_filtered.bed.gz
+    pairwise_colocalization:
+      snATAC_and_AD:
+        - snATAC_Kelis_AD_coloc_export_filtered.bed.gz
+      bulk_mQTL_haQTL_and_AD:
+        - bulk_fsusie_AD_coloc_export_filtered.bed.gz
+      snATAC_and_Gene:
+        - snatac_ROSMAP.coloc.tsv.gz
+  AD_loci_summary:
+    AD_finemapping:
+      GWAS:
+        - AD_Bellenguez_2022.exported.toploci.bed.gz
+        - AD_Jansen_2021.exported.toploci.bed.gz
+        - AD_Wightman_Full_2021.exported.toploci.bed.gz
+        - AD_Bellenguez_EADB_2022.exported.toploci.bed.gz
+        - AD_Kunkle_Stage1_2019.exported.toploci.bed.gz
+        - AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
+        - AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
+        - AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
+    AD_colocalization: {}
+    AD_xQTL_colocalization: {}
+  AD_TWAS_MR:
+    TWAS:
+      - FunGen_twas.exported.bed.gz
+    cTWAS:
+      - FunGen_ctwas.exported.bed.gz
+  AD_xQTL_integration:
+    - AD loci annotated by xQTL summary table (flagship manuscript)
+    - AD_genes_FunGen_AD_GVC_xQTL_20250325.tsv
+    - AD_genes_FunGen_AD_twas_GVC_xQTL_20250325.tsv
+  xQTL_SCEEM_scores:
+    - UCSC_bed.gz
+
+xQTL_GWAS_models:
+  xQTL_finemapping_models:
+    - RDS_files
+  xQTL_regional_sumstats:
+    - RDS_files
+  xQTL_colocalization_models:
+    - RDS_files
+  xQTL_TWAS_models:
+    - RDS_files
+  xQTL_qTWAS_models:
+    - RDS_files
+  AD_GWAS_finemapping_models:
+    - RDS_files
+  AD_cTWAS_input:
+    - RDS_files
+
+xQTL_data:
+  xQTL_LR:
+    - UCSC_bed.gz_tensorQTL
+  xQTL_QR:
+    - UCSC_bed.gz_tensorQTL
+  xQTL_interaction:
+    - UCSC_bed.gz_tensorQTL
+  xQTL_GLMM_generalized_linear_mixed_model:
+    - UCSC_bed.gz_ISSAC
+
+reference_files:
+  ADSP_LD_reference_data:
+    EUR:
+      - xz_files_with_meta_data_in_bim_format
+  LDSC_reference_data:
+    ld_scores:
+      - Misc_file_formats
+    sldsc_annotations:
+      - Misc_file_formats
+    GWAS_munged:
+      - Misc_file_formats
+  functional_enrichment_annotations:
+    - UCSC_bed.gz
+  xQTL_protocol_tutorial:
+  - Miscellaneous_protocol_and_toy_example_data
