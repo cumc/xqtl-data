@@ -60,7 +60,7 @@ variant_gene_summary:
           - MSBB_mQTL.exported.toploci.bed.gz
         haQTL:
           - ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz
-        snATAC:
+        caQTL:
           - ROSMAP_snATAC_Kelis_OPC.exported.toploci.bed.gz
           - ROSMAP_snATAC_Kelis_Exc.exported.toploci.bed.gz
           - ROSMAP_snATAC_Kelis_Ast.exported.toploci.bed.gz
@@ -136,62 +136,70 @@ variant_gene_summary:
         metabolome:
           - ROSMAP_metabolome.exported.toploci.bed.gz
   xQTL_colocalization:
-    multi_context_colocalization:
-      QTL:
-        - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
-        - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
-        - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
-        - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
-      QTL_and_GWAS:
-        - AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz
-        - AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz
-        - AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz
-        - AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz
-      GWAS:
-        - ad_meta_colocboost_export_filtered.bed.gz
+    QTL:
+      - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
     pairwise_colocalization:
       snATAC_and_AD:
         - snATAC_Kelis_AD_coloc_export_filtered.bed.gz
-      bulk_mQTL_haQTL_and_AD:
+      bulk_mQTL_AD:
         - bulk_fsusie_AD_coloc_export_filtered.bed.gz
-      snATAC_and_Gene:
+      bulk_haQTL_AD: {}
+      caQTL_and_eQTL:
         - snatac_ROSMAP.coloc.tsv.gz
-  AD_loci_summary:
+  AD_loci:
     AD_finemapping:
-      GWAS:
-        - AD_Bellenguez_2022.exported.toploci.bed.gz
-        - AD_Jansen_2021.exported.toploci.bed.gz
-        - AD_Wightman_Full_2021.exported.toploci.bed.gz
-        - AD_Bellenguez_EADB_2022.exported.toploci.bed.gz
-        - AD_Kunkle_Stage1_2019.exported.toploci.bed.gz
-        - AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
-        - AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
-        - AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
+      - AD_Bellenguez_2022.exported.toploci.bed.gz
+      - AD_Jansen_2021.exported.toploci.bed.gz
+      - AD_Wightman_Full_2021.exported.toploci.bed.gz
+      - AD_Bellenguez_EADB_2022.exported.toploci.bed.gz
+      - AD_Kunkle_Stage1_2019.exported.toploci.bed.gz
+      - AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
+      - AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
+      - AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
     AD_colocalization: {}
     AD_xQTL_colocalization: {}
-  AD_TWAS_MR:
+    QTL_and_GWAS:
+      - AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz
+      - AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz
+      - AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz
+      - AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz
+    GWAS:
+      - ad_meta_colocboost_export_filtered.bed.gz
+
+  AD_gene_summary:
     TWAS:
       - FunGen_twas.exported.bed.gz
     cTWAS:
       - FunGen_ctwas.exported.bed.gz
-  AD_xQTL_integration:
+  AD_xQTL_integration_summary:
     - AD loci annotated by xQTL summary table (flagship manuscript)
     - AD_genes_FunGen_AD_GVC_xQTL_20250325.tsv
     - AD_genes_FunGen_AD_twas_GVC_xQTL_20250325.tsv
-  xQTL_SCEEM_scores:
+
+xQTL_SCEEM_scores:
     - UCSC_bed.gz
 
 xQTL_GWAS_models:
-  xQTL_finemapping_models:
+  xQTL_models:
+    finemapping_models:
+      - RDS_files
+    colocalization_models:
+      - RDS_files
+    TWAS_models:
+      - RDS_files
+    qTWAS_models:
+      - RDS_files
+  AD_GWAS_models:
+    AD_fine_mapping: {}
+    AD_colocalization: {}
+  AD_xQTL_integration:
+    AD_cTWAS_input: {}
+    AD_xQTL_colocalization_models:
     - RDS_files
-  xQTL_regional_sumstats:
-    - RDS_files
-  xQTL_colocalization_models:
-    - RDS_files
-  xQTL_TWAS_models:
-    - RDS_files
-  xQTL_qTWAS_models:
-    - RDS_files
+
   AD_GWAS_finemapping_models:
     - RDS_files
   AD_cTWAS_input:
@@ -199,7 +207,9 @@ xQTL_GWAS_models:
 
 xQTL_data:
   xQTL_LR:
-    - UCSC_bed.gz_tensorQTL
+    xQTL_regional_sumstats:
+     - RDS_files
+     - UCSC_bed.gz_tensorQTL
   xQTL_QR:
     - UCSC_bed.gz_tensorQTL
   xQTL_interaction:
