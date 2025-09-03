@@ -18,36 +18,37 @@ variant_gene_summary:
           - MiGA_GTS_eQTL.exported.toploci.bed.gz
           - MiGA_SVZ_eQTL.exported.toploci.bed.gz
           - MiGA_THA_eQTL.exported.toploci.bed.gz
-          - AC_DeJager_eQTL.exported.toploci.bed.gz
-          - Ast_10_Kellis_eQTL.exported.toploci.bed.gz
-          - Ast_DeJager_eQTL.exported.toploci.bed.gz
-          - Ast_Kellis_eQTL.exported.toploci.bed.gz
+          - AC_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Ast_10_MIT_eQTL.exported.toploci.bed.gz
+          - Ast_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Ast_MIT_eQTL.exported.toploci.bed.gz
           - Ast_mega_eQTL.exported.toploci.bed.gz
-          - DLPFC_DeJager_eQTL.exported.toploci.bed.gz
-          - Exc_DeJager_eQTL.exported.toploci.bed.gz
-          - Exc_Kellis_eQTL.exported.toploci.bed.gz
+          - DLPFC_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Exc_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Exc_MIT_eQTL.exported.toploci.bed.gz
           - Exc_mega_eQTL.exported.toploci.bed.gz
-          - Inh_DeJager_eQTL.exported.toploci.bed.gz
-          - Inh_Kellis_eQTL.exported.toploci.bed.gz
+          - Inh_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Inh_MIT_eQTL.exported.toploci.bed.gz
           - Inh_mega_eQTL.exported.toploci.bed.gz
-          - Mic_12_Kellis_eQTL.exported.toploci.bed.gz
-          - Mic_13_Kellis_eQTL.exported.toploci.bed.gz
-          - Mic_DeJager_eQTL.exported.toploci.bed.gz
-          - Mic_Kellis_eQTL.exported.toploci.bed.gz
+          - Mic_12_MIT_eQTL.exported.toploci.bed.gz
+          - Mic_13_MIT_eQTL.exported.toploci.bed.gz
+          - Mic_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Mic_MIT_eQTL.exported.toploci.bed.gz
           - Mic_mega_eQTL.exported.toploci.bed.gz
-          - OPC_DeJager_eQTL.exported.toploci.bed.gz
-          - OPC_Kellis_eQTL.exported.toploci.bed.gz
+          - OPC_CUIMC1_eQTL.exported.toploci.bed.gz
+          - OPC_MIT_eQTL.exported.toploci.bed.gz
           - OPC_mega_eQTL.exported.toploci.bed.gz
-          - Oli_DeJager_eQTL.exported.toploci.bed.gz
-          - Oli_Kellis_eQTL.exported.toploci.bed.gz
+          - Oli_CUIMC1_eQTL.exported.toploci.bed.gz
+          - Oli_MIT_eQTL.exported.toploci.bed.gz
           - Oli_mega_eQTL.exported.toploci.bed.gz
-          - PCC_DeJager_eQTL.exported.toploci.bed.gz
+          - PCC_CUIMC1_eQTL.exported.toploci.bed.gz
           - monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
           - STARNET_eQTL_Mac.exported.toploci.bed.gz
         pQTL:
           - Knight_pQTL_brain.exported.toploci.bed.gz
           - MSBB_BM36_pQTL.exported.toploci.bed.gz
           - DLPFC_Bennett_pQTL.exported.toploci.bed.gz
+        glycoQTL:
           - DLPFC_Klein_gpQTL_adjusted.exported.toploci.bed.gz
           - DLPFC_Klein_gpQTL_unadjusted.exported.toploci.bed.gz
         sQTL:
@@ -61,12 +62,12 @@ variant_gene_summary:
         haQTL:
           - ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz
         caQTL:
-          - ROSMAP_snATAC_Kelis_OPC.exported.toploci.bed.gz
-          - ROSMAP_snATAC_Kelis_Exc.exported.toploci.bed.gz
-          - ROSMAP_snATAC_Kelis_Ast.exported.toploci.bed.gz
-          - ROSMAP_snATAC_Kelis_Oli.exported.toploci.bed.gz
-          - ROSMAP_snATAC_Kelis_Mic.exported.toploci.bed.gz
-          - ROSMAP_snATAC_Kelis_Inh.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_OPC.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_Exc.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_Ast.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_Oli.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_Mic.exported.toploci.bed.gz
+          - ROSMAP_snATAC_MIT_Inh.exported.toploci.bed.gz
       multi_context_finemapping:
           - MSBB.exported.toploci.bed.gz
           - ROSMAP.exported.toploci.bed.gz
@@ -76,21 +77,21 @@ variant_gene_summary:
           - MSBB_BM_22_eQTL.exported.toploci.bed.gz
           - MSBB_BM_36_eQTL.exported.toploci.bed.gz
           - MSBB_BM_44_eQTL.exported.toploci.bed.gz
-          - ROSMAP_AC_DeJager_eQTL.exported.toploci.bed.gz
-          - ROSMAP_Ast_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_AC_CUIMC1_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Ast_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_Ast_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_DLPFC_DeJager_eQTL.exported.toploci.bed.gz
-          - ROSMAP_Exc_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_DLPFC_CUIMC1_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Exc_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_Exc_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_Inh_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Inh_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_Inh_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_Mic_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Mic_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_Mic_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_OPC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_OPC_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_OPC_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_Oli_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_Oli_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_Oli_mega_eQTL.exported.toploci.bed.gz
-          - ROSMAP_PCC_DeJager_eQTL.exported.toploci.bed.gz
+          - ROSMAP_PCC_CUIMC1_eQTL.exported.toploci.bed.gz
           - ROSMAP_monocyte_ROSMAP_eQTL.exported.toploci.bed.gz
         pQTL:
           - ROSMAP_DLPFC_Bennett_pQTL.exported.toploci.bed.gz
@@ -105,22 +106,22 @@ variant_gene_summary:
           - MiGA_eQTL_GTS.exported.toploci.bed.gz
           - MiGA_eQTL_SVZ.exported.toploci.bed.gz
           - MiGA_eQTL_THA.exported.toploci.bed.gz
-          - ROSMAP_DeJager_AC.exported.toploci.bed.gz
-          - ROSMAP_DeJager_Ast.exported.toploci.bed.gz
-          - ROSMAP_DeJager_DLPFC.exported.toploci.bed.gz
-          - ROSMAP_DeJager_Exc.exported.toploci.bed.gz
-          - ROSMAP_DeJager_Inh.exported.toploci.bed.gz
-          - ROSMAP_DeJager_Mic.exported.toploci.bed.gz
-          - ROSMAP_DeJager_OPC.exported.toploci.bed.gz
-          - ROSMAP_DeJager_Oli.exported.toploci.bed.gz
-          - ROSMAP_DeJager_PCC.exported.toploci.bed.gz
-          - ROSMAP_DeJager_monocyte.exported.toploci.bed.gz
-          - ROSMAP_Kelli_Ast.exported.toploci.bed.gz
-          - ROSMAP_Kelli_Exc.exported.toploci.bed.gz
-          - ROSMAP_Kelli_Inh.exported.toploci.bed.gz
-          - ROSMAP_Kelli_Mic.exported.toploci.bed.gz
-          - ROSMAP_Kelli_OPC.exported.toploci.bed.gz
-          - ROSMAP_Kelli_Oli.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_AC.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_Ast.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_DLPFC.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_Exc.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_Inh.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_Mic.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_OPC.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_Oli.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_PCC.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_monocyte.exported.toploci.bed.gz
+          - ROSMAP_MIT_Ast.exported.toploci.bed.gz
+          - ROSMAP_MIT_Exc.exported.toploci.bed.gz
+          - ROSMAP_MIT_Inh.exported.toploci.bed.gz
+          - ROSMAP_MIT_Mic.exported.toploci.bed.gz
+          - ROSMAP_MIT_OPC.exported.toploci.bed.gz
+          - ROSMAP_MIT_Oli.exported.toploci.bed.gz
           - ROSMAP_mega_Ast.exported.toploci.bed.gz
           - ROSMAP_mega_Exc.exported.toploci.bed.gz
           - ROSMAP_mega_Inh.exported.toploci.bed.gz
@@ -131,23 +132,25 @@ variant_gene_summary:
         pQTL:
           - Knight_pQTL.exported.toploci.bed.gz
           - MSBB_pQTL.exported.toploci.bed.gz
-          - ROSMAP_DeJager_pQTL.exported.toploci.bed.gz
+          - ROSMAP_CUIMC1_pQTL.exported.toploci.bed.gz
         metabolome:
           - ROSMAP_metabolome.exported.toploci.bed.gz
-  xQTL_colocalization:
-    - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
-    - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
-    - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
-    - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
-    pairwise_colocalization:
-      caQTL_AD:
-        - snATAC_Kelis_AD_coloc_export_filtered.bed.gz
-      bulk_mQTL_AD:
-        - bulk_fsusie_AD_coloc_export_filtered.bed.gz
-      bulk_haQTL_AD: {}
-      caQTL_eQTL:
-        - snatac_ROSMAP.coloc.tsv.gz
-  AD_loci:
+    xQTL_colocalization:
+      multi_context_colocalization:
+      - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
+      - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
+      pairwise_colocalization:
+        bulk_mQTL_haQTL_AD:
+          - bulk_fsusie_AD_coloc_export_filtered.bed.gz
+        caQTL_AD:
+          - snATAC_MIT_AD_coloc_export_filtered.bed.gz
+        caQTL_eQTL:
+          # FIXME: this is not yet bed.gz exported format. And the file name is also not informative. 
+          # We need Hao Sun to fix this
+          - snatac_ROSMAP.coloc.tsv.gz
+  AD_loci_summary:
     AD_finemapping:
       - AD_Bellenguez_2022.exported.toploci.bed.gz
       - AD_Jansen_2021.exported.toploci.bed.gz
@@ -157,31 +160,38 @@ variant_gene_summary:
       - AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
       - AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
       - AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
-    AD_colocalization: {}
-    AD_xQTL_colocalization: {}
+    AD_colocalization: 
+      - ad_meta_colocboost_export_filtered.bed.gz
+    AD_xQTL_colocalization: 
       - AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz
       - AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz
       - AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz
       - AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz
-      - ad_meta_colocboost_export_filtered.bed.gz
-
-  AD_gene_summary:
-    TWAS_MR:
-      - FunGen_twas.exported.bed.gz
-    cTWAS:
-      - FunGen_ctwas.exported.bed.gz
+    AD_gene_level:
+      TWAS_MR:
+        - FunGen_twas.exported.bed.gz
+      cTWAS:
+        - FunGen_ctwas.exported.bed.gz
   AD_xQTL_integration_summary:
     - AD loci annotated by xQTL summary table (flagship manuscript)
     - AD_genes_FunGen_AD_GVC_xQTL_20250325.tsv
     - AD_genes_FunGen_AD_twas_GVC_xQTL_20250325.tsv
 
 xQTL_SCEEM_scores:
+    # For this part let's follow exactly Chirag's organization. We will upload it as is when he's ready for the release
     - UCSC_bed.gz
 
 xQTL_GWAS_models:
   xQTL_models:
     finemapping_models:
-      - RDS_files
+      eQTL:
+        - RDS_files
+      pQTL:
+        - RDS_files
+      glycoQTL:
+        - RDS_files
+      sQTL:
+        - RDS_files
     colocalization_models:
       - RDS_files
     TWAS_models:
@@ -208,30 +218,37 @@ xQTL_GWAS_models:
     AD_colocalization:
       -RDS_files
   AD_xQTL_integration:
-    AD_cTWAS_input:
-      - RDS_files
     AD_xQTL_colocalization_models:
       - RDS_files
-  AD_GWAS_finemapping_models:
-    - RDS_files
-  AD_cTWAS_input:
+    AD_cTWAS_input:
+      - RDS_files
   
 xQTL_data:
   xQTL_LR:
-    xQTL_regional_sumstats:
+    R_lm_residual_sumstats:
+    # For this part please follow exactly how we organize the xQTL finemapping models
      - RDS_files
+    tensorQTL_sumstats:
+    # For this part let's follow exactly how it is currently organized on the cloud
+     - UCSC_bed.gz
   xQTL_QR:
-    - UCSC_bed.gz_tensorQTL
+    # For this part let's follow exactly how it is currently organized on the cloud
+    - UCSC_bed.gz
   xQTL_interaction:
-    - UCSC_bed.gz_tensorQTL
-  xQTL_GLMM_generalized_linear_mixed_model:
+    # For this part let's follow exactly how it is currently organized on the cloud
+    - UCSC_bed.gz
+  xQTL_GLMM:
+    sQTL
+    # For this part I believe the NUS group will upload it 
     - UCSC_bed.gz_ISSAC
 
 reference_files:
   ADSP_LD_reference_data:
     EUR:
+      # For this we follow exactly the contents currently in other repos on synapse
       - xz_files_with_meta_data_in_bim_format
   LDSC_reference_data:
+    # Anjing can take care of this part with you
     ld_scores:
       - Misc_file_formats
     sldsc_annotations:
@@ -241,4 +258,5 @@ reference_files:
   functional_enrichment_annotations:
     - UCSC_bed.gz
   xQTL_protocol_tutorial:
+  # For this let's follow exactly Frank's organization
   - Miscellaneous_protocol_and_toy_example_data
