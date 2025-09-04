@@ -124,14 +124,14 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 | GWAS | AD_Wightman_Excluding23andMe_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz |
 | GWAS | AD_Wightman_ExcludingUKBand23andME_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz |
 | GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed.gz |
-| QTL | ROSMAP | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz |
-| QTL | MSBB | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz |
-| QTL | KNIGHT | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz |
-| QTL | MIGA | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz |
+| QTL | ROSMAP | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_ROSMAP_colocboost_addend_export_release.bed.gz |
+| QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_ROSMAP_colocboost_export_release.bed.gz |
+| QTL | MSBB | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz |
+| QTL | KNIGHT | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz |
+| QTL | MIGA | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz |
 | GWAS | AD | AD_meta_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
 | Gene & GWAS | ROSMAP & MSBB & AD | - | TWAS | analysis_result/twas/AD/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | cTWAS | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
