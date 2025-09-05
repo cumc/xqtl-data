@@ -178,8 +178,8 @@ variant_gene_summary:
     - AD_genes_FunGen_AD_twas_GVC_xQTL_20250325.tsv
 
 xQTL_SCEEM_scores:
-  # For this part let's follow exactly Chirag's organization. We will upload it as is when he's ready for the release
-  - UCSC_bed.gz
+    # For this part let's follow exactly Chirag's organization. We will upload it as is when he's ready for the release
+    - UCSC_bed.gz
 
 xQTL_GWAS_models:
   xQTL_models:
@@ -260,3 +260,4 @@ reference_files:
   xQTL_protocol_tutorial:
     # For this let's follow exactly Frank's organization
     - Miscellaneous_protocol_and_toy_example_data
+

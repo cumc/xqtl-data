@@ -52,8 +52,8 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 | eQTL | ROSMAP | Oli_mega | single_context_finemapping | analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/Oli_mega_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | PCC | single_context_finemapping | analysis_result/single_context/ROSMAP_eQTL/export/summary/context_specific/PCC_DeJager_eQTL.exported.toploci.bed.gz |
 | pQTL | ROSMAP | DLPFC_Bennett | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Bennett_pQTL.exported.toploci.bed.gz |
-| pQTL | ROSMAP | DLPFC_Klein_adjusted | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_adjusted.exported.toploci.bed.gz |
-| pQTL | ROSMAP | DLPFC_Klein_unadjusted | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_unadjusted.exported.toploci.bed.gz |
+| gpQTL | ROSMAP | DLPFC_Klein_adjusted | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_adjusted.exported.toploci.bed.gz |
+| gpQTL | ROSMAP | DLPFC_Klein_unadjusted | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/DLPFC_Klein_gpQTL_unadjusted.exported.toploci.bed.gz |
 | eQTL | ROSMAP | monocyte | single_context_finemapping | analysis_result/single_context/ROSMAP_pQTL/export/summary/context_specific/monocyte_ROSMAP_eQTL.exported.toploci.bed.gz |
 | sQTL | ROSMAP | AC | single_context_finemapping | analysis_result/single_context/ROSMAP_sQTL/LeafCutter2/export/summary/context_specific/ROSMAP_AC_sQTL.exported.toploci.bed.gz |
 | sQTL | ROSMAP | DLPFC | single_context_finemapping | analysis_result/single_context/ROSMAP_sQTL/LeafCutter2/export/summary/context_specific/ROSMAP_DLPFC_sQTL.exported.toploci.bed.gz |
@@ -82,42 +82,40 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 | eQTL | ROSMAP | Oli_mega | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_Oli_mega_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | PCC | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_PCC_DeJager_eQTL.exported.toploci.bed.gz |
 | eQTL | ROSMAP | monocyte | multi_gene_finemapping | analysis_result/multi_gene/ROSMAP/export/summary/context_specific/ROSMAP_monocyte_ROSMAP_eQTL.exported.toploci.bed.gz |
-| eQTL | KNIGHT | Brain | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_eQTL.exported.toploci.bed.gz |
-| pQTL | KNIGHT | Brain | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/Knight_pQTL.exported.toploci.bed.gz |
-| eQTL | MSBB | BM10 | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM10.exported.toploci.bed.gz |
-| eQTL | MSBB | BM22 | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM22.exported.toploci.bed.gz |
-| eQTL | MSBB | BM36 | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM36.exported.toploci.bed.gz |
-| eQTL | MSBB | BM44 | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_eQTL_BM44.exported.toploci.bed.gz |
-| pQTL | MSBB | BM36 | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MSBB_pQTL.exported.toploci.bed.gz |
-| eQTL | MiGA | GFM | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_GFM.exported.toploci.bed.gz |
-| eQTL | MiGA | GTS | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_GTS.exported.toploci.bed.gz |
-| eQTL | MiGA | SVZ | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_SVZ.exported.toploci.bed.gz |
-| eQTL | MiGA | THA | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/MiGA_eQTL_THA.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_AC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_AC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_Ast | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Ast.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_DLPFC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_DLPFC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_Exc | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Exc.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_Inh | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Inh.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_Mic | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Mic.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_OPC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_OPC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_Oli | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_Oli.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_PCC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_PCC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | DeJager_monocyte | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_monocyte.exported.toploci.bed.gz |
-| pQTL | ROSMAP | DeJager | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_DeJager_pQTL.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_Ast | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Ast.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_Exc | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Exc.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_Inh | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Inh.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_Mic | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Mic.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_OPC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_OPC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | Kelli_Oli | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_Kelli_Oli.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_Ast | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Ast.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_Exc | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Exc.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_Inh | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Inh.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_Mic | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Mic.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_OPC | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_OPC.exported.toploci.bed.gz |
-| eQTL | ROSMAP | mega_Oli | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_mega_Oli.exported.toploci.bed.gz |
-| metabolome | ROSMAP | - | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/ROSMAP_metabolome.exported.toploci.bed.gz |
-| eQTL | STARNET | Mac | trans_finemapping | analysis_result/finemapping_twas_trans/export/summary/context_specific/STARNET_eQTL.exported.toploci.bed.gz |
+| eQTL | KNIGHT | Brain | trans_finemapping | analysis_result/trans/export/summary/context_specific/Knight_eQTL.exported.toploci.bed.gz |
+| pQTL | KNIGHT | Brain | trans_finemapping | analysis_result/trans/export/summary/context_specific/Knight_pQTL.exported.toploci.bed.gz |
+| eQTL | MSBB | BM10 | trans_finemapping | analysis_result/trans/export/summary/context_specific/MSBB_eQTL_BM10.exported.toploci.bed.gz |
+| eQTL | MSBB | BM22 | trans_finemapping | analysis_result/trans/export/summary/context_specific/MSBB_eQTL_BM22.exported.toploci.bed.gz |
+| eQTL | MSBB | BM36 | trans_finemapping | analysis_result/trans/export/summary/context_specific/MSBB_eQTL_BM36.exported.toploci.bed.gz |
+| eQTL | MSBB | BM44 | trans_finemapping | analysis_result/trans/export/summary/context_specific/MSBB_eQTL_BM44.exported.toploci.bed.gz |
+| pQTL | MSBB | BM36 | trans_finemapping | analysis_result/trans/export/summary/context_specific/MSBB_pQTL_BM36.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_AC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_AC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_Ast | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_Ast.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_DLPFC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_DLPFC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_Exc | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_Exc.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_Inh | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_Inh.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_Mic | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_Mic.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_OPC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_OPC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_Oli | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_Oli.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_PCC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_PCC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | DeJager_monocyte | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_eQTL_monocyte.exported.toploci.bed.gz |
+| pQTL | ROSMAP | DeJager | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_DeJager_pQTL.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_Ast | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_Ast.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_Exc | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_Exc.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_Inh | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_Inh.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_Mic | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_Mic.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_OPC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_OPC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | Kelli_Oli | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_Kellis_eQTL_Oli.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_Ast | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_Ast.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_Exc | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_Exc.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_Inh | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_Inh.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_Mic | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_Mic.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_OPC | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_OPC.exported.toploci.bed.gz |
+| eQTL | ROSMAP | mega_Oli | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_mega_eQTL_Oli.exported.toploci.bed.gz |
+| metabolome | ROSMAP | - | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_metabolome.exported.toploci.bed.gz |
+| eQTL | STARNET | Mac | trans_finemapping | analysis_result/trans/export/summary/context_specific/STARNET_eQTL.exported.toploci.bed.gz |
+| gpQTL | ROSMAP | DLPFC_Klein_adjusted | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_adjusted_gpQTL.exported.toploci.bed.gz |
+| gpQTL | ROSMAP | DLPFC_Klein_unadjusted | trans_finemapping | analysis_result/trans/export/summary/context_specific/ROSMAP_gpQTL.exported.toploci.bed.gz |
 | GWAS | AD_Bellenguez_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_2022.exported.toploci.bed.gz |
 | GWAS | AD_Jansen_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Jansen_2021.exported.toploci.bed.gz |
 | GWAS | AD_Wightman_Full_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Full_2021.exported.toploci.bed.gz |
@@ -126,16 +124,16 @@ For metadata in csv format of all (Finemapping + LR) analysis generated, with ha
 | GWAS | AD_Wightman_Excluding23andMe_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz |
 | GWAS | AD_Wightman_ExcludingUKBand23andME_2021 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz |
 | GWAS | AD_Bellenguez_EADI_2022 | - | AD_GWAS_finemapping | analysis_result/AD_GWAS_finemapping/export/context_specific/AD_Bellenguez_EADI_2022.exported.toploci.bed.gz |
-| QTL | ROSMAP | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz |
-| QTL | MSBB | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz |
-| QTL | KNIGHT | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz |
-| QTL | MIGA | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz |
-| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary_Jun2025/AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz |
+| QTL | ROSMAP | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_ROSMAP_colocboost_addend_export_release.bed.gz |
+| QTL & GWAS | ROSMAP & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_ROSMAP_colocboost_export_release.bed.gz |
+| QTL | MSBB | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | MSBB & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz |
+| QTL | KNIGHT | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | KNIGHT & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz |
+| QTL | MIGA | xQTL_only_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz |
+| QTL & GWAS | MIGA & AD | AD_xQTL_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/AD_xQTL_MIGA_colocboost_export_release_sorted.bed.gz |
 | GWAS | AD | AD_meta_colocalization | multi_context_colocalization | analysis_result/ColocBoost/export/summary/ad_meta_colocboost_export_filtered.bed.gz |
-| Gene & GWAS | ROSMAP & MSBB & AD | - | TWAS | analysis_result/twas/export/summary/FunGen_twas.exported.bed.gz |
+| Gene & GWAS | ROSMAP & MSBB & AD | - | TWAS | analysis_result/twas/AD/export/summary/FunGen_twas.exported.bed.gz |
 | Gene & GWAS | ROSMAP & AD | - | cTWAS | analysis_result/ctwas/export/summary/FunGen_ctwas.exported.bed.gz |
 | mQTL & haQTL   | ROSMAP & MSSB & Knight     | Brain       | single_context_finemapping (fSuSiE) | analysis_result/finemapping_twas/fsusie/export/summary/FunGen_xQTL_epi.bulk.exported.bed.gz                  |
 | haQTL    | ROSMAP      | DLPFC          | single_context_finemapping (fSuSiE) | analysis_result/finemapping_twas/fsusie/export/summary/context_specific/ROSMAP_DLPFC_haQTL.exported.toploci.bed.gz |
