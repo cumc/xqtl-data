@@ -69,8 +69,8 @@ variant_gene_summary:
           - ROSMAP_snATAC_MIT_Mic.exported.toploci.bed.gz
           - ROSMAP_snATAC_MIT_Inh.exported.toploci.bed.gz
       multi_context_finemapping:
-          - MSBB.exported.toploci.bed.gz
-          - ROSMAP.exported.toploci.bed.gz
+        - MSBB.exported.toploci.bed.gz
+        - ROSMAP.exported.toploci.bed.gz
       multi_gene_finemapping:
         eQTL:
           - MSBB_BM_10_eQTL.exported.toploci.bed.gz
@@ -137,10 +137,10 @@ variant_gene_summary:
           - ROSMAP_metabolome.exported.toploci.bed.gz
     xQTL_colocalization:
       multi_context_colocalization:
-      - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
-      - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
-      - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
-      - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_ROSMAP_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_MSBB_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_KNIGHT_colocboost_export_release_sorted.bed.gz
+        - xqtl_only_MIGA_colocboost_export_release_sorted.bed.gz
       pairwise_colocalization:
         bulk_mQTL_haQTL_AD:
           - bulk_fsusie_AD_coloc_export_filtered.bed.gz
@@ -160,9 +160,9 @@ variant_gene_summary:
       - AD_Wightman_Excluding23andMe_2021.exported.toploci.bed.gz
       - AD_Wightman_ExcludingUKBand23andME_2021.exported.toploci.bed.gz
       - AD_Bellenguez_EADI_2022.exported.toploci.bed.gz
-    AD_colocalization: 
+    AD_colocalization:
       - ad_meta_colocboost_export_filtered.bed.gz
-    AD_xQTL_colocalization: 
+    AD_xQTL_colocalization:
       - AD_xQTL_ROSMAP_colocboost_export_release_sorted.bed.gz
       - AD_xQTL_MSBB_colocboost_export_release_sorted.bed.gz
       - AD_xQTL_KNIGHT_colocboost_export_release_sorted.bed.gz
@@ -173,7 +173,7 @@ variant_gene_summary:
       cTWAS:
         - FunGen_ctwas.exported.bed.gz
   AD_xQTL_integration_summary:
-    - AD loci annotated by xQTL summary table (flagship manuscript)
+    - "AD loci annotated by xQTL summary table (flagship manuscript)"
     - AD_genes_FunGen_AD_GVC_xQTL_20250325.tsv
     - AD_genes_FunGen_AD_twas_GVC_xQTL_20250325.tsv
 
@@ -206,31 +206,31 @@ xQTL_GWAS_models:
     qTWAS_models:
       eQTL:
         - RDS_files
-      pQTL: 
+      pQTL:
         - RDS_files
-      glycoQTL: 
+      glycoQTL:
         - RDS_files
       sQTL:
         - RDS_files
   AD_GWAS_models:
-    AD_fine_mapping: 
-      -RDS_files
+    AD_fine_mapping:
+      - RDS_files
     AD_colocalization:
-      -RDS_files
+      - RDS_files
   AD_xQTL_integration:
     AD_xQTL_colocalization_models:
       - RDS_files
     AD_cTWAS_input:
       - RDS_files
-  
+
 xQTL_data:
   xQTL_LR:
     R_lm_residual_sumstats:
-    # For this part please follow exactly how we organize the xQTL finemapping models
-     - RDS_files
+      # For this part please follow exactly how we organize the xQTL finemapping models
+      - RDS_files
     tensorQTL_sumstats:
-    # For this part let's follow exactly how it is currently organized on the cloud
-     - UCSC_bed.gz
+      # For this part let's follow exactly how it is currently organized on the cloud
+      - UCSC_bed.gz
   xQTL_QR:
     # For this part let's follow exactly how it is currently organized on the cloud
     - UCSC_bed.gz
@@ -238,9 +238,9 @@ xQTL_data:
     # For this part let's follow exactly how it is currently organized on the cloud
     - UCSC_bed.gz
   xQTL_GLMM:
-    sQTL
-    # For this part I believe the NUS group will upload it 
-    - UCSC_bed.gz_ISSAC
+    sQTL:
+      # For this part I believe the NUS group will upload it 
+      - UCSC_bed.gz_ISSAC
 
 reference_files:
   ADSP_LD_reference_data:
@@ -258,5 +258,6 @@ reference_files:
   functional_enrichment_annotations:
     - UCSC_bed.gz
   xQTL_protocol_tutorial:
-  # For this let's follow exactly Frank's organization
-  - Miscellaneous_protocol_and_toy_example_data
+    # For this let's follow exactly Frank's organization
+    - Miscellaneous_protocol_and_toy_example_data
+
